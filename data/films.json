@@ -1,54 +1,54 @@
 {
-  "starWars": [
+  "escenasDelCrimen": [
     {
-      "titulo": "Star Wars: Episodio IV - Una nueva esperanza",
-      "director": "George Lucas",
-      "anio": 1977,
-      "genero": "Ciencia ficción",
-      "valoracion": 8.6,
-      "sinopsis": "Luke Skywalker se une a la princesa Leia, Han Solo y Obi-Wan Kenobi para enfrentarse al malvado Imperio Galáctico y destruir la estación espacial conocida como la Estrella de la Muerte."
+      "id": 1,
+      "titulo": "El Padrino",
+      "director": "Francis Ford Coppola",
+      "anio": 1972,
+      "genero": "Crimen / Drama",
+      "duracion": 175,
+      "clasificacion": "No recomendada para menores de 18",
+      "sinopsis": "La historia de la familia mafiosa Corleone, liderada por Vito Corleone, y el ascenso de su hijo Michael dentro del mundo del crimen organizado."
     },
     {
-      "titulo": "Star Wars: Episodio V - El Imperio contraataca",
-      "director": "Irvin Kershner",
-      "anio": 1980,
-      "genero": "Ciencia ficción",
-      "valoracion": 8.7,
-      "sinopsis": "Mientras el Imperio persigue a la Alianza Rebelde, Luke comienza su entrenamiento como Jedi con el maestro Yoda y se enfrenta a una impactante verdad sobre Darth Vader."
-    },
-    {
-      "titulo": "Star Wars: Episodio VI - El retorno del Jedi",
-      "director": "Richard Marquand",
+      "id": 2,
+      "titulo": "Scarface",
+      "director": "Brian De Palma",
       "anio": 1983,
-      "genero": "Ciencia ficción",
-      "valoracion": 8.3,
-      "sinopsis": "Los rebeldes lanzan un ataque final contra el Imperio, mientras Luke se enfrenta a Darth Vader y al Emperador para decidir el destino de la galaxia."
-    }
-  ],
-  "senorDeLosAnillos": [
-    {
-      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
-      "director": "Peter Jackson",
-      "anio": 2001,
-      "genero": "Fantasía",
-      "valoracion": 8.8,
-      "sinopsis": "Frodo Bolsón hereda un anillo con un poder oscuro y debe emprender un peligroso viaje para destruirlo, acompañado por una comunidad formada por hombres, elfos, enanos y hobbits."
+      "genero": "Crimen / Drama",
+      "duracion": 170,
+      "clasificacion": "No recomendada para menores de 18",
+      "sinopsis": "Tony Montana, un inmigrante cubano, asciende sin escrúpulos en el mundo del narcotráfico de Miami hasta convertirse en uno de los criminales más temidos."
     },
     {
-      "titulo": "El Señor de los Anillos: Las Dos Torres",
-      "director": "Peter Jackson",
-      "anio": 2002,
-      "genero": "Fantasía",
-      "valoracion": 8.8,
-      "sinopsis": "La comunidad se ha dividido, y mientras Frodo continúa su viaje hacia Mordor, el resto lucha contra las fuerzas de Saruman y el avance de la oscuridad."
+      "id": 3,
+      "titulo": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "anio": 1994,
+      "genero": "Crimen / Thriller",
+      "duracion": 154,
+      "clasificacion": "No recomendada para menores de 18",
+      "sinopsis": "Varias historias entrelazadas de criminales de Los Ángeles se desarrollan a través de diálogos memorables, violencia y humor negro."
     },
     {
-      "titulo": "El Señor de los Anillos: El Retorno del Rey",
-      "director": "Peter Jackson",
-      "anio": 2003,
-      "genero": "Fantasía",
-      "valoracion": 9.0,
-      "sinopsis": "La batalla final por la Tierra Media comienza, mientras Frodo se acerca al Monte del Destino para destruir el Anillo Único y acabar con el poder de Sauron."
+      "id": 4,
+      "titulo": "Seven",
+      "director": "David Fincher",
+      "anio": 1995,
+      "genero": "Crimen / Thriller",
+      "duracion": 127,
+      "clasificacion": "No recomendada para menores de 18",
+      "sinopsis": "Dos detectives persiguen a un asesino en serie que utiliza los siete pecados capitales como motivo para sus crímenes."
+    },
+    {
+      "id": 5,
+      "titulo": "Heat",
+      "director": "Michael Mann",
+      "anio": 1995,
+      "genero": "Crimen / Acción",
+      "duracion": 170,
+      "clasificacion": "No recomendada para menores de 18",
+      "sinopsis": "Un enfrentamiento psicológico entre un detective obsesivo y un ladrón profesional en una serie de atracos en Los Ángeles."
     }
   ]
 }
