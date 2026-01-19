@@ -1,0 +1,47 @@
+[
+    {
+    "rank": 1,
+    "title": "El padrino",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "filmaffinity_score": 9.0,
+    "description": "La historia de la familia mafiosa Corleone, centrada en Don Vito Corleone y su hijo Michael, mostrando la lucha por el poder en el mundo criminal y la transformación de Michael de hijo obediente a líder de la organización."
+  },
+  {
+    "rank": 2,
+    "title": "El padrino. Parte II",
+    "year": 1974,
+    "director": "Francis Ford Coppola",
+    "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
+    "filmaffinity_score": 8.9,
+    "description": "Secuela y precuela de El Padrino, que alterna la historia de Michael Corleone consolidando su poder con la de su padre Vito en su juventud, mostrando el ascenso al poder y la corrupción moral."
+  },
+  {
+    "rank": 3,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "main_cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+    "filmaffinity_score": 8.6,
+    "description": "Varias historias entrelazadas de crimen y violencia en Los Ángeles, donde asesinos a sueldo, boxeadores y parejas criminales entran en contacto en una mezcla de violencia, humor negro y diálogos icónicos."
+  },
+  {
+    "rank": 4,
+    "title": "El golpe",
+    "year": 1973,
+    "director": "George Roy Hill",
+    "main_cast": ["Robert Redford", "Paul Newman", "Robert Shaw"],
+    "filmaffinity_score": 8.5,
+    "description": "Dos estafadores en la década de 1930 planean un elaborado golpe contra un jefe criminal que los traicionó, combinando ingenio, estrategia y humor."
+  },
+  {
+    "rank": 5,
+    "title": "El infierno del odio",
+    "year": 1963,
+    "director": "Akira Kurosawa",
+    "main_cast": ["Toshirô Mifune", "Kyôko Kagawa", "Yutaka Sada"],
+    "filmaffinity_score": 8.4,
+    "description": "Policías corruptos y luchas internas dentro de la fuerza se mezclan con la persecución de criminales en esta obra de Kurosawa que explora la moralidad y la violencia urbana."
+  }
+]
