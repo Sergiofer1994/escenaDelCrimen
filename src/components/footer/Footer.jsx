@@ -1,39 +1,52 @@
 import './Footer.css';
+import facebookLogo from '../../images/logos/facebookLogo.png';
+import instagramIcon from '../../images/logos/instagramIcon.png';
+import logoTiktok from '../../images/logos/logoTiktok.png';
+import { Link } from 'react-router-dom';
 
-function App() {
+function Footer() {
   return (
-    <div className="site-wrapper">
-      <main className="main-content">
+    <div className="siteWrapper">
+      <main className="mainContent">
         <h1>Contenido principal</h1>
         <p>Aquí va tu aplicación...</p>
       </main>
 
-      <footer className="custom-footer">
-        <div className="footer-glow-line"></div>
+      <footer className="customFooter">
+        <div className="footerGlowLine"></div>
 
-        <div className="footer-inner">
-          <div className="footer-grid">
+        <div className="footerInner">
+          <div className="footerGrid">
 
             <div>
-              <h3 className="footer-logo-text">
+              <h3 className="footerLogoText">
                 Escena del <span>Crimen</span>
               </h3>
-              <p>Investigación asistida por IA.</p>
             </div>
 
-            <div className="footer-nav">
-              <a href="#">Privacidad</a>
-              <a href="#">Términos</a>
+            <div className="footerNav">
+              <a href="#">Avisos Legales</a>
+              <a href="#">Términos de uso</a>
+              <a href="#">Sobre nosotros</a>
+              
             </div>
 
-            <div className="social-list">
-              <a href="#" className="social-link">FB</a>
-              <a href="#" className="social-link">TW</a>
+            <div className="socialList">
+              <Link to="#" className="socialLink">
+                <img src={facebookLogo} alt="Facebook logo" />
+                Facebook</Link>
+              
+              <Link to="#" className="socialLink">Instagram
+              <img src={instagramIcon} alt="Instagram logo" /></Link>
+              
+              <Link to="#" className="socialLink">Tiktok
+              <img src ={logoTiktok} alt="Tiktok logo" /></Link>
+              
             </div>
 
           </div>
 
-          <div className="footer-bottom">
+          <div className="footerBottom">
             <p>© 2026 Escena del Crimen</p>
             <p>Hecho con precisión forense</p>
           </div>
@@ -43,4 +56,4 @@ function App() {
   );
 }
 
-export default App;
+export default Footer;
