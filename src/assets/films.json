@@ -1,272 +1,335 @@
-[
-  {
-    "rank": 1,
-    "title": "El padrino",
-    "year": 1972,
-    "director": "Francis Ford Coppola",
-    "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
-    "filmaffinity_score": 9.0,
-    "description": "La historia de la familia mafiosa Corleone y la transformación de Michael Corleone de hijo obediente a líder implacable en el mundo criminal."
-  },
-  {
-    "rank": 2,
-    "title": "El padrino. Parte II",
-    "year": 1974,
-    "director": "Francis Ford Coppola",
-    "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
-    "filmaffinity_score": 8.9,
-    "description": "Secuela y precuela que alterna la consolidación de Michael Corleone con los orígenes de Vito Corleone."
-  },
-  {
-    "rank": 3,
-    "title": "Pulp Fiction",
-    "year": 1994,
-    "director": "Quentin Tarantino",
-    "main_cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
-    "filmaffinity_score": 8.6,
-    "description": "Historias criminales entrelazadas en Los Ángeles, con violencia estilizada, humor negro y diálogos icónicos."
-  },
-  {
-    "rank": 4,
-    "title": "El golpe",
-    "year": 1973,
-    "director": "George Roy Hill",
-    "main_cast": ["Robert Redford", "Paul Newman", "Robert Shaw"],
-    "filmaffinity_score": 8.5,
-    "description": "Dos estafadores planean un gran golpe contra un jefe criminal que los traicionó en los años 30."
-  },
-  {
-    "rank": 5,
-    "title": "El infierno del odio",
-    "year": 1963,
-    "director": "Akira Kurosawa",
-    "main_cast": ["Toshirô Mifune", "Kyôko Kagawa", "Yutaka Sada"],
-    "filmaffinity_score": 8.4,
-    "description": "Policías corruptos y persecución criminal en una ciudad, explorando moralidad y violencia urbana."
-  },
-  {
-    "rank": 6,
-    "title": "Perdición",
-    "year": 1944,
-    "director": "Billy Wilder",
-    "main_cast": ["Fred MacMurray", "Barbara Stanwyck", "Edward G. Robinson"],
-    "filmaffinity_score": 8.4,
-    "description": "Un vendedor financiero y su amante planean el asesinato del marido de ella para cobrar el seguro, con consecuencias fatales."
-  },
-  {
-    "rank": 7,
-    "title": "Ciudad de Dios",
-    "year": 2002,
-    "director": "Fernando Meirelles, Kátia Lund",
-    "main_cast": ["Alexandre Rodrigues", "Leandro Firmino", "Phellipe Haagensen"],
-    "filmaffinity_score": 8.4,
-    "description": "Retrato crudo de la vida en una favela de Río de Janeiro y el ascenso del narcotráfico a través de los ojos de un joven."
-  },
-  {
-    "rank": 8,
-    "title": "Uno de los nuestros",
-    "year": 1990,
-    "director": "Martin Scorsese",
-    "main_cast": ["Ray Liotta", "Robert De Niro", "Joe Pesci"],
-    "filmaffinity_score": 8.4,
-    "description": "Historia real de Henry Hill y su implicación en la mafia italoamericana desde joven."
-  },
-  {
-    "rank": 9,
-    "title": "M, el vampiro de Düsseldorf",
-    "year": 1931,
-    "director": "Fritz Lang",
-    "main_cast": ["Peter Lorre", "Otto Wernicke", "Gustaf Gründgens"],
-    "filmaffinity_score": 8.3,
-    "description": "Clásico thriller donde policía y criminales se unen para capturar a un asesino en serie."
-  },
-  {
-    "rank": 10,
-    "title": "Érase una vez en América",
-    "year": 1984,
-    "director": "Sergio Leone",
-    "main_cast": ["Robert De Niro", "James Woods", "Elizabeth McGovern"],
-    "filmaffinity_score": 8.3,
-    "description": "Épica de gánsteres judíos en Nueva York desde la infancia hasta la madurez, sobre lealtad y traición."
-  },
-  {
-    "rank": 11,
-    "title": "Seven",
-    "year": 1995,
-    "director": "David Fincher",
-    "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
-    "filmaffinity_score": 8.3,
-    "description": "Dos detectives persiguen a un asesino serial que ejecuta crímenes basados en los siete pecados capitales."
-  },
-  {
-    "rank": 12,
-    "title": "El silencio de los corderos",
-    "year": 1991,
-    "director": "Jonathan Demme",
-    "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
-    "filmaffinity_score": 8.2,
-    "description": "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro más peligroso."
-  },
-  {
-    "rank": 13,
-    "title": "El precio del poder",
-    "year": 1983,
-    "director": "Brian De Palma",
-    "main_cast": ["Al Pacino", "Steven Bauer", "Michelle Pfeiffer"],
-    "filmaffinity_score": 8.2,
-    "description": "Historia de un inmigrante cubano que asciende en el crimen organizado hasta convertirse en jefe de una red criminal."
-  },
-  {
-    "rank": 14,
-    "title": "Perversidad",
-    "year": 1945,
-    "director": "Fritz Lang",
-    "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
-    "filmaffinity_score": 8.2,
-    "description": "Thriller noir en el que un hombre comete un asesinato y es perseguido por su propia culpa y el destino."
-  },
-  {
-    "rank": 15,
-    "title": "La naranja mecánica",
-    "year": 1971,
-    "director": "Stanley Kubrick",
-    "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
-    "filmaffinity_score": 8.2,
-    "description": "Distopía sobre violencia juvenil y control social que mezcla crimen con reflexión psicológica."
-  },
-  {
-    "rank": 16,
-    "title": "Crimen perfecto",
-    "year": 1954,
-    "director": "Alfred Hitchcock",
-    "main_cast": ["Ray Milland", "Grace Kelly", "Robert Cummings"],
-    "filmaffinity_score": 8.2,
-    "description": "Tony Wendice trama el asesinato de su esposa para heredar su fortuna, pero los planes se tuercen inesperadamente."
-  },
-  {
-    "rank": 17,
-    "title": "Sed de mal",
-    "year": 1958,
-    "director": "Orson Welles",
-    "main_cast": ["Charlton Heston", "Janet Leigh", "Orson Welles"],
-    "filmaffinity_score": 8.1,
-    "description": "Un inspector investiga un explosivo caso de asesinato en la frontera entre EE. UU. y México, en una trama de corrupción y moralidad."
-  },
-  {
-    "rank": 18,
-    "title": "Reservoir Dogs",
-    "year": 1992,
-    "director": "Quentin Tarantino",
-    "main_cast": ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
-    "filmaffinity_score": 8.1,
-    "description": "Después de un atraco que sale mal, los criminales sospechan que hay un soplón en su grupo."
-  },
-  {
-    "rank": 19,
-    "title": "El caballero oscuro",
-    "year": 2008,
-    "director": "Christopher Nolan",
-    "main_cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-    "filmaffinity_score": 8.1,
-    "description": "Batman enfrenta al Joker, un criminal caótico que lleva la violencia urbana al límite en Gotham."
-  },
-  {
-    "rank": 20,
-    "title": "Los sobornados",
-    "year": 1955,
-    "director": "Samuel Fuller",
-    "main_cast": ["Robert Ryan", "Jan Sterling", "John Ayres"],
-    "filmaffinity_score": 8.1,
-    "description": "Un policía honesto lucha contra la corrupción interna y una red de delincuencia organizada."
-  },
-  {
-    "rank": 21,
-    "title": "El secreto de sus ojos",
-    "year": 2009,
-    "director": "Juan José Campanella",
-    "main_cast": ["Ricardo Darín", "Soledad Villamil", "Pablo Rago"],
-    "filmaffinity_score": 8.1,
-    "description": "Un ex funcionario judicial reabre un caso sin resolver de asesinato mientras revive su propio pasado." 
-  },
-  {
-    "rank": 22,
-    "title": "Al rojo vivo",
-    "year": 1949,
-    "director": "Raoul Walsh",
-    "main_cast": ["James Cagney", "Virginia Mayo", "Edmond O’Brien"],
-    "filmaffinity_score": 8.1,
-    "description": "Un gánster intenta dejar la vida criminal tras volver de la guerra, pero viejos lazos lo arrastran de nuevo."
-  },
-  {
-    "rank": 23,
-    "title": "La mujer del cuadro",
-    "year": 1944,
-    "director": "Robert Siodmak",
-    "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
-    "filmaffinity_score": 8.1,
-    "description": "Un hombre se ve envuelto en una red de chantaje y crimen tras reencontrarse con una ex amante."
-  },
-  {
-    "rank": 24,
-    "title": "Taxi Driver",
-    "year": 1976,
-    "director": "Martin Scorsese",
-    "main_cast": ["Robert De Niro", "Jodie Foster", "Cybill Shepherd"],
-    "filmaffinity_score": 8.1,
-    "description": "Un veterano de guerra que trabaja como taxista se obsesiona con limpiar las calles de criminales en una Nueva York decadente."
-  },
-  {
-    "rank": 25,
-    "title": "El sueño eterno",
-    "year": 1946,
-    "director": "Howard Hawks",
-    "main_cast": ["Humphrey Bogart", "Lauren Bacall", "Martha Vickers"],
-    "filmaffinity_score": 8.1,
-    "description": "Un detective privado se ve envuelto en una complicada trama de chantaje, crimen y peligro."
-  },
-  {
-    "rank": 26,
-    "title": "La jungla de asfalto",
-    "year": 1950,
-    "director": "John Huston",
-    "main_cast": ["Burt Lancaster", "Sterling Hayden", "Robert Keith"],
-    "filmaffinity_score": 8.1,
-    "description": "Un grupo de criminales planea y ejecuta un robo a un casino, enfrentándose a tensiones internas y violencia extrema."
-  },
-  {
-    "rank": 27,
-    "title": "Retorno al pasado",
-    "year": 1946,
-    "director": "Delmer Daves",
-    "main_cast": ["Dane Clark", "Janis Paige", "William Bishop"],
-    "filmaffinity_score": 8.1,
-    "description": "Un hombre vuelve a involucrarse en el crimen tras un largo tiempo fuera, enfrentando dilemas morales y traición."
-  },
-  {
-    "rank": 28,
-    "title": "La soga",
-    "year": 1948,
-    "director": "Alfred Hitchcock",
-    "main_cast": ["John Dall", "Farley Granger", "Joan Chandler"],
-    "filmaffinity_score": 8.1,
-    "description": "Dos jóvenes asesinan a su amigo como parte de un experimento intelectual y celebran una cena con la víctima escondida en la habitación."
-  },
-  {
-    "rank": 29,
-    "title": "Casino",
-    "year": 1995,
-    "director": "Martin Scorsese",
-    "main_cast": ["Robert De Niro", "Sharon Stone", "Joe Pesci"],
-    "filmaffinity_score": 8.1,
-    "description": "La vida de mafiosos y apuestas en Las Vegas, con violencia, traición y lujo extremo como telón de fondo."
-  },
-  {
-    "rank": 30,
-    "title": "Mystic River",
-    "year": 2003,
-    "director": "Clint Eastwood",
-    "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
-    "filmaffinity_score": 8.0,
-    "description": "El asesinato de una joven reabre heridas del pasado entre tres amigos de la infancia, desatando una investigación dolorosa."
-  }
-]
+{
+  "movies": [
+    {
+      "rank": 1,
+      "title": "El padrino",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "filmaffinity_score": 9.0,
+      "description": "La historia de la familia mafiosa Corleone y la transformación de Michael Corleone de hijo obediente a líder implacable en el mundo criminal.",
+      "img": "src/assets/images/films/el_padrino.jpg"
+    },
+    {
+      "rank": 2,
+      "title": "El padrino. Parte II",
+      "year": 1974,
+      "director": "Francis Ford Coppola",
+      "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
+      "filmaffinity_score": 8.9,
+      "description": "Secuela y precuela que alterna la consolidación de Michael Corleone con los orígenes de Vito Corleone.",
+      "img": "src/assets/images/films/el_padrino2.jpg"
+    },
+    {
+      "rank": 3,
+      "title": "Tiempos violentos",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "main_cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+      "filmaffinity_score": 8.6,
+      "description": "Historias criminales entrelazadas en Los Ángeles, con violencia estilizada, humor negro y diálogos icónicos.",
+      "img": "src/assets/images/films/pulp_fiction.jpg"
+    },
+    {
+      "rank": 4,
+      "title": "El golpe",
+      "year": 1973,
+      "director": "George Roy Hill",
+      "main_cast": ["Robert Redford", "Paul Newman", "Robert Shaw"],
+      "filmaffinity_score": 8.5,
+      "description": "Dos estafadores planean un gran golpe contra un jefe criminal que los traicionó en los años 30.",
+      "img": "src/assets/images/films/el_golpe.jpg"
+    },
+    {
+      "rank": 5,
+      "title": "El cielo y el infierno",
+      "year": 1963,
+      "director": "Akira Kurosawa",
+      "main_cast": ["Toshirô Mifune", "Kyôko Kagawa", "Yutaka Sada"],
+      "filmaffinity_score": 8.4,
+      "description": "Policías corruptos y persecución criminal en una ciudad, explorando moralidad y violencia urbana.",
+      "img": "src/assets/images/films/el_cielo_y_el_infierno.jpg"
+    },
+    {
+      "rank": 6,
+      "title": "Pacto de sangre",
+      "year": 1944,
+      "director": "Billy Wilder",
+      "main_cast": ["Fred MacMurray", "Barbara Stanwyck", "Edward G. Robinson"],
+      "filmaffinity_score": 8.4,
+      "description": "Un vendedor financiero y su amante planean el asesinato del marido de ella para cobrar el seguro, con consecuencias fatales.",
+      "img": "src/assets/images/films/pacto_de_sangre.jpg"
+    },
+    {
+      "rank": 7,
+      "title": "Ciudad de Dios",
+      "year": 2002,
+      "director": "Fernando Meirelles, Kátia Lund",
+      "main_cast": [
+        "Alexandre Rodrigues",
+        "Leandro Firmino",
+        "Phellipe Haagensen"
+      ],
+      "filmaffinity_score": 8.4,
+      "description": "Retrato crudo de la vida en una favela de Río de Janeiro y el ascenso del narcotráfico a través de los ojos de un joven.",
+      "img": "src/assets/images/films/ciudad_de_dios.jpg"
+    },
+    {
+      "rank": 8,
+      "title": "Uno de los nuestros",
+      "year": 1990,
+      "director": "Martin Scorsese",
+      "main_cast": ["Ray Liotta", "Robert De Niro", "Joe Pesci"],
+      "filmaffinity_score": 8.4,
+      "description": "Historia real de Henry Hill y su implicación en la mafia italoamericana desde joven.",
+      "img": "src/assets/images/films/uno_de_los_nuestros.jpg"
+    },
+    {
+      "rank": 9,
+      "title": "M, el vampiro de Düsseldorf",
+      "year": 1931,
+      "director": "Fritz Lang",
+      "main_cast": ["Peter Lorre", "Otto Wernicke", "Gustaf Gründgens"],
+      "filmaffinity_score": 8.3,
+      "description": "Clásico thriller donde policía y criminales se unen para capturar a un asesino en serie.",
+      "img": "src/assets/images/films/m_el_vampiro_de_dusseldorf.jpg"
+    },
+    {
+      "rank": 10,
+      "title": "Érase una vez en América",
+      "year": 1984,
+      "director": "Sergio Leone",
+      "main_cast": ["Robert De Niro", "James Woods", "Elizabeth McGovern"],
+      "filmaffinity_score": 8.3,
+      "description": "Épica de gánsteres judíos en Nueva York desde la infancia hasta la madurez, sobre lealtad y traición.",
+      "img": "src/assets/images/films/erase_una_vez_en_america.jpg"
+    },
+    {
+      "rank": 11,
+      "title": "Seven",
+      "year": 1995,
+      "director": "David Fincher",
+      "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
+      "filmaffinity_score": 8.3,
+      "description": "Dos detectives persiguen a un asesino serial que ejecuta crímenes basados en los siete pecados capitales.",
+      "img": "src/assets/images/films/seven.jpg"
+    },
+    {
+      "rank": 12,
+      "title": "El silencio de los corderos",
+      "year": 1991,
+      "director": "Jonathan Demme",
+      "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+      "filmaffinity_score": 8.2,
+      "description": "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro más peligroso.",
+      "img": "src/assets/images/films/el_silencio_de_los_corderos.jpg"
+    },
+    {
+      "rank": 13,
+      "title": "El precio del poder",
+      "year": 1983,
+      "director": "Brian De Palma",
+      "main_cast": ["Al Pacino", "Steven Bauer", "Michelle Pfeiffer"],
+      "filmaffinity_score": 8.2,
+      "description": "Historia de un inmigrante cubano que asciende en el crimen organizado hasta convertirse en jefe de una red criminal.",
+      "img": "src/assets/images/films/el_precio_del_poder.jpg"
+    },
+    {
+      "rank": 14,
+      "title": "Perversidad",
+      "year": 1945,
+      "director": "Fritz Lang",
+      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "filmaffinity_score": 8.2,
+      "description": "Thriller noir en el que un hombre comete un asesinato y es perseguido por su propia culpa y el destino.",
+      "img": "src/assets/images/films/perversidad.jpg"
+    },
+    {
+      "rank": 15,
+      "title": "Naranja mecánica",
+      "year": 1971,
+      "director": "Stanley Kubrick",
+      "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
+      "filmaffinity_score": 8.2,
+      "description": "Distopía sobre violencia juvenil y control social que mezcla crimen con reflexión psicológica.",
+      "img": "src/assets/images/films/naranja_mecanica.jpg"
+    },
+    {
+      "rank": 16,
+      "title": "Crimen perfecto",
+      "year": 1954,
+      "director": "Alfred Hitchcock",
+      "main_cast": ["Ray Milland", "Grace Kelly", "Robert Cummings"],
+      "filmaffinity_score": 8.2,
+      "description": "Tony Wendice trama el asesinato de su esposa para heredar su fortuna, pero los planes se tuercen inesperadamente.",
+      "img": "src/assets/images/films/crimen_perfecto.jpg"
+    },
+    {
+      "rank": 17,
+      "title": "Sed de mal",
+      "year": 1958,
+      "director": "Orson Welles",
+      "main_cast": ["Charlton Heston", "Janet Leigh", "Orson Welles"],
+      "filmaffinity_score": 8.1,
+      "description": "Un inspector investiga un explosivo caso de asesinato en la frontera entre EE. UU. y México, en una trama de corrupción y moralidad.",
+      "img": "src/assets/images/films/sed_de_mal.jpg"
+    },
+    {
+      "rank": 18,
+      "title": "Perros de la calle",
+      "year": 1992,
+      "director": "Quentin Tarantino",
+      "main_cast": ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
+      "filmaffinity_score": 8.1,
+      "description": "Después de un atraco que sale mal, los criminales sospechan que hay un soplón en su grupo.",
+      "img": "src/assets/images/films/perros_de_la_calle.jpg"
+    },
+    {
+      "rank": 19,
+      "title": "El caballero de la noche",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "main_cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "filmaffinity_score": 8.1,
+      "description": "Batman enfrenta al Joker, un criminal caótico que lleva la violencia urbana al límite en Gotham.",
+      "img": "src/assets/images/films/el_caballero_de_la_noche.jpg"
+    },
+    {
+      "rank": 20,
+      "title": "Los sobornados",
+      "year": 1955,
+      "director": "Samuel Fuller",
+      "main_cast": ["Robert Ryan", "Jan Sterling", "John Ayres"],
+      "filmaffinity_score": 8.1,
+      "description": "Un policía honesto lucha contra la corrupción interna y una red de delincuencia organizada.",
+      "img": "src/assets/images/films/los_sobornados.jpg"
+    },
+    {
+      "rank": 21,
+      "title": "El secreto de sus ojos",
+      "year": 2009,
+      "director": "Juan José Campanella",
+      "main_cast": ["Ricardo Darín", "Soledad Villamil", "Pablo Rago"],
+      "filmaffinity_score": 8.1,
+      "description": "Un ex funcionario judicial reabre un caso sin resolver de asesinato mientras revive su propio pasado.",
+      "img": "src/assets/images/films/el_secreto_de_sus_ojos.jpg"
+    },
+    {
+      "rank": 22,
+      "title": "Al rojo vivo",
+      "year": 1949,
+      "director": "Raoul Walsh",
+      "main_cast": ["James Cagney", "Virginia Mayo", "Edmond O’Brien"],
+      "filmaffinity_score": 8.1,
+      "description": "Un gánster intenta dejar la vida criminal tras volver de la guerra, pero viejos lazos lo arrastran de nuevo.",
+      "img": "src/assets/images/films/al_rojo_vivo.jpg"
+    },
+    {
+      "rank": 23,
+      "title": "La mujer del cuadro",
+      "year": 1944,
+      "director": "Robert Siodmak",
+      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "filmaffinity_score": 8.1,
+      "description": "Un hombre se ve envuelto en una red de chantaje y crimen tras reencontrarse con una ex amante.",
+      "img": "src/assets/images/films/la_mujer_del_cuadro.png"
+    },
+    {
+      "rank": 24,
+      "title": "Taxi Driver",
+      "year": 1976,
+      "director": "Martin Scorsese",
+      "main_cast": ["Robert De Niro", "Jodie Foster", "Cybill Shepherd"],
+      "filmaffinity_score": 8.1,
+      "description": "Un veterano de guerra que trabaja como taxista se obsesiona con limpiar las calles de criminales en una Nueva York decadente.",
+      "img": "src/assets/images/films/taxi_driver.jpg"
+    },
+    {
+      "rank": 25,
+      "title": "Mientras la ciudad duerme",
+      "original_title": "The Asphalt Jungle",
+      "year": 1950,
+      "director": "John Huston",
+      "main_cast": [
+        "Sterling Hayden",
+        "Louis Calhern",
+        "Sam Jaffe",
+        "Jean Hagen",
+        "James Whitmore",
+        "John McIntire",
+        "Marc Lawrence",
+        "Marilyn Monroe"
+      ],
+      "filmaffinity_score": 8.1,
+      "description": "La meticulosa planificación de un atraco a una joyería por parte de una banda de delincuentes sirve de base para un intenso relato de crimen, con un profundo estudio de personajes y motivaciones en uno de los clásicos del cine negro.",
+      "img": "src/assets/images/films/mientras_la_ciudad_duerme.jpg"
+    },
+    {
+      "rank": 26,
+      "title": "Mientras la ciudad duerme",
+      "original_title": "The Asphalt Jungle",
+      "year": 1950,
+      "director": "John Huston",
+      "main_cast": [
+        "Sterling Hayden",
+        "Louis Calhern",
+        "Sam Jaffe",
+        "Jean Hagen",
+        "James Whitmore",
+        "John McIntire",
+        "Marc Lawrence",
+        "Marilyn Monroe"
+      ],
+      "filmaffinity_score": 8.1,
+      "description": "Un clásico del cine noir en el que un grupo de delincuentes planea y ejecuta el atraco a una joyería, mostrando con realismo la planificación, los conflictos internos y las consecuencias de su crimen.",
+      "img": "src/assets/images/films/mientras_la_ciudad_duerme.jpg"
+    },
+    {
+      "rank": 27,
+      "title": "Retorno al pasado",
+      "original_title": "Out of the Past",
+      "year": 1947,
+      "director": "Jacques Tourneur",
+      "main_cast": ["Robert Mitchum", "Jane Greer", "Kirk Douglas"],
+      "filmaffinity_score": 8.1,
+      "description": "Un detective privado intenta dejar atrás su pasado criminal, pero una mujer fatal y antiguos encargos lo arrastran de nuevo a una red de traición, crimen y destino inevitable.",
+      "img": "src/assets/images/films/retorno_al_pasado.png"
+    },
+    {
+      "rank": 28,
+      "title": "Festín diabólico",
+      "original_title": "Rope",
+      "year": 1948,
+      "director": "Alfred Hitchcock",
+      "main_cast": [
+        "John Dall",
+        "Farley Granger",
+        "Joan Chandler",
+        "James Stewart"
+      ],
+      "filmaffinity_score": 8.1,
+      "description": "Dos jóvenes asesinan a un amigo como parte de un experimento intelectual y organizan una cena en el mismo lugar donde esconden el cadáver, en un inquietante juego psicológico.",
+      "img": "src/assets/images/films/festin_diabolico.png"
+    },
+    {
+      "rank": 29,
+      "title": "Casino",
+      "year": 1995,
+      "director": "Martin Scorsese",
+      "main_cast": ["Robert De Niro", "Sharon Stone", "Joe Pesci"],
+      "filmaffinity_score": 8.1,
+      "description": "La historia del control mafioso de los casinos de Las Vegas, marcada por el poder, la corrupción, la violencia y la decadencia personal de sus protagonistas.",
+      "img": "src/assets/images/films/casino.jpg"
+    },
+    {
+      "rank": 30,
+      "title": "Río Místico",
+      "year": 2003,
+      "director": "Clint Eastwood",
+      "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
+      "filmaffinity_score": 8.0,
+      "description": "El asesinato de la hija de uno de tres amigos de la infancia reabre un trauma compartido y desencadena una investigación marcada por la culpa, el dolor y la venganza.",
+      "img": "src/assets/images/films/rio_mistico.jpg"
+    }
+  ]
+}
