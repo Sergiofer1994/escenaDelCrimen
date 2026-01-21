@@ -28,15 +28,15 @@ body {
 
 /* FOOTER */
 .customFooter {
-  background: #6C8A8E;
+  background: #132D30;
   color: #f1f1f1;
   position: relative;
 }
 
 /* Línea brillante arriba del footer */
 .footerGlowLine {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #00e5ff, transparent);
+  height: 4px;
+  background: #8C2D2D
 }
 
 /* Contenedor interno */
@@ -61,7 +61,7 @@ body {
 }
 
 .footerLogoText span {
-  color: #00e5ff;
+  color: #8B1A1A;
 }
 
 /* Navegación */
@@ -74,7 +74,7 @@ body {
 }
 
 .footerNav a:hover {
-  color: #00e5ff;
+  color: #8B1A1A;
 }
 
 /* Redes */
@@ -83,10 +83,11 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .socialLink {
-  background: #8C2D2D;
+  background:#70B5B0;
   padding: 8px 12px;
   width: auto;
   border-radius: 6px;
@@ -106,18 +107,16 @@ body {
 }
 
 .socialLink:hover {
-  background: #00e5ff;
-  color: #000;
+  background: #8B1A1A;
+  color:black;
   transform: translateY(-3px);
 }
 
-.socialLink:hover img {
-  filter: brightness(0); /* Hace el icono negro al hover */
-}
+
 
 /* Parte inferior */
 .footerBottom {
-  border-top: 1px solid #222;
+  border-top: 1px solid #8B1A1A;
   margin-top: 30px;
   padding-top: 15px;
   display: flex;
@@ -128,6 +127,26 @@ body {
 
 /* Responsive */
 @media (max-width: 600px) {
+
+  .socialList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socialLink {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .socialLink img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
   .footerBottom {
     flex-direction: column;
     gap: 6px;

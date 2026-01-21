@@ -1,9 +1,29 @@
 /* AboutUs.css - Estilos para la página Sobre Nosotros */
 
+
+.legalNotice {
+  font-size: 0.9rem;
+  color: #132D30;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ===== Secciones base ===== */
+.aboutSection {
+  background: ;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border-left: none;
+
+}
+
+/* Intro especial */
 .aboutIntro {
   text-align: center;
 }
 
+/* ===== Valores ===== */
 .valuesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -17,52 +37,60 @@
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
-  border-top: 3px solid #00e5ff;
+
+  border-left: 4px solid #70B5B0;
+
 }
+
 
 .valueCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 229, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(140, 45, 45, 0.25);
 }
+
 .valueCard p {
   color: #555;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
 }
+
 .valueCard h3 {
-  color: #6C8A8E;
+  color: #132D30;
   margin-bottom: 10px;
   font-size: 1.2rem;
-  ;
+
 }
 
+/* ===== Equipo ===== */
 .teamGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   margin: 30px 0;
+
 }
 
 .teamMember {
-  background: #fff;
+  background: #ffffff;
   padding: 25px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  border-left: 4px solid #70B5B0;
 }
 
 .teamMember:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 229, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(140, 45, 45, 0.25);
 }
 
 .memberInitial {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #6C8A8E, #00e5ff);
-  color: white;
+  background: linear-gradient(135deg, #132D30, #8B1A1A);
+  color: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -72,27 +100,37 @@
   margin: 0 auto 15px;
 }
 
+.memberInitial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 .teamMember h3 {
-  color: #6C8A8E;
+  color: #132D30;
   margin-bottom: 5px;
 }
 
 .role {
-  color: #00e5ff;
+  color: #8B1A1A;
   font-weight: bold;
   font-size: 0.9rem;
   margin-bottom: 10px;
+
 }
 
+/* ===== Contacto ===== */
 .contactSection {
   background: #f8f9fa;
   padding: 30px;
   border-radius: 10px;
-  border-left: 4px solid #00e5ff;
+  border-left: 4px solid #70B5B0;
+  /* verde contacto */
 }
 
-/* Responsive */
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
+
   .valuesGrid,
   .teamGrid {
     grid-template-columns: 1fr;

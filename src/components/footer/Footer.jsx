@@ -40,6 +40,7 @@ function Footer() {
               <img src={logoTiktok} alt="Tiktok logo" />
               <span>Tiktok</span>
             </a>
+
           </div>
 
         </div>
