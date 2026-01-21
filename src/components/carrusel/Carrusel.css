@@ -62,19 +62,25 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1600px) {
     .carousel-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 4%;
     }
 }
 
-@media (max-width: 700px) {
-    .carousel-grid {
-        grid-template-columns: 1fr;
+@media (max-width:700px) {
+        .carousel-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4%;
     }
 
-    .carousel-card {
-        height: 800px;
+    .carrusel-controls {
+        display: grid;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
     }
 }

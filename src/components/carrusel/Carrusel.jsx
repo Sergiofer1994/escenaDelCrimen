@@ -47,7 +47,7 @@ const next = () => {
               <strong>Filmaffinity:</strong> {movie.filmaffinity_score}
             </p>
           </div>
-        ))}
+        ))}<br></br>
       </div>
       <div className="carousel-controls">
         <button className="carousel-btn prev" onClick={prev}>
