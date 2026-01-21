@@ -1,4 +1,4 @@
-/* TerminosUso.css - Estilos para la página de Términos de Uso */
+/* TerminosUso.css - Estilos para la página de Términos de Uso con Cards */
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #ffffff;
+    background: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     line-height: 1.6;
@@ -15,7 +15,7 @@ body {
 
 /* Contenedor principal */
 .ContainerTerms {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 60px 40px;
     min-height: 100vh;
@@ -24,9 +24,12 @@ body {
 /* ========== HEADER DE TÉRMINOS DE USO ========== */
 
 .useTerms {
-    margin-bottom: 40px;
-    border-bottom: 3px solid #132D30;
-    padding-bottom: 20px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #8B1A1A;
 }
 
 .useTerms h1 {
@@ -41,7 +44,7 @@ body {
     font-style: italic;
 }
 
-/* ========== SECCIONES ========== */
+/* ========== SECCIONES COMO CARDS ========== */
 
 .termsIntro,
 .contentUse,
@@ -52,7 +55,26 @@ body {
 .responsibilityLimit,
 .modifications,
 .contactSection {
-    margin-bottom: 40px;
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #132D30;
+}
+
+.termsIntro:hover,
+.contentUse:hover,
+.usuaryAccount:hover,
+.lsensitiveContent:hover,
+.lprivacyData:hover,
+.intellectualProperty:hover,
+.responsibilityLimit:hover,
+.modifications:hover,
+.contactSection:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 .termsIntro h2,
@@ -64,11 +86,11 @@ body {
 .responsibilityLimit h2,
 .modifications h2,
 .contactSection h2 {
-    color: #6C8A8E;
+    color: #8B1A1A;
     font-size: 1.6rem;
     margin-bottom: 15px;
-    border-left: 4px solid #132D30;
-    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
 }
 
 .termsIntro p,
@@ -82,6 +104,7 @@ body {
 .contactSection p {
     margin-bottom: 15px;
     text-align: justify;
+    color: #555;
 }
 
 /* Listas */
@@ -89,53 +112,79 @@ body {
 .usuaryAccount ul,
 .lprivacyData ul,
 .contactSection ul {
-    margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 15px;
-    list-style-type: disc;
+    list-style-type: none;
 }
 
 .contentUse li,
 .usuaryAccount li,
 .lprivacyData li,
 .contactSection li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.contentUse li::before,
+.usuaryAccount li::before,
+.lprivacyData li::before,
+.contactSection li::before {
+    content: "▪";
+    color: #132D30;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
 }
 
 /* Strong elements */
 .contentUse strong,
 .usuaryAccount strong,
 .lprivacyData strong {
-    color: #6C8A8E;
+    color: #8B1A1A;
+    font-weight: 600;
 }
 
 /* ========== ADVERTENCIA DE CONTENIDO SENSIBLE ========== */
 
 .warning {
-    background: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 15px;
-    border-radius: 5px;
+    background: linear-gradient(135deg, #fff3cd 0%, #ffe8a1 100%);
+    border-left: 5px solid #ffc107;
+    padding: 18px 20px;
+    border-radius: 8px;
     margin: 15px 0;
     font-weight: 500;
+    box-shadow: 0 2px 6px rgba(255, 193, 7, 0.2);
+}
+
+/* Card especial para contenido sensible */
+.lsensitiveContent {
+    border-left: 4px solid #ffc107;
 }
 
 /* ========== LINK DE RETORNO ========== */
 
 .backLink {
-    margin-top: 50px;
-    padding-top: 30px;
-    border-top: 1px solid #ddd;
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
 }
 
 .backLink a {
     color: #8B1A1A;
     text-decoration: none;
     font-size: 1.1rem;
+    font-weight: 500;
     transition: color 0.3s ease;
+    display: inline-block;
 }
 
 .backLink a:hover {
-    color: #ffc107;
+    color: #132D30;
 }
 
 /* ========== RESPONSIVE ========== */
@@ -145,8 +194,24 @@ body {
         padding: 40px 20px;
     }
 
+    .useTerms {
+        padding: 25px 20px;
+    }
+
     .useTerms h1 {
         font-size: 2rem;
+    }
+
+    .termsIntro,
+    .contentUse,
+    .usuaryAccount,
+    .lsensitiveContent,
+    .lprivacyData,
+    .intellectualProperty,
+    .responsibilityLimit,
+    .modifications,
+    .contactSection {
+        padding: 25px 20px;
     }
 
     .termsIntro h2,
@@ -165,13 +230,34 @@ body {
     .usuaryAccount ul,
     .lprivacyData ul,
     .contactSection ul {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 }
 
 @media (max-width: 480px) {
+    .ContainerTerms {
+        padding: 30px 15px;
+    }
+
+    .useTerms {
+        padding: 20px 15px;
+    }
+
     .useTerms h1 {
         font-size: 1.7rem;
+    }
+
+    .termsIntro,
+    .contentUse,
+    .usuaryAccount,
+    .lsensitiveContent,
+    .lprivacyData,
+    .intellectualProperty,
+    .responsibilityLimit,
+    .modifications,
+    .contactSection {
+        padding: 20px 15px;
+        margin-bottom: 20px;
     }
 
     .termsIntro h2,
@@ -186,7 +272,7 @@ body {
         font-size: 1.2rem;
     }
 
-    .ContainerTerms {
-        padding: 30px 15px;
+    .backLink {
+        padding: 15px 20px;
     }
 }

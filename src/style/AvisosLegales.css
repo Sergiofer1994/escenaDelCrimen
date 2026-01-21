@@ -1,4 +1,4 @@
-/* AvisosLegales.css - Estilos para la página de Avisos Legales */
+/* AvisosLegales.css - Estilos para la página de Avisos Legales con Cards */
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #f5f5f5;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
   line-height: 1.6;
@@ -15,7 +15,7 @@ body {
 
 /* Contenedor principal de la página */
 .pageContainer {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 60px 40px;
   min-height: 100vh;
@@ -24,9 +24,12 @@ body {
 /* ========== HEADER DE AVISOS LEGALES ========== */
 
 .notices {
-  margin-bottom: 40px;
-  border-bottom: 3px solid #132D30;
-  padding-bottom: 20px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid #8B1A1A;
 }
 
 .notices h1 {
@@ -39,17 +42,31 @@ body {
   color: #666;
   font-size: 0.9rem;
   font-style: italic;
-  
 }
 
-/* ========== SECCIONES ========== */
+/* ========== SECCIONES COMO CARDS ========== */
 
 .generalInfo,
 .objectSection,
 .propietySection,
 .responsibilitySection,
 .dataProtectionSection {
-  margin-bottom: 40px;
+  background: #fff;
+  margin-bottom: 25px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #132D30;
+}
+
+.generalInfo:hover,
+.objectSection:hover,
+.propietySection:hover,
+.responsibilitySection:hover,
+.dataProtectionSection:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 .generalInfo h2,
@@ -57,11 +74,11 @@ body {
 .propietySection h2,
 .responsibilitySection h2,
 .dataProtectionSection h2 {
-  color: #6C8A8E;
+  color: #8B1A1A;
   font-size: 1.6rem;
   margin-bottom: 15px;
-  border-left: 4px solid #132D30;
-  padding-left: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
 }
 
 .generalInfo p,
@@ -71,53 +88,72 @@ body {
 .dataProtectionSection p {
   margin-bottom: 15px;
   text-align: justify;
+  color: #555;
 }
 
 /* Lista de información general */
 .generalInfo ul {
-  margin-left: 30px;
+  margin-left: 25px;
   margin-bottom: 15px;
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .generalInfo li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.generalInfo li::before {
+  content: "▪";
+  color: #132D30;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
 }
 
 .generalInfo li strong {
-  color: #6C8A8E;
+  color: #8B1A1A;
+  font-weight: 600;
 }
 
 /* Enlaces inline */
 .inlineLink {
-  color: #00e5ff;
+  color: #132D30;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease;
+  border-bottom: 2px solid #132D30;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .inlineLink:hover {
-  color: #6C8A8E;
-  text-decoration: underline;
+  color: #8B1A1A;
+  border-color: #8B1A1A;
 }
 
 /* ========== LINK DE RETORNO ========== */
 
 .backLink {
-  margin-top: 50px;
-  padding-top: 30px;
-  border-top: 1px solid #ddd;
+  background: #fff;
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
 }
 
 .backLink a {
-  color: red;
+  color: #8B1A1A;
   text-decoration: none;
   font-size: 1.1rem;
+  font-weight: 500;
   transition: color 0.3s ease;
+  display: inline-block;
 }
 
 .backLink a:hover {
-  color: #00e5ff;
+  color: #132D30;
 }
 
 /* ========== RESPONSIVE ========== */
@@ -127,8 +163,20 @@ body {
     padding: 40px 20px;
   }
 
+  .notices {
+    padding: 25px 20px;
+  }
+
   .notices h1 {
     font-size: 2rem;
+  }
+
+  .generalInfo,
+  .objectSection,
+  .propietySection,
+  .responsibilitySection,
+  .dataProtectionSection {
+    padding: 25px 20px;
   }
 
   .generalInfo h2,
@@ -140,13 +188,30 @@ body {
   }
 
   .generalInfo ul {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 }
 
 @media (max-width: 480px) {
+  .pageContainer {
+    padding: 30px 15px;
+  }
+
+  .notices {
+    padding: 20px 15px;
+  }
+
   .notices h1 {
     font-size: 1.7rem;
+  }
+
+  .generalInfo,
+  .objectSection,
+  .propietySection,
+  .responsibilitySection,
+  .dataProtectionSection {
+    padding: 20px 15px;
+    margin-bottom: 20px;
   }
 
   .generalInfo h2,
@@ -157,7 +222,7 @@ body {
     font-size: 1.2rem;
   }
 
-  .pageContainer {
-    padding: 30px 15px;
+  .backLink {
+    padding: 15px 20px;
   }
 }
