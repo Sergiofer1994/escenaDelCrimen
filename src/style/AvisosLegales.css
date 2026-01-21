@@ -1,4 +1,4 @@
-/* styles.css - Estilos completos para el sistema de páginas legales */
+/* AvisosLegales.css - Estilos para la página de Avisos Legales */
 
 * {
   margin: 0;
@@ -13,38 +13,24 @@ body {
   line-height: 1.6;
 }
 
-/* Wrapper principal */
-.siteWrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.mainContent {
-  flex: 1;
-  background: #ffffff;
-}
-
+/* Contenedor principal de la página */
 .pageContainer {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 60px 40px;
+  min-height: 100vh;
 }
 
-/* ========== ESTILOS PÁGINAS LEGALES ========== */
+/* ========== HEADER DE AVISOS LEGALES ========== */
 
-.legalPage {
-  max-width: 900px;
-}
-
-.legalHeader {
+.notices {
   margin-bottom: 40px;
-  border-bottom: 3px solid #00e5ff;
+  border-bottom: 3px solid #132D30;
   padding-bottom: 20px;
 }
 
-.legalHeader h1 {
-  color: #6C8A8E;
+.notices h1 {
+  color: #8B1A1A;
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
@@ -53,33 +39,69 @@ body {
   color: #666;
   font-size: 0.9rem;
   font-style: italic;
+  
 }
 
-.legalSection {
+/* ========== SECCIONES ========== */
+
+.generalInfo,
+.objectSection,
+.propietySection,
+.responsibilitySection,
+.dataProtectionSection {
   margin-bottom: 40px;
 }
 
-.legalSection h2 {
+.generalInfo h2,
+.objectSection h2,
+.propietySection h2,
+.responsibilitySection h2,
+.dataProtectionSection h2 {
   color: #6C8A8E;
   font-size: 1.6rem;
   margin-bottom: 15px;
-  border-left: 4px solid #00e5ff;
+  border-left: 4px solid #132D30;
   padding-left: 15px;
 }
 
-.legalSection p {
+.generalInfo p,
+.objectSection p,
+.propietySection p,
+.responsibilitySection p,
+.dataProtectionSection p {
   margin-bottom: 15px;
   text-align: justify;
 }
 
-.legalSection ul {
+/* Lista de información general */
+.generalInfo ul {
   margin-left: 30px;
   margin-bottom: 15px;
+  list-style-type: disc;
 }
 
-.legalSection li {
+.generalInfo li {
   margin-bottom: 8px;
 }
+
+.generalInfo li strong {
+  color: #6C8A8E;
+}
+
+/* Enlaces inline */
+.inlineLink {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.inlineLink:hover {
+  color: #6C8A8E;
+  text-decoration: underline;
+}
+
+/* ========== LINK DE RETORNO ========== */
 
 .backLink {
   margin-top: 50px;
@@ -88,7 +110,54 @@ body {
 }
 
 .backLink a {
-  color: #6C8A8E;
+  color: red;
   text-decoration: none;
   font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.backLink a:hover {
+  color: #00e5ff;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 768px) {
+  .pageContainer {
+    padding: 40px 20px;
+  }
+
+  .notices h1 {
+    font-size: 2rem;
+  }
+
+  .generalInfo h2,
+  .objectSection h2,
+  .propietySection h2,
+  .responsibilitySection h2,
+  .dataProtectionSection h2 {
+    font-size: 1.4rem;
+  }
+
+  .generalInfo ul {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .notices h1 {
+    font-size: 1.7rem;
+  }
+
+  .generalInfo h2,
+  .objectSection h2,
+  .propietySection h2,
+  .responsibilitySection h2,
+  .dataProtectionSection h2 {
+    font-size: 1.2rem;
+  }
+
+  .pageContainer {
+    padding: 30px 15px;
+  }
 }

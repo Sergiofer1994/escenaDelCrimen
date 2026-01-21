@@ -3,14 +3,14 @@
 
 .legalNotice {
   font-size: 0.9rem;
-  color: #132D30;
+  color: #8B1A1A;
   margin-top: 10px;
   text-align: center;
 }
 
 /* ===== Secciones base ===== */
 .aboutSection {
-  background: ;
+  background: #ffffff;
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 25px;
@@ -121,7 +121,7 @@
 
 /* ===== Contacto ===== */
 .contactSection {
-  background: #f8f9fa;
+  background: #ffffff;
   padding: 30px;
   border-radius: 10px;
   border-left: 4px solid #70B5B0;

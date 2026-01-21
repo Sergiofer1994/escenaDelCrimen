@@ -1,15 +1,36 @@
-legalPage {
-    max-width: 900px;
+/* TerminosUso.css - Estilos para la página de Términos de Uso */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.legalHeader {
+body {
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.ContainerTerms {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    min-height: 100vh;
+}
+
+/* ========== HEADER DE TÉRMINOS DE USO ========== */
+
+.useTerms {
     margin-bottom: 40px;
-    border-bottom: 3px solid #00e5ff;
+    border-bottom: 3px solid #132D30;
     padding-bottom: 20px;
 }
 
-.legalHeader h1 {
-    color: #6C8A8E;
+.useTerms h1 {
+    color: #8B1A1A;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -20,44 +41,74 @@ legalPage {
     font-style: italic;
 }
 
-.legalSection {
+/* ========== SECCIONES ========== */
+
+.termsIntro,
+.contentUse,
+.usuaryAccount,
+.lsensitiveContent,
+.lprivacyData,
+.intellectualProperty,
+.responsibilityLimit,
+.modifications,
+.contactSection {
     margin-bottom: 40px;
 }
 
-.legalSection h2 {
+.termsIntro h2,
+.contentUse h2,
+.usuaryAccount h2,
+.lsensitiveContent h2,
+.lprivacyData h2,
+.intellectualProperty h2,
+.responsibilityLimit h2,
+.modifications h2,
+.contactSection h2 {
     color: #6C8A8E;
     font-size: 1.6rem;
     margin-bottom: 15px;
-    border-left: 4px solid #00e5ff;
+    border-left: 4px solid #132D30;
     padding-left: 15px;
 }
 
-.legalSection p {
+.termsIntro p,
+.contentUse p,
+.usuaryAccount p,
+.lsensitiveContent p,
+.lprivacyData p,
+.intellectualProperty p,
+.responsibilityLimit p,
+.modifications p,
+.contactSection p {
     margin-bottom: 15px;
     text-align: justify;
 }
 
-.legalSection ul {
+/* Listas */
+.contentUse ul,
+.usuaryAccount ul,
+.lprivacyData ul,
+.contactSection ul {
     margin-left: 30px;
     margin-bottom: 15px;
+    list-style-type: disc;
 }
 
-.legalSection li {
+.contentUse li,
+.usuaryAccount li,
+.lprivacyData li,
+.contactSection li {
     margin-bottom: 8px;
 }
 
-.legalSection strong {
+/* Strong elements */
+.contentUse strong,
+.usuaryAccount strong,
+.lprivacyData strong {
     color: #6C8A8E;
 }
 
-.highlight {
-    background: linear-gradient(120deg, #e0f7ff 0%, #b3e5fc 100%);
-    padding: 20px;
-    border-radius: 8px;
-    border-left: 4px solid #00e5ff;
-    font-size: 1.1rem;
-    margin: 20px 0;
-}
+/* ========== ADVERTENCIA DE CONTENIDO SENSIBLE ========== */
 
 .warning {
     background: #fff3cd;
@@ -65,18 +116,10 @@ legalPage {
     padding: 15px;
     border-radius: 5px;
     margin: 15px 0;
+    font-weight: 500;
 }
 
-.inlineLink {
-    color: #00e5ff;
-    text-decoration: none;
-    border-bottom: 1px dotted #00e5ff;
-    transition: color 0.3s;
-}
-
-.inlineLink:hover {
-    color: #6C8A8E;
-}
+/* ========== LINK DE RETORNO ========== */
 
 .backLink {
     margin-top: 50px;
@@ -85,12 +128,65 @@ legalPage {
 }
 
 .backLink a {
-    color: #6C8A8E;
+    color: #8B1A1A;
     text-decoration: none;
     font-size: 1.1rem;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 .backLink a:hover {
-    color: #00e5ff;
+    color: #ffc107;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 768px) {
+    .ContainerTerms {
+        padding: 40px 20px;
+    }
+
+    .useTerms h1 {
+        font-size: 2rem;
+    }
+
+    .termsIntro h2,
+    .contentUse h2,
+    .usuaryAccount h2,
+    .lsensitiveContent h2,
+    .lprivacyData h2,
+    .intellectualProperty h2,
+    .responsibilityLimit h2,
+    .modifications h2,
+    .contactSection h2 {
+        font-size: 1.4rem;
+    }
+
+    .contentUse ul,
+    .usuaryAccount ul,
+    .lprivacyData ul,
+    .contactSection ul {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .useTerms h1 {
+        font-size: 1.7rem;
+    }
+
+    .termsIntro h2,
+    .contentUse h2,
+    .usuaryAccount h2,
+    .lsensitiveContent h2,
+    .lprivacyData h2,
+    .intellectualProperty h2,
+    .responsibilityLimit h2,
+    .modifications h2,
+    .contactSection h2 {
+        font-size: 1.2rem;
+    }
+
+    .ContainerTerms {
+        padding: 30px 15px;
+    }
 }

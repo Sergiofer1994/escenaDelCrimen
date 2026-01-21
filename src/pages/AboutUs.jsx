@@ -68,7 +68,7 @@ function AboutUs() {
                     <div className="teamMember">
                         <div className="memberInitial"><img src="src/images/aboutUs/sergioRecorte.png" alt="Sergio" /></div>
                         <h3>Sergio</h3>
-                        <p className="role"></p>
+                        <p className="role">P.O.</p>
                         <p>Apasionado por el cine criminal y Desarrollador Full Stack.</p>
                     </div>
 
@@ -84,7 +84,7 @@ function AboutUs() {
                         <h3>Heber Paris</h3>
                         <p className="role">Dev</p>
                         <p>
-                            Especialista en cine, series y documentales de crimen.
+                            Especialista en cine, series, documentales de crimen y Desarrolladora Full Stack.
                         </p>
                     </div>
 
@@ -93,7 +93,7 @@ function AboutUs() {
                         <h3>Juan Luís</h3>
                         <p className="role">Dev</p>
                         <p>
-                            Diseñador de experiencias digitales intuitivas.
+                            Diseñador de experiencias digitales intuitivas y Desarrolladora Full Stack.
                         </p>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ function AboutUs() {
                 </p>
             </section>
 
-            <section className="aboutSection contactSection">
+            <section className="contactSection">
                 <h2>Contacta con Nosotros</h2>
                 <p>
                     ¿Tienes sugerencias de contenido? ¿Problemas técnicos? ¿Quieres

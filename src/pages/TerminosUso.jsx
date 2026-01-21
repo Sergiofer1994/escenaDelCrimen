@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 function TerminosUso() {
     return (
-        <div className="pageContainer legalPage">
-            <div className="legalHeader">
+        <div className="ContainerTerms">
+            <div className="useTerms">
                 <h1>Términos de Uso</h1>
                 <p className="lastUpdate">Última actualización: 20 de enero de 2026</p>
             </div>
 
-            <section className="legalSection">
+            <section className="termsIntro">
                 <h2>1. Aceptación de los Términos</h2>
                 <p>
                     Al acceder y utilizar Escena del Crimen, usted acepta estar sujeto a estos Términos de Uso,
@@ -21,7 +21,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="contentUse">
                 <h2>2. Uso del Contenido</h2>
                 <p>
                     El contenido proporcionado en Escena del Crimen es únicamente para uso personal
@@ -36,7 +36,7 @@ function TerminosUso() {
                 </ul>
             </section>
 
-            <section className="legalSection">
+            <section className="usuaryAccount">
                 <h2>3. Cuenta de Usuario</h2>
                 <p>
                     Para acceder a ciertas funciones del sitio, es posible que deba crear una cuenta.
@@ -50,7 +50,7 @@ function TerminosUso() {
                 </ul>
             </section>
 
-            <section className="legalSection">
+            <section className="lsensitiveContent">
                 <h2>4. Contenido Sensible</h2>
                 <p>
                     Nuestro catálogo incluye películas y series con violencia, crimen y
@@ -61,7 +61,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="lprivacyData">
                 <h2>5. Privacidad y Protección de Datos</h2>
                 <p>
                     Su privacidad es importante para nosotros. Recopilamos y procesamos datos personales de
@@ -79,7 +79,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="intellectualProperty">
                 <h2>6. Propiedad Intelectual</h2>
                 <p>
                     Todo el contenido original en Escena del Crimen, incluyendo textos, gráficos, logos,
@@ -88,7 +88,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="responsibilityLimit">
                 <h2>7. Limitación de Responsabilidad</h2>
                 <p>
                     Escena del Crimen no será responsable de ningún daño directo, indirecto, incidental,
@@ -97,7 +97,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="modifications">
                 <h2>8. Modificaciones</h2>
                 <p>
                     Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios
@@ -106,7 +106,7 @@ function TerminosUso() {
                 </p>
             </section>
 
-            <section className="legalSection">
+            <section className="contactSection">
                 <h2>9. Contacto</h2>
                 <p>
                     Si tiene preguntas sobre estos Términos de Uso, puede contactarnos en:
