@@ -1,0 +1,25 @@
+/* layout.css - Estructura general del sitio */
+
+.siteWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    flex: 1;
+    background: #ffffff;
+}
+
+.pageContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pageContainer {
+        padding: 40px 20px;
+    }
+}
