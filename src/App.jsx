@@ -10,12 +10,13 @@ import Home from './pages/Home.jsx';
 // Importar estilos globales y de layout
 import './style/global.css';
 import './style/layout.css';
+import MovieCarrusel from './components/carrusel/Carrusel.jsx';
 
 function App() {
   return (
-
     <div className="siteWrapper">
       <main className="mainContent">
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/avisos-legales" element={<AvisosLegales />} />
