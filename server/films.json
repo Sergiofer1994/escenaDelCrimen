@@ -5,7 +5,11 @@
       "title": "El padrino",
       "year": 1972,
       "director": "Francis Ford Coppola",
-      "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "main_cast": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
       "filmaffinity_score": 9.0,
       "description": "La historia de la familia mafiosa Corleone y la transformación de Michael Corleone de hijo obediente a líder implacable en el mundo criminal.",
       "img": "src/images/films/elPadrino.jpg"
@@ -15,7 +19,11 @@
       "title": "El padrino. Parte II",
       "year": 1974,
       "director": "Francis Ford Coppola",
-      "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
+      "main_cast": [
+        "Al Pacino",
+        "Robert De Niro",
+        "Diane Keaton"
+      ],
       "filmaffinity_score": 8.9,
       "description": "Secuela y precuela que alterna la consolidación de Michael Corleone con los orígenes de Vito Corleone.",
       "img": "src/images/films/elPadrino2.jpg"
@@ -25,7 +33,11 @@
       "title": "Pulp Fiction",
       "year": 1994,
       "director": "Quentin Tarantino",
-      "main_cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+      "main_cast": [
+        "John Travolta",
+        "Samuel L. Jackson",
+        "Uma Thurman"
+      ],
       "filmaffinity_score": 8.6,
       "description": "Historias criminales entrelazadas en Los Ángeles, con violencia estilizada, humor negro y diálogos icónicos.",
       "img": "src/images/films/pulpFiction.jpg"
@@ -35,7 +47,11 @@
       "title": "El golpe",
       "year": 1973,
       "director": "George Roy Hill",
-      "main_cast": ["Robert Redford", "Paul Newman", "Robert Shaw"],
+      "main_cast": [
+        "Robert Redford",
+        "Paul Newman",
+        "Robert Shaw"
+      ],
       "filmaffinity_score": 8.5,
       "description": "Dos estafadores planean un gran golpe contra un jefe criminal que los traicionó en los años 30.",
       "img": "src/images/films/elGolpe.jpg"
@@ -45,7 +61,11 @@
       "title": "El cielo y el infierno",
       "year": 1963,
       "director": "Akira Kurosawa",
-      "main_cast": ["Toshirô Mifune", "Kyôko Kagawa", "Yutaka Sada"],
+      "main_cast": [
+        "Toshirô Mifune",
+        "Kyôko Kagawa",
+        "Yutaka Sada"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Policías corruptos y persecución criminal en una ciudad, explorando moralidad y violencia urbana.",
       "img": "src/images/films/elCieloYElInfierno.jpg"
@@ -55,7 +75,11 @@
       "title": "Pacto de sangre",
       "year": 1944,
       "director": "Billy Wilder",
-      "main_cast": ["Fred MacMurray", "Barbara Stanwyck", "Edward G. Robinson"],
+      "main_cast": [
+        "Fred MacMurray",
+        "Barbara Stanwyck",
+        "Edward G. Robinson"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Un vendedor financiero y su amante planean el asesinato del marido de ella para cobrar el seguro, con consecuencias fatales.",
       "img": "src/images/films/pactoDeSangre.jpg"
@@ -65,7 +89,11 @@
       "title": "Ciudad de Dios",
       "year": 2002,
       "director": "Fernando Meirelles, Kátia Lund",
-      "main_cast": ["Alexandre Rodrigues", "Leandro Firmino", "Phellipe Haagensen"],
+      "main_cast": [
+        "Alexandre Rodrigues",
+        "Leandro Firmino",
+        "Phellipe Haagensen"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Retrato crudo de la vida en una favela de Río de Janeiro y el ascenso del narcotráfico a través de los ojos de un joven.",
       "img": "src/images/films/ciudadDeDios.jpg"
@@ -75,7 +103,11 @@
       "title": "Uno de los nuestros",
       "year": 1990,
       "director": "Martin Scorsese",
-      "main_cast": ["Ray Liotta", "Robert De Niro", "Joe Pesci"],
+      "main_cast": [
+        "Ray Liotta",
+        "Robert De Niro",
+        "Joe Pesci"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Historia real de Henry Hill y su implicación en la mafia italoamericana desde joven.",
       "img": "src/images/films/unoDeLosNuestros.jpg"
@@ -85,7 +117,11 @@
       "title": "M, el vampiro de Düsseldorf",
       "year": 1931,
       "director": "Fritz Lang",
-      "main_cast": ["Peter Lorre", "Otto Wernicke", "Gustaf Gründgens"],
+      "main_cast": [
+        "Peter Lorre",
+        "Otto Wernicke",
+        "Gustaf Gründgens"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Clásico thriller donde policía y criminales se unen para capturar a un asesino en serie.",
       "img": "src/images/films/elVampiroDeDusseldorf.jpg"
@@ -95,7 +131,11 @@
       "title": "Érase una vez en América",
       "year": 1984,
       "director": "Sergio Leone",
-      "main_cast": ["Robert De Niro", "James Woods", "Elizabeth McGovern"],
+      "main_cast": [
+        "Robert De Niro",
+        "James Woods",
+        "Elizabeth McGovern"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Épica de gánsteres judíos en Nueva York desde la infancia hasta la madurez, sobre lealtad y traición.",
       "img": "src/images/films/eraseUnaVezEnAmerica.jpg"
@@ -105,7 +145,11 @@
       "title": "Seven",
       "year": 1995,
       "director": "David Fincher",
-      "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
+      "main_cast": [
+        "Brad Pitt",
+        "Morgan Freeman",
+        "Gwyneth Paltrow"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Dos detectives persiguen a un asesino serial que ejecuta crímenes basados en los siete pecados capitales.",
       "img": "src/images/films/seven.jpg"
@@ -115,7 +159,11 @@
       "title": "El silencio de los corderos",
       "year": 1991,
       "director": "Jonathan Demme",
-      "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+      "main_cast": [
+        "Jodie Foster",
+        "Anthony Hopkins",
+        "Scott Glenn"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro más peligroso.",
       "img": "src/images/films/elSilencioDeLosCorderos.jpg"
@@ -125,7 +173,11 @@
       "title": "El precio del poder",
       "year": 1983,
       "director": "Brian De Palma",
-      "main_cast": ["Al Pacino", "Steven Bauer", "Michelle Pfeiffer"],
+      "main_cast": [
+        "Al Pacino",
+        "Steven Bauer",
+        "Michelle Pfeiffer"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Historia de un inmigrante cubano que asciende en el crimen organizado hasta convertirse en jefe de una red criminal.",
       "img": "src/images/films/elPrecioDelPoder.jpg"
@@ -135,7 +187,11 @@
       "title": "Perversidad",
       "year": 1945,
       "director": "Fritz Lang",
-      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "main_cast": [
+        "Edward G. Robinson",
+        "Joan Bennett",
+        "Dan Duryea"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Thriller noir en el que un hombre comete un asesinato y es perseguido por su propia culpa y el destino.",
       "img": "src/images/films/perversidad.jpg"
@@ -145,7 +201,11 @@
       "title": "Naranja mecánica",
       "year": 1971,
       "director": "Stanley Kubrick",
-      "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
+      "main_cast": [
+        "Malcolm McDowell",
+        "Patrick Magee",
+        "Michael Bates"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Distopía sobre violencia juvenil y control social que mezcla crimen con reflexión psicológica.",
       "img": "src/images/films/naranjaMecanica.jpg"
@@ -155,7 +215,11 @@
       "title": "Crimen perfecto",
       "year": 1954,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Ray Milland", "Grace Kelly", "Robert Cummings"],
+      "main_cast": [
+        "Ray Milland",
+        "Grace Kelly",
+        "Robert Cummings"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Tony Wendice trama el asesinato de su esposa para heredar su fortuna, pero los planes se tuercen inesperadamente.",
       "img": "src/images/films/crimenPerfecto.jpg"
@@ -165,7 +229,11 @@
       "title": "Sed de mal",
       "year": 1958,
       "director": "Orson Welles",
-      "main_cast": ["Charlton Heston", "Janet Leigh", "Orson Welles"],
+      "main_cast": [
+        "Charlton Heston",
+        "Janet Leigh",
+        "Orson Welles"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un inspector investiga un explosivo caso de asesinato en la frontera entre EE. UU. y México, en una trama de corrupción y moralidad.",
       "img": "src/images/films/sedDeMal.jpg"
@@ -175,7 +243,11 @@
       "title": "Perros de la calle",
       "year": 1992,
       "director": "Quentin Tarantino",
-      "main_cast": ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
+      "main_cast": [
+        "Harvey Keitel",
+        "Tim Roth",
+        "Michael Madsen"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Después de un atraco que sale mal, los criminales sospechan que hay un soplón en su grupo.",
       "img": "src/images/films/perrosDeLaCalle.jpg"
@@ -185,7 +257,11 @@
       "title": "El caballero de la noche",
       "year": 2008,
       "director": "Christopher Nolan",
-      "main_cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "main_cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Batman enfrenta al Joker, un criminal caótico que lleva la violencia urbana al límite en Gotham.",
       "img": "src/images/films/elCaballeroDeLaNoche.jpg"
@@ -195,7 +271,11 @@
       "title": "Los sobornados",
       "year": 1955,
       "director": "Samuel Fuller",
-      "main_cast": ["Robert Ryan", "Jan Sterling", "John Ayres"],
+      "main_cast": [
+        "Robert Ryan",
+        "Jan Sterling",
+        "John Ayres"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un policía honesto lucha contra la corrupción interna y una red de delincuencia organizada.",
       "img": "src/images/films/losSobornados.jpg"
@@ -205,7 +285,11 @@
       "title": "El secreto de sus ojos",
       "year": 2009,
       "director": "Juan José Campanella",
-      "main_cast": ["Ricardo Darín", "Soledad Villamil", "Pablo Rago"],
+      "main_cast": [
+        "Ricardo Darín",
+        "Soledad Villamil",
+        "Pablo Rago"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un ex funcionario judicial reabre un caso sin resolver de asesinato mientras revive su propio pasado.",
       "img": "src/images/films/elSecretoDeSusOjos.jpg"
@@ -215,7 +299,11 @@
       "title": "Al rojo vivo",
       "year": 1949,
       "director": "Raoul Walsh",
-      "main_cast": ["James Cagney", "Virginia Mayo", "Edmond O'Brien"],
+      "main_cast": [
+        "James Cagney",
+        "Virginia Mayo",
+        "Edmond O'Brien"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un gánster intenta dejar la vida criminal tras volver de la guerra, pero viejos lazos lo arrastran de nuevo.",
       "img": "src/images/films/alRojoVivo.jpg"
@@ -225,7 +313,11 @@
       "title": "La mujer del cuadro",
       "year": 1944,
       "director": "Robert Siodmak",
-      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "main_cast": [
+        "Edward G. Robinson",
+        "Joan Bennett",
+        "Dan Duryea"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un hombre se ve envuelto en una red de chantaje y crimen tras reencontrarse con una ex amante.",
       "img": "src/images/films/laMujerDelCuadro.png"
@@ -235,7 +327,11 @@
       "title": "Taxi Driver",
       "year": 1976,
       "director": "Martin Scorsese",
-      "main_cast": ["Robert De Niro", "Jodie Foster", "Cybill Shepherd"],
+      "main_cast": [
+        "Robert De Niro",
+        "Jodie Foster",
+        "Cybill Shepherd"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un veterano de guerra que trabaja como taxista se obsesiona con limpiar las calles de criminales en una Nueva York decadente.",
       "img": "src/images/films/taxiDriver.jpg"
@@ -246,7 +342,16 @@
       "original_title": "The Asphalt Jungle",
       "year": 1950,
       "director": "John Huston",
-      "main_cast": ["Sterling Hayden", "Louis Calhern", "Sam Jaffe", "Jean Hagen", "James Whitmore", "John McIntire", "Marc Lawrence", "Marilyn Monroe"],
+      "main_cast": [
+        "Sterling Hayden",
+        "Louis Calhern",
+        "Sam Jaffe",
+        "Jean Hagen",
+        "James Whitmore",
+        "John McIntire",
+        "Marc Lawrence",
+        "Marilyn Monroe"
+      ],
       "filmaffinity_score": 8.1,
       "description": "La meticulosa planificación de un atraco a una joyería por parte de una banda de delincuentes sirve de base para un intenso relato de crimen, con un profundo estudio de personajes y motivaciones en uno de los clásicos del cine negro.",
       "img": "src/images/films/mientrasLaCiudadDuerme.jpg"
@@ -257,7 +362,11 @@
       "original_title": "Out of the Past",
       "year": 1947,
       "director": "Jacques Tourneur",
-      "main_cast": ["Robert Mitchum", "Jane Greer", "Kirk Douglas"],
+      "main_cast": [
+        "Robert Mitchum",
+        "Jane Greer",
+        "Kirk Douglas"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un detective privado intenta dejar atrás su pasado criminal, pero una mujer fatal y antiguos encargos lo arrastran de nuevo a una red de traición, crimen y destino inevitable.",
       "img": "src/images/films/retornoAlPasado.png"
@@ -268,7 +377,12 @@
       "original_title": "Rope",
       "year": 1948,
       "director": "Alfred Hitchcock",
-      "main_cast": ["John Dall", "Farley Granger", "Joan Chandler", "James Stewart"],
+      "main_cast": [
+        "John Dall",
+        "Farley Granger",
+        "Joan Chandler",
+        "James Stewart"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Dos jóvenes asesinan a un amigo como parte de un experimento intelectual y organizan una cena en el mismo lugar donde esconden el cadáver, en un inquietante juego psicológico.",
       "img": "src/images/films/festinDiabolico.png"
@@ -278,27 +392,39 @@
       "title": "Casino",
       "year": 1995,
       "director": "Martin Scorsese",
-      "main_cast": ["Robert De Niro", "Sharon Stone", "Joe Pesci"],
+      "main_cast": [
+        "Robert De Niro",
+        "Sharon Stone",
+        "Joe Pesci"
+      ],
       "filmaffinity_score": 8.1,
       "description": "La historia del control mafioso de los casinos de Las Vegas, marcada por el poder, la corrupción, la violencia y la decadencia personal de sus protagonistas.",
       "img": "src/images/films/casino.jpg"
     },
     {
       "rank": 29,
-      "title": "Río Místico",
-      "year": 2003,
-      "director": "Clint Eastwood",
-      "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
-      "filmaffinity_score": 8.0,
-      "description": "El asesinato de la hija de uno de tres amigos de la infancia reabre un trauma compartido y desencadena una investigación marcada por la culpa, el dolor y la venganza.",
-      "img": "src/images/films/rioMistico.jpg"
+      "title": "El Perfume: Historia de un Asesino",
+      "year": 2006,
+      "director": "Tom Tykwer",
+      "main_cast": [
+        "Ben Whishaw",
+        "Dustin Hoffman",
+        "Alan Rickman"
+      ],
+      "filmaffinity_score": 7.4,
+      "description": "En el París del siglo XVIII, Jean-Baptiste Grenouille nace con un olfato prodigioso pero carece de olor propio. Obsesionado con capturar la esencia perfecta, se convierte en perfumista y comienza a asesinar jóvenes vírgenes para extraer su aroma y crear el perfume definitivo.",
+      "img": "src/images/films/elPerfume.jpg"
     },
     {
       "rank": 30,
-      "title": "Zodiac",
+      "title": "Zodiac 2007",
       "year": 2007,
       "director": "David Fincher",
-      "main_cast": ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
+      "main_cast": [
+        "Jake Gyllenhaal",
+        "Mark Ruffalo",
+        "Robert Downey Jr."
+      ],
       "filmaffinity_score": 7.9,
       "description": "La obsesiva búsqueda del asesino del Zodiaco que aterrorizó San Francisco en los años 70, basada en hechos reales.",
       "img": "src/images/films/zodiac.jpg"
@@ -308,7 +434,11 @@
       "title": "Psicosis",
       "year": 1960,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Anthony Perkins", "Janet Leigh", "Vera Miles"],
+      "main_cast": [
+        "Anthony Perkins",
+        "Janet Leigh",
+        "Vera Miles"
+      ],
       "filmaffinity_score": 8.0,
       "description": "Una mujer que huye con dinero robado se detiene en un motel aislado donde encuentra un destino terrible.",
       "img": "src/images/films/psicosis.jpg"
@@ -318,7 +448,11 @@
       "title": "Testigo de cargo",
       "year": 1957,
       "director": "Billy Wilder",
-      "main_cast": ["Tyrone Power", "Marlene Dietrich", "Charles Laughton"],
+      "main_cast": [
+        "Tyrone Power",
+        "Marlene Dietrich",
+        "Charles Laughton"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Adaptación de Agatha Christie. Un abogado enfermo defiende a un hombre acusado de asesinato, pero su esposa se convierte en testigo de cargo.",
       "img": "src/images/films/testigoDeCargo.jpg"
@@ -328,7 +462,11 @@
       "title": "Asesinato en el Orient Express",
       "year": 1974,
       "director": "Sidney Lumet",
-      "main_cast": ["Albert Finney", "Lauren Bacall", "Ingrid Bergman"],
+      "main_cast": [
+        "Albert Finney",
+        "Lauren Bacall",
+        "Ingrid Bergman"
+      ],
       "filmaffinity_score": 7.8,
       "description": "Hercules Poirot debe resolver un asesinato en un lujoso tren varado en la nieve, donde todos los pasajeros son sospechosos.",
       "img": "src/images/films/asesinatoEnElOrientExpress1974.jpg"
@@ -338,7 +476,11 @@
       "title": "Muerte en el Nilo",
       "year": 1978,
       "director": "John Guillermin",
-      "main_cast": ["Peter Ustinov", "Jane Birkin", "Lois Chiles"],
+      "main_cast": [
+        "Peter Ustinov",
+        "Jane Birkin",
+        "Lois Chiles"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Hercules Poirot investiga el asesinato de una heredera durante un crucero por el Nilo.",
       "img": "src/images/films/muerteEnElNilo.jpg"
@@ -349,7 +491,11 @@
       "original_title": "And Then There Were None",
       "year": 1945,
       "director": "René Clair",
-      "main_cast": ["Barry Fitzgerald", "Walter Huston", "Louis Hayward"],
+      "main_cast": [
+        "Barry Fitzgerald",
+        "Walter Huston",
+        "Louis Hayward"
+      ],
       "filmaffinity_score": 7.7,
       "description": "Diez extraños son invitados a una isla aislada donde comienzan a ser asesinados uno por uno.",
       "img": "src/images/films/diezNegritos1945.jpg"
@@ -360,7 +506,11 @@
       "original_title": "The Mysterious Affair at Styles",
       "year": 1990,
       "director": "Ross Devenish",
-      "main_cast": ["David Suchet", "Hugh Fraser", "Philip Jackson"],
+      "main_cast": [
+        "David Suchet",
+        "Hugh Fraser",
+        "Philip Jackson"
+      ],
       "filmaffinity_score": 8.0,
       "description": "El primer caso de Poirot. Una rica heredera es envenenada y el detective debe descubrir quién de la familia es el asesino.",
       "img": "src/images/films/misterioStyles.jpg"
@@ -370,7 +520,11 @@
       "title": "El crimen de la calle Morgue",
       "year": 1932,
       "director": "Robert Florey",
-      "main_cast": ["Bela Lugosi", "Sidney Fox", "Leon Ames"],
+      "main_cast": [
+        "Bela Lugosi",
+        "Sidney Fox",
+        "Leon Ames"
+      ],
       "filmaffinity_score": 7.3,
       "description": "Basada en Edgar Allan Poe. Un científico loco realiza experimentos siniestros que culminan en asesinatos misteriosos.",
       "img": "src/images/films/crimenCalleMorgue.jpg"
@@ -380,7 +534,11 @@
       "title": "Frenzy",
       "year": 1972,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Jon Finch", "Alec McCowen", "Barry Foster"],
+      "main_cast": [
+        "Jon Finch",
+        "Alec McCowen",
+        "Barry Foster"
+      ],
       "filmaffinity_score": 7.7,
       "description": "Un hombre inocente es acusado de ser un asesino en serie que estrangula a mujeres en Londres.",
       "img": "src/images/films/frenzy.jpg"
@@ -390,7 +548,11 @@
       "title": "La ventana indiscreta",
       "year": 1954,
       "director": "Alfred Hitchcock",
-      "main_cast": ["James Stewart", "Grace Kelly", "Wendell Corey"],
+      "main_cast": [
+        "James Stewart",
+        "Grace Kelly",
+        "Wendell Corey"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Un fotógrafo confinado a su apartamento cree haber presenciado un asesinato en el edificio de enfrente.",
       "img": "src/images/films/laVentanaIndiscreta.jpg"
@@ -400,7 +562,11 @@
       "title": "Recuerda",
       "year": 1945,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Ingrid Bergman", "Gregory Peck", "Michael Chekhov"],
+      "main_cast": [
+        "Ingrid Bergman",
+        "Gregory Peck",
+        "Michael Chekhov"
+      ],
       "filmaffinity_score": 7.9,
       "description": "Una psiquiatra se enamora de su nuevo director, quien puede ser un asesino amnésico.",
       "img": "src/images/films/recuerda.jpg"
@@ -410,7 +576,11 @@
       "title": "Chinatown",
       "year": 1974,
       "director": "Roman Polanski",
-      "main_cast": ["Jack Nicholson", "Faye Dunaway", "John Huston"],
+      "main_cast": [
+        "Jack Nicholson",
+        "Faye Dunaway",
+        "John Huston"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Un detective privado investiga un caso de adulterio que se convierte en una trama de corrupción y asesinato en Los Ángeles.",
       "img": "src/images/films/chinatown.jpg"
@@ -420,7 +590,11 @@
       "title": "La sombra de una duda",
       "year": 1943,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Teresa Wright", "Joseph Cotten", "Macdonald Carey"],
+      "main_cast": [
+        "Teresa Wright",
+        "Joseph Cotten",
+        "Macdonald Carey"
+      ],
       "filmaffinity_score": 8.0,
       "description": "Una joven comienza a sospechar que su querido tío es un asesino en serie.",
       "img": "src/images/films/sombraDuda.jpg"
@@ -430,7 +604,11 @@
       "title": "No es país para viejos",
       "year": 2007,
       "director": "Joel Coen, Ethan Coen",
-      "main_cast": ["Tommy Lee Jones", "Javier Bardem", "Josh Brolin"],
+      "main_cast": [
+        "Tommy Lee Jones",
+        "Javier Bardem",
+        "Josh Brolin"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Un cazador encuentra dinero de un trato de drogas fallido y es perseguido por un asesino a sueldo implacable.",
       "img": "src/images/films/noEsPais.jpg"
@@ -440,7 +618,11 @@
       "title": "Enemigo público",
       "year": 1931,
       "director": "William A. Wellman",
-      "main_cast": ["James Cagney", "Jean Harlow", "Edward Woods"],
+      "main_cast": [
+        "James Cagney",
+        "Jean Harlow",
+        "Edward Woods"
+      ],
       "filmaffinity_score": 7.8,
       "description": "El ascenso y caída de un gángster durante la era de la Prohibición en Chicago.",
       "img": "src/images/films/enemigoPublico.jpg"
@@ -450,7 +632,11 @@
       "title": "Asesinato en el Orient Express",
       "year": 2017,
       "director": "Kenneth Branagh",
-      "main_cast": ["Kenneth Branagh", "Penélope Cruz", "Willem Dafoe"],
+      "main_cast": [
+        "Kenneth Branagh",
+        "Penélope Cruz",
+        "Willem Dafoe"
+      ],
       "filmaffinity_score": 6.7,
       "description": "Nueva adaptación de Agatha Christie donde Poirot investiga un asesinato en el famoso tren.",
       "img": "src/images/films/asesinatoOrientExpress2017.jpg"
@@ -460,7 +646,11 @@
       "title": "Muerte en el Nilo",
       "year": 2022,
       "director": "Kenneth Branagh",
-      "main_cast": ["Kenneth Branagh", "Gal Gadot", "Armie Hammer"],
+      "main_cast": [
+        "Kenneth Branagh",
+        "Gal Gadot",
+        "Armie Hammer"
+      ],
       "filmaffinity_score": 6.4,
       "description": "Adaptación moderna de Agatha Christie. Poirot investiga un asesinato durante un crucero de lujo.",
       "img": "src/images/films/muerteEnElNilo2022.jpg"
@@ -471,7 +661,11 @@
       "original_title": "The Body",
       "year": 1992,
       "director": "David Suchet",
-      "main_cast": ["David Suchet", "Hugh Fraser", "Philip Jackson"],
+      "main_cast": [
+        "David Suchet",
+        "Hugh Fraser",
+        "Philip Jackson"
+      ],
       "filmaffinity_score": 7.8,
       "description": "Poirot investiga la desaparición de un cadáver que complica un caso de asesinato.",
       "img": "src/images/films/cuerpoDelito.jpg"
@@ -482,7 +676,11 @@
       "original_title": "Crooked House",
       "year": 2017,
       "director": "Gilles Paquet-Brenner",
-      "main_cast": ["Glenn Close", "Max Irons", "Stefanie Martini"],
+      "main_cast": [
+        "Glenn Close",
+        "Max Irons",
+        "Stefanie Martini"
+      ],
       "filmaffinity_score": 6.4,
       "description": "Un detective privado investiga el envenenamiento del patriarca de una familia rica y disfuncional.",
       "img": "src/images/films/crookedHouse.jpg"
@@ -492,7 +690,11 @@
       "title": "El Resplandor",
       "year": 1980,
       "director": "Stanley Kubrick",
-      "main_cast": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
+      "main_cast": [
+        "Jack Nicholson",
+        "Shelley Duvall",
+        "Danny Lloyd"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Un escritor acepta ser cuidador de un hotel aislado durante el invierno, donde la locura lo lleva a la violencia.",
       "img": "src/images/films/elResplandor.jpg"
@@ -502,243 +704,320 @@
       "title": "El tercer hombre",
       "year": 1949,
       "director": "Carol Reed",
-      "main_cast": ["Joseph Cotten", "Alida Valli", "Orson Welles"],
+      "main_cast": [
+        "Joseph Cotten",
+        "Alida Valli",
+        "Orson Welles"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Un escritor investiga la misteriosa muerte de su amigo en la Viena de posguerra.",
       "img": "src/images/films/elTercerHombre.jpg"
     },
-
     {
-  "rank": 51,
-  "title": "Cuchillos por la espalda",
-  "original_title": "Knives Out",
-  "year": 2019,
-  "director": "Rian Johnson",
-  "main_cast": ["Daniel Craig", "Ana de Armas", "Chris Evans"],
-  "filmaffinity_score": 7.6,
-  "description": "Un detective investiga la muerte del patriarca de una familia adinerada, donde cada miembro tiene motivos y secretos que ocultar en este moderno misterio de asesinato.",
-  "img": "src/images/films/knivesOut.jpg"
-},
-{
-  "rank": 51,
-  "title": "Zodiac",
-  "year": 2007,
-  "director": "David Fincher",
-  "main_cast": ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
-  "filmaffinity_score": 7.9,
-  "description": "La obsesiva búsqueda del asesino del Zodiaco que aterrorizó San Francisco en los años 70, basada en hechos reales.",
-  "img": "src/images/films/zodiac.jpg"
-},
-{
-  "rank": 52,
-  "title": "Puñales por la espalda: El misterio de Glass Onion",
-  "original_title": "Glass Onion: A Knives Out Mystery",
-  "year": 2022,
-  "director": "Rian Johnson",
-  "main_cast": ["Daniel Craig", "Edward Norton", "Janelle Monáe"],
-  "filmaffinity_score": 7.3,
-  "description": "El detective Benoit Blanc viaja a Grecia para investigar un asesinato en la isla privada de un millonario tecnológico.",
-  "img": "src/images/films/glassOnion.jpg"
-},
-{
-  "rank": 53,
-  "title": "Perdida",
-  "original_title": "Gone Girl",
-  "year": 2014,
-  "director": "David Fincher",
-  "main_cast": ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris"],
-  "filmaffinity_score": 7.8,
-  "description": "Un hombre se convierte en el principal sospechoso de la desaparición de su esposa en su quinto aniversario de bodas.",
-  "img": "src/images/films/perdida.jpg"
-},
-{
-  "rank": 54,
-  "title": "Prisioneros",
-  "original_title": "Prisoners",
-  "year": 2013,
-  "director": "Denis Villeneuve",
-  "main_cast": ["Hugh Jackman", "Jake Gyllenhaal", "Viola Davis"],
-  "filmaffinity_score": 7.9,
-  "description": "Un padre toma la justicia por su mano cuando su hija y su amiga son secuestradas, mientras un detective investiga el caso.",
-  "img": "src/images/films/prisioneros.jpg"
-},
-{
-  "rank": 55,
-  "title": "Secretos ocultos",
-  "original_title": "Mystic River",
-  "year": 2003,
-  "director": "Clint Eastwood",
-  "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
-  "filmaffinity_score": 8.0,
-  "description": "El asesinato de la hija de uno de tres amigos de la infancia reabre un trauma compartido y desencadena una investigación marcada por la culpa.",
-  "img": "src/images/films/mysticRiver.jpg"
-},
-{
-  "rank": 56,
-  "title": "La chica del tren",
-  "original_title": "The Girl on the Train",
-  "year": 2016,
-  "director": "Tate Taylor",
-  "main_cast": ["Emily Blunt", "Haley Bennett", "Rebecca Ferguson"],
-  "filmaffinity_score": 6.3,
-  "description": "Una mujer divorciada se ve envuelta en un caso de asesinato después de presenciar algo perturbador desde el tren.",
-  "img": "src/images/films/chicaDelTren.jpg"
-},
-{
-  "rank": 57,
-  "title": "El cadáver de Anna Fritz",
-  "year": 2015,
-  "director": "Hèctor Hernández Vicens",
-  "main_cast": ["Alba Ribas", "Cristian Valencia", "Albert Carbó"],
-  "filmaffinity_score": 6.0,
-  "description": "Tres jóvenes entran en la morgue para ver el cadáver de una actriz famosa, pero algo sale terriblemente mal.",
-  "img": "src/images/films/cadaverAnnaFritz.jpg"
-},
-{
-  "rank": 58,
-  "title": "Incendies",
-  "year": 2010,
-  "director": "Denis Villeneuve",
-  "main_cast": ["Lubna Azabal", "Mélissa Désormeaux-Poulin", "Maxim Gaudette"],
-  "filmaffinity_score": 8.1,
-  "description": "Dos gemelos viajan a Medio Oriente siguiendo el testamento de su madre para descubrir su oscuro pasado lleno de violencia.",
-  "img": "src/images/films/incendies.jpg"
-},
-{
-  "rank": 59,
-  "title": "Memories of Murder",
-  "original_title": "Salinui chueok",
-  "year": 2003,
-  "director": "Bong Joon-ho",
-  "main_cast": ["Song Kang-ho", "Kim Sang-kyung", "Kim Roi-ha"],
-  "filmaffinity_score": 8.2,
-  "description": "En la Corea de los 80, dos detectives investigan una serie de violaciones y asesinatos en una zona rural.",
-  "img": "src/images/films/memoriesMurder.jpg"
-},
-{
-  "rank": 60,
-  "title": "Oldboy",
-  "year": 2003,
-  "director": "Park Chan-wook",
-  "main_cast": ["Choi Min-sik", "Yoo Ji-tae", "Kang Hye-jung"],
-  "filmaffinity_score": 8.2,
-  "description": "Un hombre es secuestrado y encerrado durante 15 años sin explicación, luego es liberado para descubrir quién lo hizo y por qué.",
-  "img": "src/images/films/oldBoy.jpg"
-},
-{
-  "rank": 61,
-  "title": "La madre",
-  "original_title": "Mother",
-  "year": 2009,
-  "director": "Bong Joon-ho",
-  "main_cast": ["Kim Hye-ja", "Won Bin", "Jin Goo"],
-  "filmaffinity_score": 7.9,
-  "description": "Una madre devota lucha por probar la inocencia de su hijo discapacitado acusado de asesinato.",
-  "img": "src/images/films/mother.jpg"
-},
-{
-  "rank": 62,
-  "title": "El juego del miedo",
-  "original_title": "Saw",
-  "year": 2004,
-  "director": "James Wan",
-  "main_cast": ["Cary Elwes", "Leigh Whannell", "Danny Glover"],
-  "filmaffinity_score": 7.0,
-  "description": "Dos hombres despiertan encadenados en un baño y deben seguir las instrucciones de un asesino para sobrevivir.",
-  "img": "src/images/films/saw.jpg"
-},
-{
-  "rank": 63,
-  "title": "Shutter Island",
-  "year": 2010,
-  "director": "Martin Scorsese",
-  "main_cast": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley"],
-  "filmaffinity_score": 7.9,
-  "description": "Un marshal investiga la desaparición de una asesina en un hospital psiquiátrico en una isla aislada.",
-  "img": "src/images/films/shutterIsland.jpg"
-},
-{
-  "rank": 64,
-  "title": "El juego de Gerald",
-  "original_title": "Gerald's Game",
-  "year": 2017,
-  "director": "Mike Flanagan",
-  "main_cast": ["Carla Gugino", "Bruce Greenwood", "Henry Thomas"],
-  "filmaffinity_score": 6.5,
-  "description": "Una mujer esposada a una cama debe sobrevivir después de que su esposo muere repentinamente, enfrentando sus peores miedos.",
-  "img": "src/images/films/geraldsGame.jpg"
-},
-{
-  "rank": 65,
-  "title": "El Culpable",
-  "original_title": "Den skyldige",
-  "year": 2018,
-  "director": "Gustav Möller",
-  "main_cast": ["Jakob Cedergren", "Jessica Dinnage", "Omar Shargawi"],
-  "filmaffinity_score": 7.4,
-  "description": "Un operador de emergencias recibe una llamada de una mujer secuestrada y debe salvarla usando solo su teléfono.",
-  "img": "src/images/films/skyldige.jpg"
-},
-{
-  "rank": 66,
-  "title": "El bar",
-  "year": 2017,
-  "director": "Álex de la Iglesia",
-  "main_cast": ["Blanca Suárez", "Mario Casas", "Carmen Machi"],
-  "filmaffinity_score": 6.4,
-  "description": "Un grupo de personas queda atrapado en un bar de Madrid cuando alguien muere misteriosamente en la calle.",
-  "img": "src/images/films/elBar.jpg"
-},
-{
-  "rank": 67,
-  "title": "El invisible huésped",
-  "original_title": "Contratiempo",
-  "year": 2016,
-  "director": "Oriol Paulo",
-  "main_cast": ["Mario Casas", "Ana Wagener", "José Coronado"],
-  "filmaffinity_score": 7.9,
-  "description": "Un empresario acusado de asesinato contrata a la mejor abogada para preparar su defensa en un juego de mentiras y verdades.",
-  "img": "src/images/films/contratiempo.jpg"
-},
-{
-  "rank": 68,
-  "title": "Durante la tormenta",
-  "year": 2018,
-  "director": "Oriol Paulo",
-  "main_cast": ["Adriana Ugarte", "Chino Darín", "Javier Gutiérrez"],
-  "filmaffinity_score": 7.4,
-  "description": "Una mujer intenta salvar la vida de una niña a través de una televisión que conecta dos tiempos diferentes.",
-  "img": "src/images/films/duranteTormenta.jpg"
-},
-{
-  "rank": 69,
-  "title": "Los ojos de Julia",
-  "year": 2010,
-  "director": "Guillem Morales",
-  "main_cast": ["Belén Rueda", "Lluís Homar", "Pablo Derqui"],
-  "filmaffinity_score": 6.7,
-  "description": "Una mujer que está perdiendo la vista investiga el suicidio de su hermana gemela, descubriendo que puede haber sido asesinato.",
-  "img": "src/images/films/losOjosJulia.jpg"
-},
-{
-  "rank": 70,
-  "title": "El orfanato",
-  "year": 2007,
-  "director": "J.A. Bayona",
-  "main_cast": ["Belén Rueda", "Fernando Cayo", "Roger Príncep"],
-  "filmaffinity_score": 7.4,
-  "description": "Una mujer regresa al orfanato donde creció para abrirlo como residencia para niños discapacitados, pero sucesos extraños ocurren.",
-  "img": "src/images/films/elOrfanato.jpg"
-},
-{
-  "rank": 71,
-  "title": "La piel que habito",
-  "year": 2011,
-  "director": "Pedro Almodóvar",
-  "main_cast": ["Antonio Banderas", "Elena Anaya", "Marisa Paredes"],
-  "filmaffinity_score": 7.2,
-  "description": "Un cirujano plástico crea un tipo de piel sintética y mantiene cautiva a una joven en su mansión con oscuras intenciones.",
-  "img": "src/images/films/pielHabito.jpg"
-}
+      "rank": 51,
+      "title": "Cuchillos por la espalda",
+      "original_title": "Knives Out",
+      "year": 2019,
+      "director": "Rian Johnson",
+      "main_cast": [
+        "Daniel Craig",
+        "Ana de Armas",
+        "Chris Evans"
+      ],
+      "filmaffinity_score": 7.6,
+      "description": "Un detective investiga la muerte del patriarca de una familia adinerada, donde cada miembro tiene motivos y secretos que ocultar en este moderno misterio de asesinato.",
+      "img": "src/images/films/knivesOut.jpg"
+    },
+    {
+      "rank": 52,
+      "title": "Puñales por la espalda: El misterio de Glass Onion",
+      "original_title": "Glass Onion: A Knives Out Mystery",
+      "year": 2022,
+      "director": "Rian Johnson",
+      "main_cast": [
+        "Daniel Craig",
+        "Edward Norton",
+        "Janelle Monáe"
+      ],
+      "filmaffinity_score": 7.3,
+      "description": "El detective Benoit Blanc viaja a Grecia para investigar un asesinato en la isla privada de un millonario tecnológico.",
+      "img": "src/images/films/glassOnion.jpg"
+    },
+    {
+      "rank": 53,
+      "title": "Perdida",
+      "original_title": "Gone Girl",
+      "year": 2014,
+      "director": "David Fincher",
+      "main_cast": [
+        "Ben Affleck",
+        "Rosamund Pike",
+        "Neil Patrick Harris"
+      ],
+      "filmaffinity_score": 7.8,
+      "description": "Un hombre se convierte en el principal sospechoso de la desaparición de su esposa en su quinto aniversario de bodas.",
+      "img": "src/images/films/perdida.jpg"
+    },
+    {
+      "rank": 54,
+      "title": "Prisioneros",
+      "original_title": "Prisoners",
+      "year": 2013,
+      "director": "Denis Villeneuve",
+      "main_cast": [
+        "Hugh Jackman",
+        "Jake Gyllenhaal",
+        "Viola Davis"
+      ],
+      "filmaffinity_score": 7.9,
+      "description": "Un padre toma la justicia por su mano cuando su hija y su amiga son secuestradas, mientras un detective investiga el caso.",
+      "img": "src/images/films/prisioneros.jpg"
+    },
+    {
+      "rank": 55,
+      "title": "Secretos ocultos",
+      "original_title": "Mystic River",
+      "year": 2003,
+      "director": "Clint Eastwood",
+      "main_cast": [
+        "Sean Penn",
+        "Tim Robbins",
+        "Kevin Bacon"
+      ],
+      "filmaffinity_score": 8.0,
+      "description": "El asesinato de la hija de uno de tres amigos de la infancia reabre un trauma compartido y desencadena una investigación marcada por la culpa.",
+      "img": "src/images/films/mysticRiver.jpg"
+    },
+    {
+      "rank": 56,
+      "title": "La chica del tren",
+      "original_title": "The Girl on the Train",
+      "year": 2016,
+      "director": "Tate Taylor",
+      "main_cast": [
+        "Emily Blunt",
+        "Haley Bennett",
+        "Rebecca Ferguson"
+      ],
+      "filmaffinity_score": 6.3,
+      "description": "Una mujer divorciada se ve envuelta en un caso de asesinato después de presenciar algo perturbador desde el tren.",
+      "img": "src/images/films/chicaDelTren.jpg"
+    },
+    {
+      "rank": 57,
+      "title": "El cadáver de Anna Fritz",
+      "year": 2015,
+      "director": "Hèctor Hernández Vicens",
+      "main_cast": [
+        "Alba Ribas",
+        "Cristian Valencia",
+        "Albert Carbó"
+      ],
+      "filmaffinity_score": 6.0,
+      "description": "Tres jóvenes entran en la morgue para ver el cadáver de una actriz famosa, pero algo sale terriblemente mal.",
+      "img": "src/images/films/cadaverAnnaFritz.jpg"
+    },
+    {
+      "rank": 58,
+      "title": "Incendies",
+      "year": 2010,
+      "director": "Denis Villeneuve",
+      "main_cast": [
+        "Lubna Azabal",
+        "Mélissa Désormeaux-Poulin",
+        "Maxim Gaudette"
+      ],
+      "filmaffinity_score": 8.1,
+      "description": "Dos gemelos viajan a Medio Oriente siguiendo el testamento de su madre para descubrir su oscuro pasado lleno de violencia.",
+      "img": "src/images/films/incendies.jpg"
+    },
+    {
+      "rank": 59,
+      "title": "Memories of Murder",
+      "original_title": "Salinui chueok",
+      "year": 2003,
+      "director": "Bong Joon-ho",
+      "main_cast": [
+        "Song Kang-ho",
+        "Kim Sang-kyung",
+        "Kim Roi-ha"
+      ],
+      "filmaffinity_score": 8.2,
+      "description": "En la Corea de los 80, dos detectives investigan una serie de violaciones y asesinatos en una zona rural.",
+      "img": "src/images/films/memoriesMurder.jpg"
+    },
+    {
+      "rank": 60,
+      "title": "Oldboy",
+      "year": 2003,
+      "director": "Park Chan-wook",
+      "main_cast": [
+        "Choi Min-sik",
+        "Yoo Ji-tae",
+        "Kang Hye-jung"
+      ],
+      "filmaffinity_score": 8.2,
+      "description": "Un hombre es secuestrado y encerrado durante 15 años sin explicación, luego es liberado para descubrir quién lo hizo y por qué.",
+      "img": "src/images/films/oldBoy.jpg"
+    },
+    {
+      "rank": 61,
+      "title": "La madre",
+      "original_title": "Mother",
+      "year": 2009,
+      "director": "Bong Joon-ho",
+      "main_cast": [
+        "Kim Hye-ja",
+        "Won Bin",
+        "Jin Goo"
+      ],
+      "filmaffinity_score": 7.9,
+      "description": "Una madre devota lucha por probar la inocencia de su hijo discapacitado acusado de asesinato.",
+      "img": "src/images/films/mother.jpg"
+    },
+    {
+      "rank": 62,
+      "title": "El juego del miedo",
+      "original_title": "Saw",
+      "year": 2004,
+      "director": "James Wan",
+      "main_cast": [
+        "Cary Elwes",
+        "Leigh Whannell",
+        "Danny Glover"
+      ],
+      "filmaffinity_score": 7.0,
+      "description": "Dos hombres despiertan encadenados en un baño y deben seguir las instrucciones de un asesino para sobrevivir.",
+      "img": "src/images/films/saw.jpg"
+    },
+    {
+      "rank": 63,
+      "title": "Shutter Island",
+      "year": 2010,
+      "director": "Martin Scorsese",
+      "main_cast": [
+        "Leonardo DiCaprio",
+        "Mark Ruffalo",
+        "Ben Kingsley"
+      ],
+      "filmaffinity_score": 7.9,
+      "description": "Un marshal investiga la desaparición de una asesina en un hospital psiquiátrico en una isla aislada.",
+      "img": "src/images/films/shutterIsland.jpg"
+    },
+    {
+      "rank": 64,
+      "title": "El juego de Gerald",
+      "original_title": "Gerald's Game",
+      "year": 2017,
+      "director": "Mike Flanagan",
+      "main_cast": [
+        "Carla Gugino",
+        "Bruce Greenwood",
+        "Henry Thomas"
+      ],
+      "filmaffinity_score": 6.5,
+      "description": "Una mujer esposada a una cama debe sobrevivir después de que su esposo muere repentinamente, enfrentando sus peores miedos.",
+      "img": "src/images/films/geraldsGame.jpg"
+    },
+    {
+      "rank": 65,
+      "title": "El Culpable",
+      "original_title": "Den skyldige",
+      "year": 2018,
+      "director": "Gustav Möller",
+      "main_cast": [
+        "Jakob Cedergren",
+        "Jessica Dinnage",
+        "Omar Shargawi"
+      ],
+      "filmaffinity_score": 7.4,
+      "description": "Un operador de emergencias recibe una llamada de una mujer secuestrada y debe salvarla usando solo su teléfono.",
+      "img": "src/images/films/skyldige.jpg"
+    },
+    {
+      "rank": 66,
+      "title": "El bar",
+      "year": 2017,
+      "director": "Álex de la Iglesia",
+      "main_cast": [
+        "Blanca Suárez",
+        "Mario Casas",
+        "Carmen Machi"
+      ],
+      "filmaffinity_score": 6.4,
+      "description": "Un grupo de personas queda atrapado en un bar de Madrid cuando alguien muere misteriosamente en la calle.",
+      "img": "src/images/films/elBar.jpg"
+    },
+    {
+      "rank": 67,
+      "title": "El invisible huésped",
+      "original_title": "Contratiempo",
+      "year": 2016,
+      "director": "Oriol Paulo",
+      "main_cast": [
+        "Mario Casas",
+        "Ana Wagener",
+        "José Coronado"
+      ],
+      "filmaffinity_score": 7.9,
+      "description": "Un empresario acusado de asesinato contrata a la mejor abogada para preparar su defensa en un juego de mentiras y verdades.",
+      "img": "src/images/films/contratiempo.jpg"
+    },
+    {
+      "rank": 68,
+      "title": "Durante la tormenta",
+      "year": 2018,
+      "director": "Oriol Paulo",
+      "main_cast": [
+        "Adriana Ugarte",
+        "Chino Darín",
+        "Javier Gutiérrez"
+      ],
+      "filmaffinity_score": 7.4,
+      "description": "Una mujer intenta salvar la vida de una niña a través de una televisión que conecta dos tiempos diferentes.",
+      "img": "src/images/films/duranteTormenta.jpg"
+    },
+    {
+      "rank": 69,
+      "title": "Los ojos de Julia",
+      "year": 2010,
+      "director": "Guillem Morales",
+      "main_cast": [
+        "Belén Rueda",
+        "Lluís Homar",
+        "Pablo Derqui"
+      ],
+      "filmaffinity_score": 6.7,
+      "description": "Una mujer que está perdiendo la vista investiga el suicidio de su hermana gemela, descubriendo que puede haber sido asesinato.",
+      "img": "src/images/films/losOjosJulia.jpg"
+    },
+    {
+      "rank": 70,
+      "title": "El orfanato",
+      "year": 2007,
+      "director": "J.A. Bayona",
+      "main_cast": [
+        "Belén Rueda",
+        "Fernando Cayo",
+        "Roger Príncep"
+      ],
+      "filmaffinity_score": 7.4,
+      "description": "Una mujer regresa al orfanato donde creció para abrirlo como residencia para niños discapacitados, pero sucesos extraños ocurren.",
+      "img": "src/images/films/elOrfanato.jpg"
+    },
+    {
+      "rank": 71,
+      "title": "La piel que habito",
+      "year": 2011,
+      "director": "Pedro Almodóvar",
+      "main_cast": [
+        "Antonio Banderas",
+        "Elena Anaya",
+        "Marisa Paredes"
+      ],
+      "filmaffinity_score": 7.2,
+      "description": "Un cirujano plástico crea un tipo de piel sintética y mantiene cautiva a una joven en su mansión con oscuras intenciones.",
+      "img": "src/images/films/pielHabito.jpg"
+    }
   ]
 }

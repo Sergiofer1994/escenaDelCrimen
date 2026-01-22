@@ -32,6 +32,7 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 229, 255, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
+  min-height: 500px; /* Altura mínima para el card */
 }
 
 .movieCard:hover {
@@ -42,12 +43,15 @@
 .moviePoster {
   flex: 0 0 300px;
   position: relative;
+  background: #000; /* Fondo negro por si la imagen no carga */
+  overflow: hidden; /* Asegura que la imagen no se salga */
 }
 
 .moviePoster img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Mantiene las proporciones y cubre el espacio */
+  object-position: center; /* Centra la imagen */
   display: block;
 }
 
@@ -141,10 +145,12 @@
 
   .movieCard {
     flex-direction: column;
+    min-height: auto; /* Permite altura automática en móvil */
   }
 
   .moviePoster {
-    flex: 0 0 400px;
+    flex: 0 0 auto; /* Cambiado para altura automática */
+    min-height: 400px; /* Altura mínima en móvil */
   }
 
   .movieInfo {
@@ -162,7 +168,7 @@
 
 @media (max-width: 480px) {
   .moviePoster {
-    flex: 0 0 300px;
+    min-height: 300px; /* Altura mínima más pequeña en pantallas muy pequeñas */
   }
 
   .movieInfo h2 {

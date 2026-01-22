@@ -12,7 +12,7 @@ function Home() {
       .then(data => {
         // Selecciona una película aleatoria o una específica
         // Aquí tomo la primera película (El Padrino)
-        const featured = data.films[0]; // Puedes cambiar el índice [0] por el que quieras
+        const featured = data.films[28]; // Puedes cambiar el índice [0] por el que quieras
         setFeaturedMovie(featured);
         setLoading(false);
       })
