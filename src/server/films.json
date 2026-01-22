@@ -8,7 +8,7 @@
       "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
       "filmaffinity_score": 9.0,
       "description": "La historia de la familia mafiosa Corleone y la transformación de Michael Corleone de hijo obediente a líder implacable en el mundo criminal.",
-      "img": "src/assets/images/films/el_padrino.jpg"
+      "img": "src/images/films/el_padrino.jpg"
     },
     {
       "rank": 2,
@@ -18,7 +18,7 @@
       "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
       "filmaffinity_score": 8.9,
       "description": "Secuela y precuela que alterna la consolidación de Michael Corleone con los orígenes de Vito Corleone.",
-      "img": "src/assets/images/films/el_padrino2.jpg"
+      "img": "src/images/films/el_padrino2.jpg"
     },
     {
       "rank": 3,
@@ -28,7 +28,7 @@
       "main_cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
       "filmaffinity_score": 8.6,
       "description": "Historias criminales entrelazadas en Los Ángeles, con violencia estilizada, humor negro y diálogos icónicos.",
-      "img": "src/assets/images/films/pulp_fiction.jpg"
+      "img": "src/images/films/pulp_fiction.jpg"
     },
     {
       "rank": 4,
@@ -38,7 +38,7 @@
       "main_cast": ["Robert Redford", "Paul Newman", "Robert Shaw"],
       "filmaffinity_score": 8.5,
       "description": "Dos estafadores planean un gran golpe contra un jefe criminal que los traicionó en los años 30.",
-      "img": "src/assets/images/films/el_golpe.jpg"
+      "img": "src/images/films/el_golpe.jpg"
     },
     {
       "rank": 5,
@@ -48,7 +48,7 @@
       "main_cast": ["Toshirô Mifune", "Kyôko Kagawa", "Yutaka Sada"],
       "filmaffinity_score": 8.4,
       "description": "Policías corruptos y persecución criminal en una ciudad, explorando moralidad y violencia urbana.",
-      "img": "src/assets/images/films/el_cielo_y_el_infierno.jpg"
+      "img": "src/images/films/el_cielo_y_el_infierno.jpg"
     },
     {
       "rank": 6,
@@ -58,7 +58,7 @@
       "main_cast": ["Fred MacMurray", "Barbara Stanwyck", "Edward G. Robinson"],
       "filmaffinity_score": 8.4,
       "description": "Un vendedor financiero y su amante planean el asesinato del marido de ella para cobrar el seguro, con consecuencias fatales.",
-      "img": "src/assets/images/films/pacto_de_sangre.jpg"
+      "img": "src/images/films/pacto_de_sangre.jpg"
     },
     {
       "rank": 7,
@@ -72,7 +72,7 @@
       ],
       "filmaffinity_score": 8.4,
       "description": "Retrato crudo de la vida en una favela de Río de Janeiro y el ascenso del narcotráfico a través de los ojos de un joven.",
-      "img": "src/assets/images/films/ciudad_de_dios.jpg"
+      "img": "src/images/films/ciudad_de_dios.jpg"
     },
     {
       "rank": 8,
@@ -82,7 +82,7 @@
       "main_cast": ["Ray Liotta", "Robert De Niro", "Joe Pesci"],
       "filmaffinity_score": 8.4,
       "description": "Historia real de Henry Hill y su implicación en la mafia italoamericana desde joven.",
-      "img": "src/assets/images/films/uno_de_los_nuestros.jpg"
+      "img": "src/images/films/uno_de_los_nuestros.jpg"
     },
     {
       "rank": 9,
@@ -92,7 +92,7 @@
       "main_cast": ["Peter Lorre", "Otto Wernicke", "Gustaf Gründgens"],
       "filmaffinity_score": 8.3,
       "description": "Clásico thriller donde policía y criminales se unen para capturar a un asesino en serie.",
-      "img": "src/assets/images/films/m_el_vampiro_de_dusseldorf.jpg"
+      "img": "src/images/films/m_el_vampiro_de_dusseldorf.jpg"
     },
     {
       "rank": 10,
@@ -102,7 +102,7 @@
       "main_cast": ["Robert De Niro", "James Woods", "Elizabeth McGovern"],
       "filmaffinity_score": 8.3,
       "description": "Épica de gánsteres judíos en Nueva York desde la infancia hasta la madurez, sobre lealtad y traición.",
-      "img": "src/assets/images/films/erase_una_vez_en_america.jpg"
+      "img": "src/images/films/erase_una_vez_en_america.jpg"
     },
     {
       "rank": 11,
@@ -112,7 +112,7 @@
       "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
       "filmaffinity_score": 8.3,
       "description": "Dos detectives persiguen a un asesino serial que ejecuta crímenes basados en los siete pecados capitales.",
-      "img": "src/assets/images/films/seven.jpg"
+      "img": "src/images/films/seven.jpg"
     },
     {
       "rank": 12,
@@ -122,7 +122,7 @@
       "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
       "filmaffinity_score": 8.2,
       "description": "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro más peligroso.",
-      "img": "src/assets/images/films/el_silencio_de_los_corderos.jpg"
+      "img": "src/images/films/el_silencio_de_los_corderos.jpg"
     },
     {
       "rank": 13,
@@ -132,7 +132,7 @@
       "main_cast": ["Al Pacino", "Steven Bauer", "Michelle Pfeiffer"],
       "filmaffinity_score": 8.2,
       "description": "Historia de un inmigrante cubano que asciende en el crimen organizado hasta convertirse en jefe de una red criminal.",
-      "img": "src/assets/images/films/el_precio_del_poder.jpg"
+      "img": "src/images/films/el_precio_del_poder.jpg"
     },
     {
       "rank": 14,
@@ -142,7 +142,7 @@
       "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
       "filmaffinity_score": 8.2,
       "description": "Thriller noir en el que un hombre comete un asesinato y es perseguido por su propia culpa y el destino.",
-      "img": "src/assets/images/films/perversidad.jpg"
+      "img": "src/images/films/perversidad.jpg"
     },
     {
       "rank": 15,
@@ -152,7 +152,7 @@
       "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
       "filmaffinity_score": 8.2,
       "description": "Distopía sobre violencia juvenil y control social que mezcla crimen con reflexión psicológica.",
-      "img": "src/assets/images/films/naranja_mecanica.jpg"
+      "img": "src/images/films/naranja_mecanica.jpg"
     },
     {
       "rank": 16,
@@ -172,7 +172,7 @@
       "main_cast": ["Charlton Heston", "Janet Leigh", "Orson Welles"],
       "filmaffinity_score": 8.1,
       "description": "Un inspector investiga un explosivo caso de asesinato en la frontera entre EE. UU. y México, en una trama de corrupción y moralidad.",
-      "img": "src/assets/images/films/sed_de_mal.jpg"
+      "img": "src/images/films/sed_de_mal.jpg"
     },
     {
       "rank": 18,
@@ -182,7 +182,7 @@
       "main_cast": ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
       "filmaffinity_score": 8.1,
       "description": "Después de un atraco que sale mal, los criminales sospechan que hay un soplón en su grupo.",
-      "img": "src/assets/images/films/perros_de_la_calle.jpg"
+      "img": "src/images/films/perros_de_la_calle.jpg"
     },
     {
       "rank": 19,
@@ -192,7 +192,7 @@
       "main_cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
       "filmaffinity_score": 8.1,
       "description": "Batman enfrenta al Joker, un criminal caótico que lleva la violencia urbana al límite en Gotham.",
-      "img": "src/assets/images/films/el_caballero_de_la_noche.jpg"
+      "img": "src/images/films/el_caballero_de_la_noche.jpg"
     },
     {
       "rank": 20,
@@ -202,7 +202,7 @@
       "main_cast": ["Robert Ryan", "Jan Sterling", "John Ayres"],
       "filmaffinity_score": 8.1,
       "description": "Un policía honesto lucha contra la corrupción interna y una red de delincuencia organizada.",
-      "img": "src/assets/images/films/los_sobornados.jpg"
+      "img": "src/images/films/los_sobornados.jpg"
     },
     {
       "rank": 21,
@@ -212,7 +212,7 @@
       "main_cast": ["Ricardo Darín", "Soledad Villamil", "Pablo Rago"],
       "filmaffinity_score": 8.1,
       "description": "Un ex funcionario judicial reabre un caso sin resolver de asesinato mientras revive su propio pasado.",
-      "img": "src/assets/images/films/el_secreto_de_sus_ojos.jpg"
+      "img": "src/images/films/el_secreto_de_sus_ojos.jpg"
     },
     {
       "rank": 22,
@@ -222,7 +222,7 @@
       "main_cast": ["James Cagney", "Virginia Mayo", "Edmond O’Brien"],
       "filmaffinity_score": 8.1,
       "description": "Un gánster intenta dejar la vida criminal tras volver de la guerra, pero viejos lazos lo arrastran de nuevo.",
-      "img": "src/assets/images/films/al_rojo_vivo.jpg"
+      "img": "src/images/films/al_rojo_vivo.jpg"
     },
     {
       "rank": 23,
@@ -232,7 +232,7 @@
       "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
       "filmaffinity_score": 8.1,
       "description": "Un hombre se ve envuelto en una red de chantaje y crimen tras reencontrarse con una ex amante.",
-      "img": "src/assets/images/films/la_mujer_del_cuadro.png"
+      "img": "src/images/films/la_mujer_del_cuadro.png"
     },
     {
       "rank": 24,
@@ -242,7 +242,7 @@
       "main_cast": ["Robert De Niro", "Jodie Foster", "Cybill Shepherd"],
       "filmaffinity_score": 8.1,
       "description": "Un veterano de guerra que trabaja como taxista se obsesiona con limpiar las calles de criminales en una Nueva York decadente.",
-      "img": "src/assets/images/films/taxi_driver.jpg"
+      "img": "src/images/films/taxi_driver.jpg"
     },
     {
       "rank": 25,
@@ -262,7 +262,7 @@
       ],
       "filmaffinity_score": 8.1,
       "description": "La meticulosa planificación de un atraco a una joyería por parte de una banda de delincuentes sirve de base para un intenso relato de crimen, con un profundo estudio de personajes y motivaciones en uno de los clásicos del cine negro.",
-      "img": "src/assets/images/films/mientras_la_ciudad_duerme.jpg"
+      "img": "src/images/films/mientras_la_ciudad_duerme.jpg"
     },
     {
       "rank": 26,
@@ -282,7 +282,7 @@
       ],
       "filmaffinity_score": 8.1,
       "description": "Un clásico del cine noir en el que un grupo de delincuentes planea y ejecuta el atraco a una joyería, mostrando con realismo la planificación, los conflictos internos y las consecuencias de su crimen.",
-      "img": "src/assets/images/films/mientras_la_ciudad_duerme.jpg"
+      "img": "src/images/films/mientras_la_ciudad_duerme.jpg"
     },
     {
       "rank": 27,
@@ -293,7 +293,7 @@
       "main_cast": ["Robert Mitchum", "Jane Greer", "Kirk Douglas"],
       "filmaffinity_score": 8.1,
       "description": "Un detective privado intenta dejar atrás su pasado criminal, pero una mujer fatal y antiguos encargos lo arrastran de nuevo a una red de traición, crimen y destino inevitable.",
-      "img": "src/assets/images/films/retorno_al_pasado.png"
+      "img": "src/images/films/retorno_al_pasado.png"
     },
     {
       "rank": 28,
@@ -309,7 +309,7 @@
       ],
       "filmaffinity_score": 8.1,
       "description": "Dos jóvenes asesinan a un amigo como parte de un experimento intelectual y organizan una cena en el mismo lugar donde esconden el cadáver, en un inquietante juego psicológico.",
-      "img": "src/assets/images/films/festin_diabolico.png"
+      "img": "src/images/films/festin_diabolico.png"
     },
     {
       "rank": 29,
@@ -319,7 +319,7 @@
       "main_cast": ["Robert De Niro", "Sharon Stone", "Joe Pesci"],
       "filmaffinity_score": 8.1,
       "description": "La historia del control mafioso de los casinos de Las Vegas, marcada por el poder, la corrupción, la violencia y la decadencia personal de sus protagonistas.",
-      "img": "src/assets/images/films/casino.jpg"
+      "img": "src/images/films/casino.jpg"
     },
     {
       "rank": 30,
@@ -329,7 +329,7 @@
       "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
       "filmaffinity_score": 8.0,
       "description": "El asesinato de la hija de uno de tres amigos de la infancia reabre un trauma compartido y desencadena una investigación marcada por la culpa, el dolor y la venganza.",
-      "img": "src/assets/images/films/rio_mistico.jpg"
+      "img": "src/images/films/rio_mistico.jpg"
     }
   ]
 }
