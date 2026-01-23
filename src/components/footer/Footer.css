@@ -1,0 +1,155 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo blanco general */
+body {
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+/* Wrapper principal */
+.siteWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenido principal crece */
+.mainContent {
+  flex: 1;
+  padding: 40px;
+  background: #ffffff;
+}
+
+/* FOOTER */
+.customFooter {
+  background: #132D30;
+  color: #f1f1f1;
+  position: relative;
+}
+
+/* Línea brillante arriba del footer */
+.footerGlowLine {
+  height: 4px;
+  background: #8C2D2D
+}
+
+/* Contenedor interno */
+.footerInner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px 20px;
+}
+
+/* Grid principal */
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  align-items: center;
+}
+
+/* Logo */
+.footerLogoText {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.footerLogoText span {
+  color: #8B1A1A;
+}
+
+/* Navegación */
+.footerNav a {
+  display: block;
+  color: #3FD0C9;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+.footerNav a:hover {
+  color: #8B1A1A;
+}
+
+/* Redes */
+
+.socialList {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  background:#70B5B0;
+  padding: 8px 12px;
+  width: auto;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+}
+.socialLink img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.socialLink:hover {
+  background: #8B1A1A;
+  color:black;
+  transform: translateY(-3px);
+}
+
+
+
+/* Parte inferior */
+.footerBottom {
+  border-top: 1px solid #8B1A1A;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #3FD0C9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+  .socialList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socialLink {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .socialLink img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+  }
+}
