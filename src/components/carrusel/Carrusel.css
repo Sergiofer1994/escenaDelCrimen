@@ -1,0 +1,40 @@
+.carousel-container {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000; 
+}
+
+.carousel-grid {
+  display: flex;            
+  gap: 30px;              
+  justify-content: center; 
+  align-items: flex-start;
+  flex-wrap: nowrap;      
+  margin: 20px 0;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel-btn {
+  background: transparent;
+  border: 2px solid #3FD0C9; 
+  color: #3FD0C9;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #3FD0C9;
+  color: #1F6F78;
+  box-shadow: 0 0 15px #3FD0C9;
+}

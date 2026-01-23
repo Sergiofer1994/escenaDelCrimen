@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Carrusel.css";
+import MovieCard from '../MovieCard.jsx';
 
 const MovieCarrusel = ({ movies }) => {
   const prev = () => {
@@ -31,37 +32,12 @@ const MovieCarrusel = ({ movies }) => {
           ▶
         </button>
       </div>
-      ;
       <div className="carousel-grid">
         {currentMovies.map((movie) => (
-          <div className="carousel-card" key={movie.rank}>
-            <h2>{movie.title}</h2>
-
-            <img alt={movie.title} src={movie.img} className="movie-img" />
-
-            <p>
-              <strong>Año:</strong> {movie.year}
-            </p>
-            <p>
-              <strong>Director:</strong> {movie.director}
-            </p>
-            <p>
-              <strong>Filmaffinity:</strong> {movie.filmaffinity_score}
-            </p>
-          </div>
+          <MovieCard key={movie.rank} movie={movie} />
         ))}
       </div>
-      <div className="carousel-controls">
-        <button className="carousel-btn prev" onClick={prev}>
-          ◀
-        </button>
-        <button className="carousel-btn next" onClick={next}>
-          ▶
-        </button>
-      </div>
-      ;
     </div>
   );
 };
-
 export default MovieCarrusel;
