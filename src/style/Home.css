@@ -24,20 +24,20 @@
 }
 
 .movieCard {
-  background: rgba(26, 26, 26, 0.95);
+  background: #132D30;
   backdrop-filter: blur(10px);
   border-radius: 16px;
   overflow: hidden;
   display: flex;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 229, 255, 0.2);
+  box-shadow: 0 15px 20px rgba(155, 25, 25, 0.5);
+  border: 1px solid rgba(163, 38, 38, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
   max-height: 420px;
 }
 
 .movieCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 60px rgba(0, 229, 255, 0.3);
+  box-shadow: 0 25px 60px rgba(7, 68, 39, 0.3);
 }
 
 .moviePoster {
@@ -67,8 +67,8 @@
 
 .weeklyBadge {
   display: inline-block;
-  background: linear-gradient(135deg, #00e5ff, #0099cc);
-  color: #1a1a1a;
+  background:#70B5B0;
+  color:#132D30 ;
   padding: 6px 14px;
   border-radius: 16px;
   font-size: 11px;
@@ -80,7 +80,7 @@
 
 .movieInfo h2 {
   font-size: 1.8rem;
-  color: #00e5ff;
+  color: #8B1A1A;
   margin-bottom: 12px;
   font-weight: bold;
   line-height: 1.2;
@@ -95,7 +95,7 @@
 
 .movieMeta span {
   background: rgba(0, 229, 255, 0.1);
-  color: #00e5ff;
+  color: #b0b0b0;
   padding: 5px 10px;
   border-radius: 12px;
   font-size: 0.8rem;
@@ -121,11 +121,11 @@
 }
 
 .castList strong {
-  color: #00e5ff;
+  color: #70B5B0;
 }
 
 .watchButton {
-  background: linear-gradient(135deg, #00e5ff, #0099cc);
+  background: #70B5B0;
   color: #1a1a1a;
   border: none;
   padding: 12px 32px;
@@ -144,7 +144,8 @@
 }
 /* Sección del carrusel */
 .carouselSection {
-  background: url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+ url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
   padding: 60px 20px;
   min-height: 100vh;
 }
