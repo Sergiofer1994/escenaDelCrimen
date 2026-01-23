@@ -117,7 +117,6 @@ function Home() {
                   {featuredMovie.main_cast.join(", ")}
                 </div>
               )}
-
               <button
                 className="watchButton"
                 onClick={() => {
