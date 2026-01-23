@@ -1,50 +1,69 @@
-import React, { useState } from "react";
+// src/components/carrusel/Carrusel.jsx
+import React, { useRef } from "react";
 import "./Carrusel.css";
 
-const MovieCarrusel = ({ movies }) => {
-  const MOVIES_PER_PAGE = 8;
-  const [currentPage, setCurrentPage] = useState(0);
-  const totalPages = Math.ceil(movies.length / MOVIES_PER_PAGE);
+const MovieCarrusel = ({ movies = [] }) => {
+  const safeMovies = Array.isArray(movies) ? movies : [];
+  const scrollRef = useRef(null);
+  const scrollAmount = 300; // píxeles que se mueve cada flecha
 
-  const prev = () => {
-    setCurrentPage((prevPage) =>
-      prevPage === 0 ? totalPages - 1 : prevPage - 1
-    );
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({
+        left: -scrollAmount,
+        behavior: "smooth",
+      });
+    }
   };
 
-  const next = () => {
-    setCurrentPage((prevPage) =>
-      prevPage === totalPages - 1 ? 0 : prevPage + 1
-    );
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({
+        left: scrollAmount,
+        behavior: "smooth",
+      });
+    }
   };
 
-  const startIndex = currentPage * MOVIES_PER_PAGE;
-  const currentMovies = movies.slice(startIndex, startIndex + MOVIES_PER_PAGE);
+  if (safeMovies.length === 0) {
+    return <div className="carousel-empty">No hay películas para mostrar</div>;
+  }
 
   return (
     <div className="carousel-container">
-      <button className="carousel-btn prev" onClick={prev}>
+      <button className="carousel-btn prev" onClick={scrollLeft}>
         ‹
       </button>
 
-      <div className="carousel-grid">
-        {currentMovies.map((movie) => (
-          <div className="carousel-card" key={movie.rank}>
+      <div className="carousel-grid" ref={scrollRef}>
+        {safeMovies.map((movie) => (
+          <div className="carousel-card" key={`${movie.rank}-${movie.title}`}>
             <div className="img-wrapper">
-              <img alt={movie.title} src={movie.img} />
+              <img
+                alt={movie.title}
+                src={movie.img}
+                onError={(e) => {
+                  e.target.src =
+                    "https://via.placeholder.com/200x300/1a1a1a/00e5ff?text=Sin+Imagen";
+                }}
+              />
             </div>
 
             <div className="card-content">
               <h3>{movie.title}</h3>
-              <p><strong>Año:</strong> {movie.year}</p>
-              <p><strong>Director:</strong> {movie.director}</p>
+              <p>
+                <strong>Año:</strong> {movie.year}
+              </p>
+              <p>
+                <strong>Director:</strong> {movie.director}
+              </p>
               <p className="score">⭐ {movie.filmaffinity_score}</p>
             </div>
           </div>
         ))}
       </div>
 
-      <button className="carousel-btn next" onClick={next}>
+      <button className="carousel-btn next" onClick={scrollRight}>
         ›
       </button>
     </div>
