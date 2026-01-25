@@ -14,9 +14,9 @@ import Header from './components/header/Header.jsx';
 
 function App() {
   return (
-   <div className="siteWrapper">
+    <div className="siteWrapper">
+      <Header />
       <main className="mainContent">
-        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/avisos-legales" element={<AvisosLegales />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/sobre-nosotros" element={<SobreNosotros />} />
         </Routes>
       </main>
-      
+
       <Footer />
     </div>
   );

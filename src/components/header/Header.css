@@ -1,18 +1,19 @@
-.header {
-  background-color: #0f172a; /* slate-900 */
+.siteHeader {
+  background-color: #132D30; /* footer color */
   position: sticky;
   top: 0;
   z-index: 50;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
-.header-container {
+.headerInner {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .header-logo {
@@ -21,16 +22,24 @@
   gap: 0.75rem;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
 .header-logo img {
   width: 40px;
   height: 40px;
 }
 
 .header-title {
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.15em;
-  color: #ffffff;
+  color: #A13535;
 }
 
 .header-title span {
@@ -40,11 +49,20 @@
 .nav {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.mainNav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #d1d5db; /* gray-300 */
+  color: #3FD0C9;
   text-transform: uppercase;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
@@ -53,12 +71,16 @@
 }
 
 .nav-link:hover {
-  color: #ef4444; /* red-500 */
+  color: #8B1A1A;
+}
+
+a {
+  color: #dc2626;
 }
 
 .nav-link.active {
-  color: #dc2626; /* red-600 */
-  border-bottom: 2px solid #dc2626;
+  color: #3FD0C9;
+  border-bottom: 2px solid #3FD0C9;
 }
 
 .menu-button {
@@ -95,4 +117,19 @@
     padding: 1rem;
     text-align: center;
   }
+}
+
+#logoHeader{
+  height: 50px;
+  width:auto;
+}
+
+.mainNav a {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  float: right;
+}
+
+h1 h2 h3 h4 h5 {
+  color: #dc2626;
 }
