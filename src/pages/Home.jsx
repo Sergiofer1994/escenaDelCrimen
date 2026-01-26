@@ -4,27 +4,22 @@ import Carrusel from '../components/carrusel/Carrusel.jsx';
 
 function Home() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
-  const [allMovies, setAllMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Cargar todas las películas desde tu JSON
     fetch('/server/films.json')
-      .then(response => response.json())
-      .then(data => {
-        const movies = data.films;
-
-        // Selecciona una película destacada (la 28 como tenías)
-        const featured = movies[28];
-        setFeaturedMovie(featured);
-
-        // Guarda todas las películas para el carrusel
-        setAllMovies(movies);
-
+      .then((res) => {
+        if (!res.ok) throw new Error('Error al cargar películas');
+        return res.json();
+      })
+      .then((data) => {
+        const movies = data.films || [];
+        setFeaturedMovie(movies[28] || movies[0] || null);
         setLoading(false);
       })
-      .catch(error => {
-        console.error('Error cargando las películas:', error);
+      .catch((err) => {
+        console.error(err);
+        setFeaturedMovie(null);
         setLoading(false);
       });
   }, []);
@@ -78,12 +73,7 @@ function Home() {
       </div>
 
       {/* Sección del carrusel */}
-      {allMovies.length > 0 && (
-        <div className="carouselSection">
-          <h2 className="carouselTitle">Disfrúta más Películas</h2>
-          <Carrusel movies={allMovies} />
-        </div>
-      )}
+      <Carrusel />
     </div>
   );
 }
