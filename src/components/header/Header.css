@@ -1,135 +1,104 @@
 .siteHeader {
-  background-color: #132D30; /* footer color */
+  background-color: #132D30;
   position: sticky;
   top: 0;
   z-index: 50;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
+/* ===== CONTENEDOR PRINCIPAL ===== */
 .headerInner {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 1.5rem;
+}
+
+/* ===== LOGO IZQUIERDA CENTRADO ===== */
+.logoHeader {
+  max-height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* ===== BLOQUE CENTRAL ===== */
+.headerCenter {
+  flex: 1;
+  display: flex;
   flex-direction: column;
-}
-
-.header-logo {
-  display: flex;
   align-items: center;
-  gap: 0.75rem;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-}
-
-.header-logo img {
-  width: 100px;
-  height: 40px;
-}
-
+/* ===== TÍTULO ===== */
 .header-title {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.15em;
-  color: #A13535;
+  color: #8B1A1A;
+  margin-bottom: 0.5rem;
 }
 
-.header-title span {
-  color: #dc2626; /* red-600 */
-}
-
-.nav {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  width: 100%;
-}
-
+/* ===== NAVEGACIÓN ===== */
 .mainNav {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  width: 100%;
 }
 
-.nav-link {
+.mainNav a {
   text-decoration: none;
   color: #3FD0C9;
   text-transform: uppercase;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
   padding: 0.5rem 1rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
   transition: all 0.3s ease;
 }
 
-.nav-link:hover {
-  color: #8B1A1A;
+.mainNav a:hover {
+  color: #8B1A1A !important;
+  transform: translateY(-2px);
 }
 
-a {
-  color: #dc2626;
-}
-
-.nav-link.active {
+.mainNav a.active {
   color: #3FD0C9;
   border-bottom: 2px solid #3FD0C9;
 }
 
-.menu-button {
-  display: none;
-  font-size: 1.8rem;
-  color: #e5e7eb;
-  background: none;
-  border: none;
-  cursor: pointer;
+/* ===== ENLACES GENERALES (SOLO PARA CONTENIDO, NO NAVEGACIÓN) ===== */
+main a,
+article a,
+section a {
+  color: #8B1A1A;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4, h5 {
+  color: #8B1A1A;
 }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
-  .menu-button {
-    display: block;
-  }
-
-  .nav {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
+  .headerInner {
     flex-direction: column;
-    background-color: #0f172a;
-    padding: 1rem 0;
-    display: none;
   }
 
-  .nav.open {
-    display: flex;
+  .logoHeader {
+    max-height: 80px;
+    margin-bottom: 1rem;
   }
 
-  .nav-link {
-    padding: 1rem;
+  .header-title {
     text-align: center;
+    font-size: 2rem;
   }
-}
 
-#logoHeader{
-  height: 50px;
-  width:auto;
-}
-
-.mainNav a {
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-  float: right;
-}
-
-h1 h2 h3 h4 h5 {
-  color: #dc2626;
+  .mainNav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
