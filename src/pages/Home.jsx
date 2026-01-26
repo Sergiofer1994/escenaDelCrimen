@@ -1,7 +1,6 @@
-// src/pages/Home.jsx - SIN CAMBIOS NECESARIOS
-import "../style/Home.css";
-import React, { useState, useEffect } from "react";
-import Carrusel from "../components/carrusel/Carrusel.jsx";
+import '../style/Home.css';
+import React, { useState, useEffect } from 'react';
+import Carrusel from '../components/carrusel/Carrusel.jsx';
 
 function Home() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
@@ -79,13 +78,6 @@ function Home() {
   if (loading) return <p>Cargando...</p>;
 
   return (
-<<<<<<< HEAD
-    <div className="home">
-      {featuredMovie && (
-        <section className="featured">
-          <h2>{featuredMovie.title}</h2>
-        </section>
-=======
     <>
       {/* Sección de película destacada */}
       <div className="pageHome">
@@ -196,4 +188,3 @@ function Home() {
 }
 =======
 export default Home;
->>>>>>> 775d9432ae6ab9e682dcd480ff55e4f05dda9c66
