@@ -8,8 +8,7 @@ import SobreNosotros from './pages/AboutUs.jsx';
 import Home from './pages/Home.jsx';
 import Catalog from "./pages/Catalog";
 import AdminPanel from "./pages/AdminPanel.jsx"
-
-
+import Ubication from './pages/Ubication.jsx';
 // Importar estilos globales y de layout
 import './style/global.css';
 import './style/layout.css';
@@ -28,6 +27,7 @@ function App() {
           <Route path="/sobre-nosotros" element={<SobreNosotros />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/admin" element={<AdminPanel />} />
+          <Route path="/ubicacion" element={<Ubication />} />
         </Routes>
       </main>
 
