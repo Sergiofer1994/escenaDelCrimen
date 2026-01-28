@@ -1,29 +1,49 @@
-.catalogo-title {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2.5rem;
-    color: #8B1A1A;
+.pageCatalog {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('src/images/background/fondoHome.jpg') center/cover no-repeat fixed;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.catalogo-selector {
+.catalogContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.catalogTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #8B1A1A;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.catalogSelector {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
 }
 
-.catalogo-selector select {
-    border: 1px solid #ccc;
+.catalogSelector select {
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 6px;
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #132D30;
+    background-color: rgba(19, 45, 48, 0.9);
     cursor: pointer;
-    color:#8B1A1A;
+    color: #8B1A1A;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.catalogo-grid {
+.catalogGrid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -32,63 +52,80 @@
 }
 
 @media (min-width: 768px) {
-    .catalogo-grid {
+    .catalogGrid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 0.8rem; /* Reducido para juntar las cards */
-        justify-items: center; /* Centra las cards en su celda */
+        gap: 0.8rem;
+        justify-items: center;
+    }
+    
+    .catalogTitle {
+        font-size: 2.5rem;
     }
 }
 
-.catalogo-card {
+@media (max-width: 768px) {
+    .pageCatalog {
+        padding: 30px 15px;
+    }
+    
+    .catalogTitle {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+}
+
+.catalogCard {
     width: 50%;
-    max-width: 280px; /* Añadido para controlar el tamaño máximo */
-    border: 1px solid #e5e7eb;
+    max-width: 280px;
+    border: 1px solid rgba(229, 231, 235, 0.2);
     border-radius: 12px;
     padding: 1rem;
-    background-color: #132D30;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    background-color: rgba(19, 45, 48, 0.85);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.catalogo-card:hover {
+.catalogCard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.5);
+    background-color: rgba(19, 45, 48, 0.95);
 }
 
-.catalogo-img {
+.catalogImg {
     width: 100%;
     height: 260px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.catalogo-title-film {
+.catalogTitleFilm {
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 0.75rem;
+    color: #ffffff;
 }
 
-.catalogo-meta {
+.catalogMeta {
     font-size: 0.9rem;
     color: #70B5B0;
     margin-top: 0.25rem;
 }
 
-.catalogo-desc {
+.catalogDesc {
     font-size: 0.9rem;
     margin-top: 0.5rem;
     color: whitesmoke;
     line-height: 1.4;
 }
 
-.catalogo-score {
+.catalogScore {
     font-size: 0.9rem;
     margin-top: 0.5rem;
     font-weight: bold;
     color: #f59e0b;
 }
 
-.catalogo-link {
+.catalogLink {
     display: inline-block;
     margin-top: 0.6rem;
     font-size: 0.9rem;
@@ -96,6 +133,6 @@
     text-decoration: none;
 }
 
-.catalogo-link:hover {
+.catalogLink:hover {
     text-decoration: underline;
 }
