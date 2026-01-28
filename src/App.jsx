@@ -6,6 +6,10 @@ import AvisosLegales from './pages/AvisosLegales.jsx';
 import TerminosUso from './pages/TerminosUso.jsx';
 import SobreNosotros from './pages/AboutUs.jsx';
 import Home from './pages/Home.jsx';
+import Catalog from "./pages/Catalog";
+import AdminPanel from "./pages/AdminPanel.jsx"
+
+
 // Importar estilos globales y de layout
 import './style/global.css';
 import './style/layout.css';
@@ -22,6 +26,8 @@ function App() {
           <Route path="/avisos-legales" element={<AvisosLegales />} />
           <Route path="/terminos-uso" element={<TerminosUso />} />
           <Route path="/sobre-nosotros" element={<SobreNosotros />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/admin" element={<AdminPanel />} />
         </Routes>
       </main>
 
