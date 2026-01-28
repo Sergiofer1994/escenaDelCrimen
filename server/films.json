@@ -168,6 +168,7 @@
       "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
       "filmaffinity_score": 8.3,
       "description": "Asesino de los pecados capitales.",
+      "trailer":"public/media/trailers/Seven.mp4",
       "img": "src/images/films/seven.jpg",
       "url": "https://www.youtube.com/watch?v=znmZoV7MBps"
     },
@@ -212,6 +213,7 @@
       "main_cast": ["Tommy Lee Jones", "Javier Bardem", "Josh Brolin"],
       "filmaffinity_score": 8.3,
       "description": "Persecución implacable.",
+      "trailer":"",
       "img": "src/images/films/noEsPais.jpg",
       "url": "https://www.youtube.com/watch?v=L2G574Y_4pI"
     },
@@ -260,8 +262,10 @@
       "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
       "filmaffinity_score": 8.2,
       "description": "Hannibal Lecter.",
+      "trailer":"public/media/trailers/ElSilencioDeLosCorderos.mp4",
       "img": "src/images/films/elSilencioDeLosCorderos.jpg",
       "url": "https://www.youtube.com/watch?v=GAnO0O4eR1Y"
+      
     },
     {
       "rank": 15,
@@ -271,6 +275,7 @@
       "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
       "filmaffinity_score": 8.2,
       "description": "Violencia juvenil.",
+      "trailer":"public/media/trailers/naranjaMecanica.mp4",
       "img": "src/images/films/naranjaMecanica.jpg",
       "url": "https://www.youtube.com/watch?v=vN-1Mup08_0"
     },
@@ -293,6 +298,7 @@
       "main_cast": ["Anthony Perkins", "Janet Leigh", "Vera Miles"],
       "filmaffinity_score": 8.0,
       "description": "Motel macabro.",
+      "trailer":"",
       "img": "src/images/films/psicosis.jpg",
       "url": "https://www.youtube.com/watch?v=vV_XpYvYp8E"
     },
@@ -304,6 +310,7 @@
       "main_cast": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
       "filmaffinity_score": 8.2,
       "description": "Hotel embrujado.",
+      "trailer":"public/media/trailers/elResplandor.mp4",
       "img": "src/images/films/elResplandor.jpg",
       "url": "https://www.youtube.com/watch?v=S014oGZiL2I"
     },

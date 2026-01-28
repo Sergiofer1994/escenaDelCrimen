@@ -1,11 +1,13 @@
+// Home.jsx
 import "../style/Home.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Carrusel from "../components/carrusel/Carrusel.jsx";
-import FeaturedMovie from "../components/FeaturedMovie/FeaturedMovie.jsx";
+import HeroCarousel from "../components/HeroCarrousel/HeroCarrousel.jsx";
 
 function Home() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
+  const [featuredMovies, setFeaturedMovies] = useState([]); 
   const [mafiasYGangsters, setMafiasYGangsters] = useState([]);
   const [cineNegroClasico, setCineNegroClasico] = useState([]);
   const [thrillerPolicial, setThrillerPolicial] = useState([]);
@@ -20,7 +22,15 @@ function Home() {
       try {
         const baseUrl = "http://localhost:3000";
 
-        const [resMafias, resCine, resPolicial, resPsico, resMisterio, resTerror, resModerno] = await Promise.all([
+        const [
+          resMafias,
+          resCine,
+          resPolicial,
+          resPsico,
+          resMisterio,
+          resTerror,
+          resModerno,
+        ] = await Promise.all([
           axios.get(`${baseUrl}/mafiasYGangsters`),
           axios.get(`${baseUrl}/cineNegroClasico`),
           axios.get(`${baseUrl}/thrillerPolicial`),
@@ -38,26 +48,42 @@ function Home() {
         setTerrorCriminal(resTerror.data);
         setThrillerModerno(resModerno.data);
 
-        // Juntamos todas las películas
         const allMovies = [
-          ...resMafias.data, 
-          ...resCine.data, 
-          ...resPolicial.data, 
-          ...resPsico.data, 
-          ...resMisterio.data, 
-          ...resTerror.data, 
-          ...resModerno.data
+          ...resMafias.data,
+          ...resCine.data,
+          ...resPolicial.data,
+          ...resPsico.data,
+          ...resMisterio.data,
+          ...resTerror.data,
+          ...resModerno.data,
         ];
 
-        // **********************************************************
-        // AQUÍ CAMBIAS EL NÚMERO DE RANK PARA CAMBIAR LA PELÍCULA
-        // Ejemplo: 28 es Casino, 11 es Seven, 15 es Naranja Mecánica
-        // **********************************************************
-        const rankDeseado = 15; 
-        
-        // Buscamos por la propiedad "rank" que es la que tienes en tu JSON
-        const featured = allMovies.find(m => m.rank === rankDeseado) || allMovies[0];
+        const rankDeseado = 15;
+        const featured =
+          allMovies.find((m) => m.rank === rankDeseado) || allMovies[0];
         setFeaturedMovie(featured);
+
+        // ✅ ORDEN ESPECÍFICO: Seven primero, Naranja mecánica segundo
+        const ordenPrioritario = ["Seven", "Naranja mecánica"];
+        
+        // Buscar las películas prioritarias
+        const peliculasPrioritarias = ordenPrioritario
+          .map(titulo => allMovies.find(movie => movie.title === titulo))
+          .filter(movie => movie && movie.trailer && movie.trailer.length > 0);
+        
+        // Buscar las demás películas con video (excluyendo las prioritarias)
+        const otrasPeliculas = allMovies.filter(movie => 
+          movie.trailer && 
+          movie.trailer.length > 0 && 
+          !ordenPrioritario.includes(movie.title)
+        );
+        
+        // Combinar: primero las prioritarias, luego las demás
+        const peliculasConVideo = [...peliculasPrioritarias, ...otrasPeliculas];
+
+        console.log("Películas en orden:", peliculasConVideo.map(m => m.title));
+
+        setFeaturedMovies(peliculasConVideo);
 
       } catch (error) {
         console.error("Error cargando las películas:", error);
@@ -74,7 +100,9 @@ function Home() {
   return (
     <>
       <div className="pageHome">
-        {featuredMovie && <FeaturedMovie movie={featuredMovie} />}
+        {featuredMovies.length > 0 && (
+          <HeroCarousel featuredMovies={featuredMovies} />
+        )}
       </div>
 
       <div className="content-sections">
@@ -87,42 +115,42 @@ function Home() {
 
         {cineNegroClasico.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Cine negro clásico</h2>
+            <h2 className="carouselTitle">Cine Negro Clásico</h2>
             <Carrusel movies={cineNegroClasico} />
           </section>
         )}
 
         {thrillerPolicial.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Thriller policial</h2>
+            <h2 className="carouselTitle">Thriller Policial</h2>
             <Carrusel movies={thrillerPolicial} />
           </section>
         )}
 
         {thrillerPsicologico.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Thriller psicológico</h2>
+            <h2 className="carouselTitle">Thriller Psicológico</h2>
             <Carrusel movies={thrillerPsicologico} />
           </section>
         )}
 
         {misterioDetectives.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Misterio y detectives</h2>
+            <h2 className="carouselTitle">Misterio y Detectives</h2>
             <Carrusel movies={misterioDetectives} />
           </section>
         )}
 
         {terrorCriminal.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Terror criminal</h2>
+            <h2 className="carouselTitle">Terror Criminal</h2>
             <Carrusel movies={terrorCriminal} />
           </section>
         )}
 
         {thrillerModerno.length > 0 && (
           <section className="carouselSection">
-            <h2 className="carouselTitle">Thriller moderno</h2>
+            <h2 className="carouselTitle">Thriller Moderno</h2>
             <Carrusel movies={thrillerModerno} />
           </section>
         )}
