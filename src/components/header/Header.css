@@ -1,0 +1,104 @@
+.siteHeader {
+  background-color: #132D30;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== CONTENEDOR PRINCIPAL ===== */
+.headerInner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* ===== LOGO IZQUIERDA CENTRADO ===== */
+.logoHeader {
+  max-height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* ===== BLOQUE CENTRAL ===== */
+.headerCenter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== TÍTULO ===== */
+.header-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #8B1A1A;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== NAVEGACIÓN ===== */
+.mainNav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.mainNav a {
+  text-decoration: none;
+  color: #3FD0C9;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.mainNav a:hover {
+  color: #8B1A1A !important;
+  transform: translateY(-2px);
+}
+
+.mainNav a.active {
+  color: #3FD0C9;
+  border-bottom: 2px solid #3FD0C9;
+}
+
+/* ===== ENLACES GENERALES (SOLO PARA CONTENIDO, NO NAVEGACIÓN) ===== */
+main a,
+article a,
+section a {
+  color: #8B1A1A;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4, h5 {
+  color: #8B1A1A;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .headerInner {
+    flex-direction: column;
+  }
+
+  .logoHeader {
+    max-height: 80px;
+    margin-bottom: 1rem;
+  }
+
+  .header-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .mainNav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

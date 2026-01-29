@@ -1,11 +1,10 @@
-// src/pages/Home.jsx - SIN CAMBIOS NECESARIOS
 import "../style/Home.css";
 import React, { useState, useEffect } from "react";
 import Carrusel from "../components/carrusel/Carrusel.jsx";
+import FeaturedMovie from "../components/FeaturedMovie/FeaturedMovie.jsx";
 
 function Home() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
-
   const [mafiasYGangsters, setMafiasYGangsters] = useState([]);
   const [cineNegroClasico, setCineNegroClasico] = useState([]);
   const [thrillerPolicial, setThrillerPolicial] = useState([]);
@@ -13,7 +12,6 @@ function Home() {
   const [misterioDetectives, setMisterioDetectives] = useState([]);
   const [terrorCriminal, setTerrorCriminal] = useState([]);
   const [thrillerModerno, setThrillerModerno] = useState([]);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -74,64 +72,11 @@ function Home() {
     );
   }
 
-  if (!featuredMovie) {
-    return (
-      <div className="pageHome">
-        <div className="error">No se pudo cargar la película</div>
-      </div>
-    );
-  }
-
   return (
     <>
-      {/* Sección de película destacada */}
+      {/* Sección de película destacada - AHORA ES UN COMPONENTE */}
       <div className="pageHome">
-        <div className="featuredMovie">
-          <div className="movieCard">
-            <div className="moviePoster">
-              <img
-                src={featuredMovie.img}
-                alt={featuredMovie.title}
-                onError={(e) => {
-                  e.target.src =
-                    "https://via.placeholder.com/300x450/1a1a1a/00e5ff?text=Sin+Imagen";
-                }}
-              />
-            </div>
-            <div className="movieInfo">
-              <span className="weeklyBadge">PELÍCULA DE LA SEMANA</span>
-              <h2>{featuredMovie.title}</h2>
-              <div className="movieMeta">
-                <span className="year">📅 {featuredMovie.year}</span>
-                <span className="director">🎬 {featuredMovie.director}</span>
-                <span className="rating">
-                  ⭐ {featuredMovie.filmaffinity_score}
-                </span>
-              </div>
-              <p className="movieDescription">
-                {featuredMovie.description}
-              </p>
-              {Array.isArray(featuredMovie.main_cast) && (
-                <div className="castList">
-                  <strong>Reparto principal:</strong>{" "}
-                  {featuredMovie.main_cast.join(", ")}
-                </div>
-              )}
-              <button
-                className="watchButton"
-                onClick={() => {
-                  if (featuredMovie.url) {
-                    window.open(featuredMovie.url, "_blank", "noopener,noreferrer");
-                  } else {
-                    alert("Tráiler no disponible");
-                  }
-                }}
-              >
-                Ver Tráiler
-              </button>
-            </div>
-          </div>
-        </div>
+        <FeaturedMovie movie={featuredMovie} />
       </div>
 
       {/* TODOS LOS CARRUSELES - SIN CAMBIOS */}
