@@ -1,13 +1,14 @@
-// Home.jsx
 import "../style/Home.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Carrusel from "../components/carrusel/Carrusel.jsx";
 import HeroCarousel from "../components/HeroCarrousel/HeroCarrousel.jsx";
+import FeaturedMovie from "../components/FeaturedMovie/FeaturedMovie.jsx";
 
 function Home() {
+  const [movieOfTheMonth, setMovieOfTheMonth] = useState(null);
   const [featuredMovie, setFeaturedMovie] = useState(null);
-  const [featuredMovies, setFeaturedMovies] = useState([]); 
+  const [featuredMovies, setFeaturedMovies] = useState([]);
   const [mafiasYGangsters, setMafiasYGangsters] = useState([]);
   const [cineNegroClasico, setCineNegroClasico] = useState([]);
   const [thrillerPolicial, setThrillerPolicial] = useState([]);
@@ -58,26 +59,29 @@ function Home() {
           ...resModerno.data,
         ];
 
-        const rankDeseado = 15;
-        const featured =
-          allMovies.find((m) => m.rank === rankDeseado) || allMovies[0];
+        const rankDeseado = 60;
+        const featured = allMovies.find((m) => m.rank === rankDeseado) || allMovies[0];
         setFeaturedMovie(featured);
+
+        const rankMes = 1;
+        const delMes = allMovies.find(m => m.rank === rankMes);
+        setMovieOfTheMonth(delMes);
 
         // ✅ ORDEN ESPECÍFICO: Seven primero, Naranja mecánica segundo
         const ordenPrioritario = ["Seven", "Naranja mecánica"];
-        
+
         // Buscar las películas prioritarias
         const peliculasPrioritarias = ordenPrioritario
           .map(titulo => allMovies.find(movie => movie.title === titulo))
           .filter(movie => movie && movie.trailer && movie.trailer.length > 0);
-        
+
         // Buscar las demás películas con video (excluyendo las prioritarias)
-        const otrasPeliculas = allMovies.filter(movie => 
-          movie.trailer && 
-          movie.trailer.length > 0 && 
+        const otrasPeliculas = allMovies.filter(movie =>
+          movie.trailer &&
+          movie.trailer.length > 0 &&
           !ordenPrioritario.includes(movie.title)
         );
-        
+
         // Combinar: primero las prioritarias, luego las demás
         const peliculasConVideo = [...peliculasPrioritarias, ...otrasPeliculas];
 
@@ -98,12 +102,14 @@ function Home() {
   if (loading) return <div className="loading">Cargando...</div>;
 
   return (
-    <>
-      <div className="pageHome">
-        {featuredMovies.length > 0 && (
-          <HeroCarousel featuredMovies={featuredMovies} />
-        )}
-      </div>
+    <div className="pageHome">
+      {featuredMovies.length > 0 && (
+        <HeroCarousel featuredMovies={featuredMovies} />
+      )}
+
+      {featuredMovie && (
+        <FeaturedMovie movie={featuredMovie} />
+      )}
 
       <div className="content-sections">
         {mafiasYGangsters.length > 0 && (
@@ -155,7 +161,7 @@ function Home() {
           </section>
         )}
       </div>
-    </>
+    </div>
   );
 }
 

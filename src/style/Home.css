@@ -1,51 +1,82 @@
 .pageHome {
   min-height: 100vh;
+  padding: 40px 20px;
+ 
+  border-radius: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-              
-            url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
-  padding: 40px 20px;       /* antes 60px */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+              url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
+  box-shadow: 0 0 0 10px #fff;
 }
 
 .loading {
   color: #00e5ff;
   text-align: center;
-  padding: 40px;           /* antes 50px */
+  padding: 40px;
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-/* Sección del carrusel */
+.content-sections {
+  width: 100%;
+  min-height: auto;
+  background: transparent;
+}
+
+/* ✅ FeaturedMovie con margen arriba GARANTIZADO */
+.pageHome .featuredMovie {
+  background: transparent !important;
+  margin-top: 60px !important; /* ✅ SEPARACIÓN perfecta del HeroCarousel */
+  padding: 40px 20px;
+}
+
+/* ✅ Carruseles también transparentes */
 .carouselSection {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-              url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
-  padding: 30px 20px;      /* antes 60px */
-  min-height: auto;       /* antes 100vh */
+  background: transparent !important;
+  padding: 30px 20px;
+  min-height: auto;
 }
 
 .carouselTitle {
   text-align: center;
   color: #8B1A1A;
   font-size: 2.5rem;
-  margin-bottom: 20px;    /* antes 40px */
+  margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
+.featuredRow {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.featuredRow .featuredMovie {
+  flex: 1;
+  max-width: 700px;
+}
+
 @media (max-width: 768px) {
   .pageHome {
-    padding: 30px 15px;   /* antes 40px 15px */
+    padding: 30px 15px;
+    margin: 10px;
+  }
+
+  .pageHome .featuredMovie {
+    margin-top: 40px !important; /* ✅ Responsive también */
+    padding: 30px 15px;
   }
 
   .carouselSection {
-    padding: 20px 15px;  /* antes 40px 15px */
+    padding: 20px 15px;
   }
 
   .carouselTitle {
     font-size: 1.8rem;
-    margin-bottom: 15px; /* antes 30px */
+    margin-bottom: 15px;
   }
 }
