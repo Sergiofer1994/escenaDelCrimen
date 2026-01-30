@@ -1,22 +1,30 @@
 .contenedor {
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
-.ubicacion,
-.contacto {
-  flex: 1 1 auto;
-  min-width: 300px;
+.ubicacion {
+  flex: 0 1 60%;
 }
 
 .contacto {
+  flex: 0 0 35%;
+}
+
+.ubication iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.contacto form {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 100%;
+  max-width: 420px;
   box-sizing: border-box;
 }
 
@@ -34,4 +42,41 @@ form button {
   margin-top: 10px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .ubicacion {
+    flex: 0 1 55%;
+  }
+
+  .contacto {
+    flex: 0 1 45%;
+  }
+
+  .contacto form {
+    max-width: 100%;
+  }
+
+  .ubication iframe {
+    height: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .ubicacion,
+  .contacto {
+    flex: 1 1 100%;
+  }
+
+  .ubication iframe {
+    height: 300px;
+  }
+
+  .contacto form {
+    max-width: 100%;
+  }
 }
