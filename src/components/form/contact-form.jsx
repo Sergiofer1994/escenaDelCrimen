@@ -1,8 +1,5 @@
 import { useState } from "react";
-/*
-Email: soporte@escenadelcrimen.com
-     📱 Teléfono: +34 981 555 777
-*/
+
 function ContactForm() {
   const [formData, setFormData] = useState({
     nombre: "",
