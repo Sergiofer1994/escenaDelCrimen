@@ -4,6 +4,9 @@
   top: 0;
   z-index: 50;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* ===== CONTENEDOR PRINCIPAL ===== */
@@ -14,6 +17,8 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ===== LOGO IZQUIERDA CENTRADO ===== */
@@ -81,24 +86,83 @@ h1, h2, h3, h4, h5 {
   color: #8B1A1A;
 }
 
-/* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE MÓVIL ===== */
 @media (max-width: 768px) {
   .headerInner {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.5rem;
+    gap: 0.6rem;
+    max-width: 100vw;
   }
 
   .logoHeader {
-    max-height: 80px;
-    margin-bottom: 1rem;
+    max-height: 55px;
+    margin-top: 0.2rem;
+  }
+
+  .headerCenter {
+    flex: 1;
+    align-items: flex-start;
   }
 
   .header-title {
-    text-align: center;
-    font-size: 2rem;
+    text-align: left;
+    font-size: 1.1rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+    line-height: 1.2;
+    word-break: break-word;
   }
 
   .mainNav {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+
+  .mainNav a {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.5rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* ===== RESPONSIVE MÓVILES PEQUEÑOS ===== */
+@media (max-width: 480px) {
+  .headerInner {
     gap: 0.5rem;
+  }
+
+  .logoHeader {
+    max-height: 45px;
+  }
+
+  .header-title {
+    font-size: 0.95rem;
+    letter-spacing: 0.06em;
+  }
+
+  .mainNav a {
+    font-size: 0.6rem;
+    padding: 0.25rem 0.4rem;
+  }
+}
+
+/* ===== RESPONSIVE MÓVILES MUY PEQUEÑOS ===== */
+@media (max-width: 375px) {
+  .logoHeader {
+    max-height: 40px;
+  }
+
+  .header-title {
+    font-size: 0.85rem;
+  }
+
+  .mainNav a {
+    font-size: 0.55rem;
+    padding: 0.2rem 0.35rem;
   }
 }

@@ -5,7 +5,7 @@ function FeaturedMovie({ movie }) {
     if (!movie) {
         return (
             <div className="featuredMovie">
-                <div className="error">No se pudo cargar la película</div>
+                <div className="error">Cargando película...</div>
             </div>
         );
     }
@@ -15,7 +15,7 @@ function FeaturedMovie({ movie }) {
             <div className="movieCard">
                 <div className="moviePoster">
                     <img
-                        src={movie.img}
+                        src={`/${movie.img}`}
                         alt={movie.title}
                         onError={(e) => {
                             e.target.src =
@@ -23,9 +23,12 @@ function FeaturedMovie({ movie }) {
                         }}
                     />
                 </div>
+
                 <div className="movieInfo">
                     <span className="weeklyBadge">PELÍCULA DE LA SEMANA</span>
+
                     <h2>{movie.title}</h2>
+
                     <div className="movieMeta">
                         <span className="year">📅 {movie.year}</span>
                         <span className="director">🎬 {movie.director}</span>
@@ -33,15 +36,18 @@ function FeaturedMovie({ movie }) {
                             ⭐ {movie.filmaffinity_score}
                         </span>
                     </div>
+
                     <p className="movieDescription">
                         {movie.description}
                     </p>
+
                     {Array.isArray(movie.main_cast) && (
                         <div className="castList">
                             <strong>Reparto principal:</strong>{" "}
                             {movie.main_cast.join(", ")}
                         </div>
                     )}
+
                     <button
                         className="watchButton"
                         onClick={() => {

@@ -1,0 +1,206 @@
+.admin-panel {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.admin-panel h1 {
+    color: #00e5ff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.btn-new {
+    background: #00e5ff;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+}
+
+.btn-new:hover {
+    background: #00b8cc;
+    transform: scale(1.05);
+}
+
+/* FORMULARIO */
+.form-container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border: 2px solid #00e5ff;
+}
+
+.form-container h2 {
+    color: #00e5ff;
+    margin-bottom: 1.5rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #00e5ff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-container textarea {
+    grid-column: 1 / -1;
+    resize: vertical;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-save,
+.btn-cancel {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-save {
+    background: #00ff41;
+    color: #000;
+}
+
+.btn-save:hover {
+    background: #00cc34;
+    transform: scale(1.05);
+}
+
+.btn-cancel {
+    background: #ff4444;
+    color: #fff;
+}
+
+.btn-cancel:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+/* TABLA */
+.movies-list {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #00e5ff;
+}
+
+.movies-list h2 {
+    color: #00e5ff;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+thead {
+    background: rgba(0, 229, 255, 0.2);
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+    color: #00e5ff;
+    border-bottom: 2px solid #00e5ff;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+tbody tr:hover {
+    background: rgba(0, 229, 255, 0.1);
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-edit {
+    background: #ffa500;
+    color: #000;
+}
+
+.btn-edit:hover {
+    background: #ff8c00;
+    transform: scale(1.05);
+}
+
+.btn-delete {
+    background: #ff4444;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th,
+    td {
+        padding: 0.5rem;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}
