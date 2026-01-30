@@ -1,6 +1,6 @@
 import Ubication from "../components/Ubication/Ubication.jsx";
-
-import "../style/Ubicacion.css";
+import ContactForm from "../components/Ubication/ContactForm.jsx";
+import "../style/Ubication.css";
 function Ubicacion() {
   return (
     <div className="contenedor">
@@ -9,7 +9,10 @@ function Ubicacion() {
         <Ubication />
       </div>
 
-
+      <div className="contacto">
+        <h1>Para contactarnos:</h1>
+        <ContactForm />
+      </div>
     </div>
   );
 }
