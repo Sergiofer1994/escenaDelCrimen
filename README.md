@@ -1,7 +1,7 @@
 
 # Escena del Crimen - VIDEOCLUB
 
-Este proyecto es una aplicación web interactiva que permite visualizar un catálogo de más de 600 películas del género "Mafias y Gangsters". Incluye un carrusel dinámico y una sección para añadir nuevas películas.
+Este proyecto es una aplicación web interactiva que permite visualizar un catálogo de más de 100 películas del género "Mafias y Gangsters". Incluye un carrusel dinámico y una sección para añadir nuevas películas.
 
 ## 📸 Vista Previa
 ![Carrusel de Películas]![alt text](<src/images/films/README (2).jpeg>)
