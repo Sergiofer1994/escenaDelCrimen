@@ -1,15 +1,24 @@
-.ubicacion {
+.contenedor {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('src/images/background/fondoHome.jpg') center/cover no-repeat fixed;
     padding: 40px 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 60px;
 }
 
-.ubicacion h1 {
+.ubicacion,
+.contacto {
+    flex: 1 1 500px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.ubicacion h1,
+.contacto h1 {
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
@@ -21,22 +30,26 @@
 }
 
 @media (max-width: 768px) {
-    .ubicacion {
+    .contenedor {
         padding: 30px 15px;
+        gap: 40px;
     }
 
-    .ubicacion h1 {
+    .ubicacion h1,
+    .contacto h1 {
         font-size: 2rem;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 480px) {
-    .ubicacion {
+    .contenedor {
         padding: 20px 10px;
+        gap: 30px;
     }
 
-    .ubicacion h1 {
+    .ubicacion h1,
+    .contacto h1 {
         font-size: 1.5rem;
         margin-bottom: 20px;
     }

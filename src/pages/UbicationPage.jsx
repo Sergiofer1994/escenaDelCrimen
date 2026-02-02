@@ -1,6 +1,6 @@
 import Ubication from "../components/Ubication/Ubication.jsx";
 import ContactForm from "../components/Ubication/ContactForm.jsx";
-import "../style/Ubication.css";
+import "../style/UbicationPage.css";
 
 function UbicationPage() {
   return (
