@@ -1,7 +1,8 @@
 import Ubication from "../components/Ubication/Ubication.jsx";
 import ContactForm from "../components/Ubication/ContactForm.jsx";
 import "../style/Ubication.css";
-function Ubicacion() {
+
+function UbicationPage() {
   return (
     <div className="contenedor">
       <div className="ubicacion">
@@ -16,4 +17,5 @@ function Ubicacion() {
     </div>
   );
 }
-export default Ubicacion;
+
+export default UbicationPage;

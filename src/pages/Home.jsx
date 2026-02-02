@@ -5,7 +5,7 @@ import axios from "axios";
 import Carrusel from "../components/carrusel/Carrusel.jsx";
 import HeroCarousel from "../components/HeroCarrousel/HeroCarrousel.jsx";
 import FeaturedMovie from "../components/FeaturedMovie/FeaturedMovie.jsx"
-
+import AppPromo from "../components/AppPromo/AppPromo.jsx";
 function Home() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
   const [featuredMovies, setFeaturedMovies] = useState([]); 
@@ -17,6 +17,15 @@ function Home() {
   const [terrorCriminal, setTerrorCriminal] = useState([]);
   const [thrillerModerno, setThrillerModerno] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  // Función para convertir rutas relativas a rutas absolutas de Vite
+  const processMovieImages = (movies) => {
+    return movies.map(movie => ({
+      ...movie,
+      image: movie.image ? new URL(movie.image, import.meta.url).href : null,
+      poster: movie.poster ? new URL(movie.poster, import.meta.url).href : null,
+    }));
+  };
 
   useEffect(() => {
     const fetchAllData = async () => {
@@ -41,13 +50,14 @@ function Home() {
           axios.get(`${baseUrl}/thrillerModerno`),
         ]);
 
-        setMafiasYGangsters(resMafias.data);
-        setCineNegroClasico(resCine.data);
-        setThrillerPolicial(resPolicial.data);
-        setThrillerPsicologico(resPsico.data);
-        setMisterioDetectives(resMisterio.data);
-        setTerrorCriminal(resTerror.data);
-        setThrillerModerno(resModerno.data);
+        // Procesar las imágenes para cada categoría
+        setMafiasYGangsters(processMovieImages(resMafias.data));
+        setCineNegroClasico(processMovieImages(resCine.data));
+        setThrillerPolicial(processMovieImages(resPolicial.data));
+        setThrillerPsicologico(processMovieImages(resPsico.data));
+        setMisterioDetectives(processMovieImages(resMisterio.data));
+        setTerrorCriminal(processMovieImages(resTerror.data));
+        setThrillerModerno(processMovieImages(resModerno.data));
 
         const allMovies = [
           ...resMafias.data,
@@ -59,27 +69,25 @@ function Home() {
           ...resModerno.data,
         ];
 
+        const allMoviesProcessed = processMovieImages(allMovies);
+
         const rankDeseado = 15;
         const featured =
-          allMovies.find((m) => m.rank === rankDeseado) || allMovies[0];
+          allMoviesProcessed.find((m) => m.rank === rankDeseado) || allMoviesProcessed[0];
         setFeaturedMovie(featured);
 
-        // ✅ ORDEN ESPECÍFICO: Seven primero, Naranja mecánica segundo
         const ordenPrioritario = ["Seven", "Naranja mecánica"];
         
-        // Buscar las películas prioritarias
         const peliculasPrioritarias = ordenPrioritario
-          .map(titulo => allMovies.find(movie => movie.title === titulo))
+          .map(titulo => allMoviesProcessed.find(movie => movie.title === titulo))
           .filter(movie => movie && movie.trailer && movie.trailer.length > 0);
         
-        // Buscar las demás películas con video (excluyendo las prioritarias)
-        const otrasPeliculas = allMovies.filter(movie => 
+        const otrasPeliculas = allMoviesProcessed.filter(movie => 
           movie.trailer && 
           movie.trailer.length > 0 && 
           !ordenPrioritario.includes(movie.title)
         );
         
-        // Combinar: primero las prioritarias, luego las demás
         const peliculasConVideo = [...peliculasPrioritarias, ...otrasPeliculas];
 
         console.log("Películas en orden:", peliculasConVideo.map(m => m.title));
@@ -105,12 +113,24 @@ function Home() {
           <HeroCarousel featuredMovies={featuredMovies} />
         )}
       </div>
-      <div className="featuredMovie">
-      {featuredMovie && (
-      <FeaturedMovie movie={featuredMovie} />
-    )}
-</div>
 
+      <div className="featuredMovie">
+        {featuredMovie && (
+          <FeaturedMovie movie={featuredMovie} />
+        )}
+      </div>
+
+<AppPromo 
+          title="Descarga Nuestra App"
+          subtitle="La escena del crimen en tu bolsillo"
+          features={[
+            "📱 Acceso desde cualquier dispositivo",
+            "🎬 Catálogo completo actualizado",
+            "⭐ Reserva tus películas favoritas"
+          ]}
+          appStoreUrl="#"
+          playStoreUrl="#"
+        />
 
       <div className="content-sections">
         {mafiasYGangsters.length > 0 && (

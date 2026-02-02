@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../style/Catalog.css";
 
-const Catalogo = () => {
+const Catalog = () => {
     const [films, setFilms] = useState([]);
     const [category, setCategory] = useState("mafiasYGangsters");
 
@@ -29,22 +29,52 @@ const Catalogo = () => {
         <div className="pageCatalog">
             <div className="catalogContainer">
                 <h1 className="catalogTitle">
-                    Toda nuestra Filmografía
+                    Nuestro Catálogo
                 </h1>
 
                 <div className="catalogSelector">
-                    <select
-                        value={category}
-                        onChange={e => setCategory(e.target.value)}
+                    <button
+                        className={`categoryChip ${category === 'mafiasYGangsters' ? 'active' : ''}`}
+                        onClick={() => setCategory('mafiasYGangsters')}
                     >
-                        <option value="mafiasYGangsters">Mafias y Gánsters</option>
-                        <option value="cineNegroClasico">Cine Negro Clásico</option>
-                        <option value="thrillerPolicial">Thriller Policial</option>
-                        <option value="thrillerPsicologico">Thriller Psicológico</option>
-                        <option value="misterioDetectives">Misterio y Detectives</option>
-                        <option value="terrorCriminal">Terror Criminal</option>
-                        <option value="thrillerModerno">Thriller Moderno</option>
-                    </select>
+                        Mafias y Gánsters
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'cineNegroClasico' ? 'active' : ''}`}
+                        onClick={() => setCategory('cineNegroClasico')}
+                    >
+                        Cine Negro Clásico
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerPolicial' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerPolicial')}
+                    >
+                        Thriller Policial
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerPsicologico' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerPsicologico')}
+                    >
+                        Thriller Psicológico
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'misterioDetectives' ? 'active' : ''}`}
+                        onClick={() => setCategory('misterioDetectives')}
+                    >
+                        Misterio y Detectives
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'terrorCriminal' ? 'active' : ''}`}
+                        onClick={() => setCategory('terrorCriminal')}
+                    >
+                        Terror Criminal
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerModerno' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerModerno')}
+                    >
+                        Thriller Moderno
+                    </button>
                 </div>
 
                 <div className="catalogGrid">
@@ -102,4 +132,4 @@ const Catalogo = () => {
     );
 };
 
-export default Catalogo;
+export default Catalog;
