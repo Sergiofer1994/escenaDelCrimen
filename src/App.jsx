@@ -9,12 +9,13 @@ import Catalog from "./pages/Catalog";
 import AdminPanel from "./pages/AdminPanel.jsx";
 import PoliticasPrivacidad from './pages/PoliticasDePrivacidad.jsx'; // ✅ AÑADIDO
 import UbicationPage from './pages/UbicationPage.jsx';
+import AddMoviesPage from './pages/AddMoviesPage.jsx';
+
 // Importar estilos globales y de layout
 import './style/global.css';
 import './style/layout.css';
 import MovieCarrusel from './components/carrusel/Carrusel.jsx';
 import Header from './components/header/Header.jsx';
-
 function App() {
   return (
     <div className="siteWrapper">
@@ -25,11 +26,13 @@ function App() {
           <Route path="/avisos-legales" element={<AvisosLegales />} />
           <Route path="/terminos-uso" element={<TerminosUso />} />
           <Route path="/sobre-nosotros" element={<SobreNosotros />} />
-          {/* ✅ CORREGIDO: Import + Nombre */}
+  
           <Route path="/politicas-de-privacidad" element={<PoliticasPrivacidad />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/admin" element={<AdminPanel />} />
           <Route path="/ubicacion" element={<UbicationPage />} />
+        <Route path="/addMovies" element={<AddMoviesPage />} />
+      
         </Routes>
       </main>
       <Footer />
