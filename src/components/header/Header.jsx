@@ -15,6 +15,7 @@ function Header() {
                         <NavLink to="/" >Inicio</NavLink>
                         <NavLink to="/catalog">Catálogo</NavLink>
                         <NavLink to="/addMovies">Agregar Películas</NavLink>
+                        <NavLink to="/catalogPage">Ver Todas</NavLink>
                         <NavLink to="/ubicacion">Contacto y Ubicación</NavLink>
                     </nav>
                 </div>
