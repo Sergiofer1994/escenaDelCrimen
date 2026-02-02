@@ -1,12 +1,18 @@
+// src/pages/PageAddMovie/PageAddMovie.jsx
 import React from 'react';
-import AddMovie from '../AddMovie/AddMovie'; // Ruta correcta desde la carpeta pages
+import MovieCrud from '../components/MovieCrud/MovieCrud.jsx';
 
-const AddMoviesPage = () => {
-    return (
-        <div className="page-container">
-            <AddMovie />
-        </div>
-    );
+const PageAddMovie = () => {
+  return (
+    <div className="page-add-movie">
+      <header className="page-header">
+        <h1>🎬 Gestión de Películas - Escena del Crimen</h1>
+        <p>Administra tu colección de thrillers y cine negro</p>
+      </header>
+      
+      <MovieCrud category="misPeliculas" />
+    </div>
+  );
 };
 
-export default AddMoviesPage;
+export default PageAddMovie;
