@@ -1,0 +1,101 @@
+.add-film {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: #121212;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+    color: #eaeaea;
+}
+
+.add-film h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: red;
+    text-transform: uppercase;
+}
+
+/* FORM */
+
+.add-film form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-film label {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* INPUTS */
+
+.add-film input,
+.add-film textarea,
+.add-film select {
+    width: 100%;
+    padding: 12px 14px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.95rem;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.add-film textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* FOCUS */
+
+.add-film input:focus,
+.add-film textarea:focus,
+.add-film select:focus {
+    outline: none;
+    border-color: #f5c400;
+    box-shadow: 0 0 0 2px rgba(245, 196, 0, 0.2);
+}
+
+/* SELECT */
+
+.add-film select {
+    cursor: pointer;
+}
+
+/* BOTÓN */
+
+.add-film button {
+    margin-top: 1.5rem;
+    padding: 12px;
+    background: #f5c400;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.add-film button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(245, 196, 0, 0.35);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .add-film {
+        margin: 1.5rem;
+        padding: 2rem;
+    }
+
+    .add-film h1 {
+        font-size: 1.6rem;
+    }
+}

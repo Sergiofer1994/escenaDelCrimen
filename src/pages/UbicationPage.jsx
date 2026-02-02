@@ -4,10 +4,18 @@ import "../style/UbicationPage.css";
 
 function UbicationPage() {
   return (
-    <div className="contenedor">
+    <div className="pageWrapper">
       <div className="ubicacion">
         <h1>Nuestra ubicación:</h1>
         <Ubication />
+      </div>
+
+      <div className="imagenCentrada">
+        <h1>Nuestra tienda</h1>
+        <img 
+          src="src/images/background/videoclubEnter.jpg" 
+          alt="Nuestra tienda" 
+        />
       </div>
 
       <div className="contacto">
