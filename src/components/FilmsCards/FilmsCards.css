@@ -1,0 +1,55 @@
+.catalogo-card {
+    background: #141414;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s;
+}
+
+.catalogo-card:hover {
+    transform: translateY(-5px);
+}
+
+.catalogo-img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.catalogo-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.catalogo-title-film {
+    color: #f5c400;
+    font-size: 1.1rem;
+}
+
+.catalogo-meta {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.catalogo-desc {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.catalogo-score {
+    font-weight: bold;
+}
+
+.catalogo-link {
+    margin-top: auto;
+    text-decoration: none;
+    color: #000;
+    background: #f5c400;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}

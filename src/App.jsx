@@ -9,7 +9,9 @@ import Catalog from "./pages/Catalog";
 import AdminPanel from "./pages/AdminPanel.jsx";
 import PoliticasPrivacidad from './pages/PoliticasDePrivacidad.jsx'; // ✅ AÑADIDO
 import UbicationPage from './pages/UbicationPage.jsx';
-// Importar estilos globales y de layout
+import AddFilmPage from "./pages/AddFilmPage.jsx";
+
+
 import './style/global.css';
 import './style/layout.css';
 import MovieCarrusel from './components/carrusel/Carrusel.jsx';
@@ -25,11 +27,11 @@ function App() {
           <Route path="/avisos-legales" element={<AvisosLegales />} />
           <Route path="/terminos-uso" element={<TerminosUso />} />
           <Route path="/sobre-nosotros" element={<SobreNosotros />} />
-          {/* ✅ CORREGIDO: Import + Nombre */}
           <Route path="/politicas-de-privacidad" element={<PoliticasPrivacidad />} />
           <Route path="/catalog" element={<Catalog />} />
-          <Route path="/admin" element={<AdminPanel />} />
+          <Route path="/addMoviesPage" element={<AddFilmPage />} />
           <Route path="/ubicacion" element={<UbicationPage />} />
+          
         </Routes>
       </main>
       <Footer />

@@ -5,88 +5,139 @@
       "title": "El padrino",
       "year": 1972,
       "director": "Francis Ford Coppola",
-      "main_cast": ["Marlon Brando", "Al Pacino", "James Caan"],
-      "filmaffinity_score": 9.0,
+      "main_cast": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "filmaffinity_score": 9,
       "description": "La historia de la familia mafiosa Corleone y la transformación de Michael Corleone de hijo obediente a líder implacable en el mundo criminal.",
       "img": "src/images/films/elPadrino.jpg",
-      "url": "https://www.youtube.com/watch?v=gCVj1LeYnsc"
+      "url": "https://www.youtube.com/watch?v=gCVj1LeYnsc",
+      "id": "f57f"
     },
     {
       "rank": 2,
       "title": "El padrino. Parte II",
       "year": 1974,
       "director": "Francis Ford Coppola",
-      "main_cast": ["Al Pacino", "Robert De Niro", "Diane Keaton"],
+      "main_cast": [
+        "Al Pacino",
+        "Robert De Niro",
+        "Diane Keaton"
+      ],
       "filmaffinity_score": 8.9,
       "description": "Secuela y precuela que alterna la consolidación de Michael Corleone con los orígenes de Vito Corleone.",
       "img": "src/images/films/elPadrino2.jpg",
-      "url": "https://www.youtube.com/watch?v=9O1Iy9od7-A"
+      "url": "https://www.youtube.com/watch?v=9O1Iy9od7-A",
+      "id": "bc7f"
     },
     {
       "rank": 7,
       "title": "Ciudad de Dios",
       "year": 2002,
       "director": "Fernando Meirelles, Kátia Lund",
-      "main_cast": ["Alexandre Rodrigues", "Leandro Firmino", "Phellipe Haagensen"],
+      "main_cast": [
+        "Alexandre Rodrigues",
+        "Leandro Firmino",
+        "Phellipe Haagensen"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Retrato crudo de la vida en una favela de Río de Janeiro y el ascenso del narcotráfico.",
       "img": "src/images/films/ciudadDeDios.jpg",
-      "url": "https://www.youtube.com/watch?v=6mI8m2GAm4Q"
+      "url": "https://www.youtube.com/watch?v=6mI8m2GAm4Q",
+      "id": "bbcd"
     },
     {
       "rank": 8,
       "title": "Uno de los nuestros",
       "year": 1990,
       "director": "Martin Scorsese",
-      "main_cast": ["Ray Liotta", "Robert De Niro", "Joe Pesci"],
+      "main_cast": [
+        "Ray Liotta",
+        "Robert De Niro",
+        "Joe Pesci"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Historia real de Henry Hill y su implicación en la mafia italoamericana.",
       "img": "src/images/films/unoDeLosNuestros.jpg",
-      "url": "https://www.youtube.com/watch?v=Xh0mP89Cms0"
+      "url": "https://www.youtube.com/watch?v=Xh0mP89Cms0",
+      "id": "be3c"
     },
     {
       "rank": 10,
       "title": "Érase una vez en América",
       "year": 1984,
       "director": "Sergio Leone",
-      "main_cast": ["Robert De Niro", "James Woods", "Elizabeth McGovern"],
+      "main_cast": [
+        "Robert De Niro",
+        "James Woods",
+        "Elizabeth McGovern"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Épica de gánsteres judíos en Nueva York.",
       "img": "src/images/films/eraseUnaVezEnAmerica.jpg",
-      "url": "https://www.youtube.com/watch?v=mzhQp0fK_B4"
+      "url": "https://www.youtube.com/watch?v=mzhQp0fK_B4",
+      "id": "07b4"
     },
     {
       "rank": 22,
       "title": "Al rojo vivo",
       "year": 1949,
       "director": "Raoul Walsh",
-      "main_cast": ["James Cagney", "Virginia Mayo", "Edmond O'Brien"],
+      "main_cast": [
+        "James Cagney",
+        "Virginia Mayo",
+        "Edmond O'Brien"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Un gánster intenta dejar la vida criminal.",
       "img": "src/images/films/alRojoVivo.jpg",
-      "url": "https://www.youtube.com/watch?v=A20T0_E6KqA"
+      "url": "https://www.youtube.com/watch?v=A20T0_E6KqA",
+      "id": "dc8d"
     },
     {
       "rank": 28,
       "title": "Casino",
       "year": 1995,
       "director": "Martin Scorsese",
-      "main_cast": ["Robert De Niro", "Sharon Stone", "Joe Pesci"],
+      "main_cast": [
+        "Robert De Niro",
+        "Sharon Stone",
+        "Joe Pesci"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Control mafioso de los casinos de Las Vegas.",
       "img": "src/images/films/casino.jpg",
-      "url": "https://www.youtube.com/watch?v=db68m_eX38s"
+      "url": "https://www.youtube.com/watch?v=db68m_eX38s",
+      "id": "ca1a"
     },
     {
       "rank": 44,
       "title": "Enemigo público",
       "year": 1931,
       "director": "William A. Wellman",
-      "main_cast": ["James Cagney", "Jean Harlow", "Edward Woods"],
+      "main_cast": [
+        "James Cagney",
+        "Jean Harlow",
+        "Edward Woods"
+      ],
       "filmaffinity_score": 7.8,
       "description": "Ascenso y caída de un gángster.",
       "img": "src/images/films/enemigoPublico.jpg",
-      "url": "https://www.youtube.com/watch?v=S0y_oB6HovE"
+      "url": "https://www.youtube.com/watch?v=S0y_oB6HovE",
+      "id": "fd2a"
+    },
+    {
+      "id": "41e6",
+      "title": "la cosa",
+      "year": 2000,
+      "director": "yo",
+      "filmaffinity_score": 10,
+      "description": "",
+      "img": "",
+      "url": "",
+      "category": "mafiasYGangsters"
     }
   ],
   "cineNegroClasico": [
@@ -95,44 +146,64 @@
       "title": "Pacto de sangre",
       "year": 1944,
       "director": "Billy Wilder",
-      "main_cast": ["Fred MacMurray", "Barbara Stanwyck", "Edward G. Robinson"],
+      "main_cast": [
+        "Fred MacMurray",
+        "Barbara Stanwyck",
+        "Edward G. Robinson"
+      ],
       "filmaffinity_score": 8.4,
       "description": "Asesinato por dinero del seguro.",
       "img": "src/images/films/pactoDeSangre.jpg",
-      "url": "https://www.youtube.com/watch?v=S3jIs0h7d_I"
+      "url": "https://www.youtube.com/watch?v=S3jIs0h7d_I",
+      "id": "05c6"
     },
     {
       "rank": 14,
       "title": "Perversidad",
       "year": 1945,
       "director": "Fritz Lang",
-      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "main_cast": [
+        "Edward G. Robinson",
+        "Joan Bennett",
+        "Dan Duryea"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Thriller noir clásico.",
       "img": "src/images/films/perversidad.jpg",
-      "url": "https://www.youtube.com/watch?v=33m_Y_u2yL4"
+      "url": "https://www.youtube.com/watch?v=33m_Y_u2yL4",
+      "id": "73fc"
     },
     {
       "rank": 20,
       "title": "Los sobornados",
       "year": 1955,
       "director": "Samuel Fuller",
-      "main_cast": ["Robert Ryan", "Jan Sterling", "John Ayres"],
+      "main_cast": [
+        "Robert Ryan",
+        "Jan Sterling",
+        "John Ayres"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Policía honesto vs corrupción.",
       "img": "src/images/films/losSobornados.jpg",
-      "url": "https://www.youtube.com/watch?v=680D9N6_398"
+      "url": "https://www.youtube.com/watch?v=680D9N6_398",
+      "id": "ce86"
     },
     {
       "rank": 23,
       "title": "La mujer del cuadro",
       "year": 1944,
       "director": "Robert Siodmak",
-      "main_cast": ["Edward G. Robinson", "Joan Bennett", "Dan Duryea"],
+      "main_cast": [
+        "Edward G. Robinson",
+        "Joan Bennett",
+        "Dan Duryea"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Red de chantaje y crimen.",
       "img": "src/images/films/laMujerDelCuadro.jpg",
-      "url": "https://www.youtube.com/watch?v=f7GOnU2W63k"
+      "url": "https://www.youtube.com/watch?v=f7GOnU2W63k",
+      "id": "16b0"
     },
     {
       "rank": 25,
@@ -140,11 +211,21 @@
       "original_title": "The Asphalt Jungle",
       "year": 1950,
       "director": "John Huston",
-      "main_cast": ["Sterling Hayden", "Louis Calhern", "Sam Jaffe", "Jean Hagen", "James Whitmore", "John McIntire", "Marc Lawrence", "Marilyn Monroe"],
+      "main_cast": [
+        "Sterling Hayden",
+        "Louis Calhern",
+        "Sam Jaffe",
+        "Jean Hagen",
+        "James Whitmore",
+        "John McIntire",
+        "Marc Lawrence",
+        "Marilyn Monroe"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Atraco a joyería.",
       "img": "src/images/films/mientrasLaCiudadDuerme.jpg",
-      "url": "https://www.youtube.com/watch?v=Kz98B60_8_g"
+      "url": "https://www.youtube.com/watch?v=Kz98B60_8_g",
+      "id": "b5da"
     },
     {
       "rank": 26,
@@ -152,11 +233,16 @@
       "original_title": "Out of the Past",
       "year": 1947,
       "director": "Jacques Tourneur",
-      "main_cast": ["Robert Mitchum", "Jane Greer", "Kirk Douglas"],
+      "main_cast": [
+        "Robert Mitchum",
+        "Jane Greer",
+        "Kirk Douglas"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Detective atrapado en su pasado.",
       "img": "src/images/films/retornoAlPasado.jpg",
-      "url": "https://www.youtube.com/watch?v=pY-6X8vH98g"
+      "url": "https://www.youtube.com/watch?v=pY-6X8vH98g",
+      "id": "507b"
     }
   ],
   "thrillerPolicial": [
@@ -165,57 +251,82 @@
       "title": "Seven",
       "year": 1995,
       "director": "David Fincher",
-      "main_cast": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow"],
+      "main_cast": [
+        "Brad Pitt",
+        "Morgan Freeman",
+        "Gwyneth Paltrow"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Asesino de los pecados capitales.",
-      "trailer":"public/media/trailers/Seven.mp4",
+      "trailer": "public/media/trailers/Seven.mp4",
       "img": "src/images/films/seven.jpg",
-      "url": "https://www.youtube.com/watch?v=znmZoV7MBps"
+      "url": "https://www.youtube.com/watch?v=znmZoV7MBps",
+      "id": "d454"
     },
     {
       "rank": 17,
       "title": "Sed de mal",
       "year": 1958,
       "director": "Orson Welles",
-      "main_cast": ["Charlton Heston", "Janet Leigh", "Orson Welles"],
+      "main_cast": [
+        "Charlton Heston",
+        "Janet Leigh",
+        "Orson Welles"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Corrupción fronteriza.",
       "img": "src/images/films/sedDeMal.jpg",
-      "url": "https://www.youtube.com/watch?v=V9koT9_NisY"
+      "url": "https://www.youtube.com/watch?v=V9koT9_NisY",
+      "id": "8ad0"
     },
     {
       "rank": 19,
       "title": "El caballero de la noche",
       "year": 2008,
       "director": "Christopher Nolan",
-      "main_cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "main_cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Batman vs Joker.",
       "img": "src/images/films/elCaballeroDeLaNoche.jpg",
-      "url": "https://www.youtube.com/watch?v=LDG9bisJEaI"
+      "url": "https://www.youtube.com/watch?v=LDG9bisJEaI",
+      "id": "757a"
     },
     {
       "rank": 41,
       "title": "Chinatown",
       "year": 1974,
       "director": "Roman Polanski",
-      "main_cast": ["Jack Nicholson", "Faye Dunaway", "John Huston"],
+      "main_cast": [
+        "Jack Nicholson",
+        "Faye Dunaway",
+        "John Huston"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Corrupción en LA.",
       "img": "src/images/films/chinatown.jpg",
-      "url": "https://www.youtube.com/watch?v=T_SAn7G_u7Q"
+      "url": "https://www.youtube.com/watch?v=T_SAn7G_u7Q",
+      "id": "b13c"
     },
     {
       "rank": 43,
       "title": "No es país para viejos",
       "year": 2007,
       "director": "Joel Coen, Ethan Coen",
-      "main_cast": ["Tommy Lee Jones", "Javier Bardem", "Josh Brolin"],
+      "main_cast": [
+        "Tommy Lee Jones",
+        "Javier Bardem",
+        "Josh Brolin"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Persecución implacable.",
-      "trailer":"",
+      "trailer": "",
       "img": "src/images/films/noEsPais.jpg",
-      "url": "https://www.youtube.com/watch?v=L2G574Y_4pI"
+      "url": "https://www.youtube.com/watch?v=L2G574Y_4pI",
+      "id": "6cc9"
     },
     {
       "rank": 53,
@@ -223,11 +334,16 @@
       "original_title": "Gone Girl",
       "year": 2014,
       "director": "David Fincher",
-      "main_cast": ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris"],
+      "main_cast": [
+        "Ben Affleck",
+        "Rosamund Pike",
+        "Neil Patrick Harris"
+      ],
       "filmaffinity_score": 7.8,
       "description": "Desaparición sospechosa.",
       "img": "src/images/films/perdida.jpg",
-      "url": "https://www.youtube.com/watch?v=Q9m8XInC6vM"
+      "url": "https://www.youtube.com/watch?v=Q9m8XInC6vM",
+      "id": "3569"
     },
     {
       "rank": 54,
@@ -235,11 +351,16 @@
       "original_title": "Prisoners",
       "year": 2013,
       "director": "Denis Villeneuve",
-      "main_cast": ["Hugh Jackman", "Jake Gyllenhaal", "Viola Davis"],
+      "main_cast": [
+        "Hugh Jackman",
+        "Jake Gyllenhaal",
+        "Viola Davis"
+      ],
       "filmaffinity_score": 7.9,
       "description": "Padre busca justicia.",
       "img": "src/images/films/prisioneros.jpg",
-      "url": "https://www.youtube.com/watch?v=N_8fK-F3320"
+      "url": "https://www.youtube.com/watch?v=N_8fK-F3320",
+      "id": "f3c4"
     }
   ],
   "thrillerPsicologico": [
@@ -248,93 +369,132 @@
       "title": "M, el vampiro de Düsseldorf",
       "year": 1931,
       "director": "Fritz Lang",
-      "main_cast": ["Peter Lorre", "Otto Wernicke", "Gustaf Gründgens"],
+      "main_cast": [
+        "Peter Lorre",
+        "Otto Wernicke",
+        "Gustaf Gründgens"
+      ],
       "filmaffinity_score": 8.3,
       "description": "Asesino serial.",
       "img": "src/images/films/elVampiroDeDusseldorf.jpg",
-      "url": "https://www.youtube.com/watch?v=8p_h29A0mE0"
+      "url": "https://www.youtube.com/watch?v=8p_h29A0mE0",
+      "id": "aa71"
     },
     {
       "rank": 12,
       "title": "El silencio de los corderos",
       "year": 1991,
       "director": "Jonathan Demme",
-      "main_cast": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+      "main_cast": [
+        "Jodie Foster",
+        "Anthony Hopkins",
+        "Scott Glenn"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Hannibal Lecter.",
-      "trailer":"public/media/trailers/ElSilencioDeLosCorderos.mp4",
+      "trailer": "public/media/trailers/ElSilencioDeLosCorderos.mp4",
       "img": "src/images/films/elSilencioDeLosCorderos.jpg",
-      "url": "https://www.youtube.com/watch?v=GAnO0O4eR1Y"
-      
+      "url": "https://www.youtube.com/watch?v=GAnO0O4eR1Y",
+      "id": "dcde"
     },
     {
       "rank": 15,
       "title": "Naranja mecánica",
       "year": 1971,
       "director": "Stanley Kubrick",
-      "main_cast": ["Malcolm McDowell", "Patrick Magee", "Michael Bates"],
+      "main_cast": [
+        "Malcolm McDowell",
+        "Patrick Magee",
+        "Michael Bates"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Violencia juvenil.",
-      "trailer":"public/media/trailers/naranjaMecanica.mp4",
+      "trailer": "public/media/trailers/naranjaMecanica.mp4",
       "img": "src/images/films/naranjaMecanica.jpg",
-      "url": "https://www.youtube.com/watch?v=T54uZPI4Z8A"
+      "url": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
+      "id": "8e5b"
     },
     {
       "rank": 24,
       "title": "Taxi Driver",
       "year": 1976,
       "director": "Martin Scorsese",
-      "main_cast": ["Robert De Niro", "Jodie Foster", "Cybill Shepherd"],
+      "main_cast": [
+        "Robert De Niro",
+        "Jodie Foster",
+        "Cybill Shepherd"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Vigilante urbano.",
       "img": "src/images/films/taxiDriver.jpg",
-      "url": "https://www.youtube.com/watch?v=c_S6H9M89M4"
+      "url": "https://www.youtube.com/watch?v=c_S6H9M89M4",
+      "id": "baac"
     },
     {
       "rank": 31,
       "title": "Psicosis",
       "year": 1960,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Anthony Perkins", "Janet Leigh", "Vera Miles"],
-      "filmaffinity_score": 8.0,
+      "main_cast": [
+        "Anthony Perkins",
+        "Janet Leigh",
+        "Vera Miles"
+      ],
+      "filmaffinity_score": 8,
       "description": "Motel macabro.",
-      "trailer":"",
+      "trailer": "",
       "img": "src/images/films/psicosis.jpg",
-      "url": "https://www.youtube.com/watch?v=vV_XpYvYp8E"
+      "url": "https://www.youtube.com/watch?v=vV_XpYvYp8E",
+      "id": "e121"
     },
     {
       "rank": 49,
       "title": "El Resplandor",
       "year": 1980,
       "director": "Stanley Kubrick",
-      "main_cast": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
+      "main_cast": [
+        "Jack Nicholson",
+        "Shelley Duvall",
+        "Danny Lloyd"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Hotel embrujado.",
-      "trailer":"public/media/trailers/elResplandor.mp4",
+      "trailer": "public/media/trailers/elResplandor.mp4",
       "img": "src/images/films/elResplandor.jpg",
-      "url": "https://www.youtube.com/watch?v=S014oGZiL2I"
+      "url": "https://www.youtube.com/watch?v=S014oGZiL2I",
+      "id": "3a14"
     },
     {
       "rank": 60,
       "title": "Oldboy",
       "year": 2003,
       "director": "Park Chan-wook",
-      "main_cast": ["Choi Min-sik", "Yoo Ji-tae", "Kang Hye-jung"],
+      "main_cast": [
+        "Choi Min-sik",
+        "Yoo Ji-tae",
+        "Kang Hye-jung"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Venganza brutal.",
       "img": "src/images/films/oldBoy.jpg",
-      "url": "https://www.youtube.com/watch?v=2HkjwJqmkNg"
+      "url": "https://www.youtube.com/watch?v=2HkjwJqmkNg",
+      "id": "da1b"
     },
     {
       "rank": 63,
       "title": "Shutter Island",
       "year": 2010,
       "director": "Martin Scorsese",
-      "main_cast": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley"],
+      "main_cast": [
+        "Leonardo DiCaprio",
+        "Mark Ruffalo",
+        "Ben Kingsley"
+      ],
       "filmaffinity_score": 7.9,
       "description": "Hospital psiquiátrico.",
       "img": "src/images/films/shutterIsland.jpg",
-      "url": "https://www.youtube.com/watch?v=CRdakyXEZos"
+      "url": "https://www.youtube.com/watch?v=CRdakyXEZos",
+      "id": "a219"
     }
   ],
   "misterioDetectives": [
@@ -343,44 +503,64 @@
       "title": "El secreto de sus ojos",
       "year": 2009,
       "director": "Juan José Campanella",
-      "main_cast": ["Ricardo Darín", "Soledad Villamil", "Pablo Rago"],
+      "main_cast": [
+        "Ricardo Darín",
+        "Soledad Villamil",
+        "Pablo Rago"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Caso reabierto.",
       "img": "src/images/films/elSecretoDeSusOjos.jpg",
-      "url": "https://www.youtube.com/watch?v=GqK2L_rI0R0"
+      "url": "https://www.youtube.com/watch?v=GqK2L_rI0R0",
+      "id": "5d86"
     },
     {
       "rank": 32,
       "title": "Testigo de cargo",
       "year": 1957,
       "director": "Billy Wilder",
-      "main_cast": ["Tyrone Power", "Marlene Dietrich", "Charles Laughton"],
+      "main_cast": [
+        "Tyrone Power",
+        "Marlene Dietrich",
+        "Charles Laughton"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Juicio con giro.",
       "img": "src/images/films/testigoDeCargo.jpg",
-      "url": "https://www.youtube.com/watch?v=68T0uU6w4Kk"
+      "url": "https://www.youtube.com/watch?v=68T0uU6w4Kk",
+      "id": "3f88"
     },
     {
       "rank": 33,
       "title": "Asesinato en el Orient Express",
       "year": 1974,
       "director": "Sidney Lumet",
-      "main_cast": ["Albert Finney", "Lauren Bacall", "Ingrid Bergman"],
+      "main_cast": [
+        "Albert Finney",
+        "Lauren Bacall",
+        "Ingrid Bergman"
+      ],
       "filmaffinity_score": 7.8,
       "description": "Poirot en el tren.",
       "img": "src/images/films/OrienteExpress1974.jpg",
-      "url": "https://www.youtube.com/watch?v=z6Hh4S7_76Y"
+      "url": "https://www.youtube.com/watch?v=z6Hh4S7_76Y",
+      "id": "3552"
     },
     {
       "rank": 34,
       "title": "Muerte en el Nilo",
       "year": 1978,
       "director": "John Guillermin",
-      "main_cast": ["Peter Ustinov", "Jane Birkin", "Lois Chiles"],
+      "main_cast": [
+        "Peter Ustinov",
+        "Jane Birkin",
+        "Lois Chiles"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Crucero mortal.",
       "img": "src/images/films/muerteEnElNilo.jpg",
-      "url": "https://www.youtube.com/watch?v=rX_Yn3U8fB0"
+      "url": "https://www.youtube.com/watch?v=rX_Yn3U8fB0",
+      "id": "28d2"
     },
     {
       "rank": 35,
@@ -388,33 +568,48 @@
       "original_title": "And Then There Were None",
       "year": 1945,
       "director": "René Clair",
-      "main_cast": ["Barry Fitzgerald", "Walter Huston", "Louis Hayward"],
+      "main_cast": [
+        "Barry Fitzgerald",
+        "Walter Huston",
+        "Louis Hayward"
+      ],
       "filmaffinity_score": 7.7,
       "description": "Asesinatos en isla.",
       "img": "src/images/films/diezNegritos1945.jpg",
-      "url": "https://www.youtube.com/watch?v=pAnI5_t25pI"
+      "url": "https://www.youtube.com/watch?v=pAnI5_t25pI",
+      "id": "f49c"
     },
     {
       "rank": 45,
       "title": "Asesinato en el Orient Express",
       "year": 2017,
       "director": "Kenneth Branagh",
-      "main_cast": ["Kenneth Branagh", "Penélope Cruz", "Willem Dafoe"],
+      "main_cast": [
+        "Kenneth Branagh",
+        "Penélope Cruz",
+        "Willem Dafoe"
+      ],
       "filmaffinity_score": 6.7,
       "description": "Remake Poirot.",
       "img": "src/images/films/OrienteExpress2017.jpg",
-      "url": "https://www.youtube.com/watch?v=7uV_VmqXGTo"
+      "url": "https://www.youtube.com/watch?v=7uV_VmqXGTo",
+      "id": "317e"
     },
     {
       "rank": 46,
       "title": "Muerte en el Nilo",
       "year": 2022,
       "director": "Kenneth Branagh",
-      "main_cast": ["Kenneth Branagh", "Gal Gadot", "Armie Hammer"],
+      "main_cast": [
+        "Kenneth Branagh",
+        "Gal Gadot",
+        "Armie Hammer"
+      ],
       "filmaffinity_score": 6.4,
       "description": "Remake Nilo.",
       "img": "src/images/films/muerteEnElNilo2022.jpg",
-      "url": "https://www.youtube.com/watch?v=l_989Kst4k4"
+      "url": "https://www.youtube.com/watch?v=l_989Kst4k4",
+      "id": "f361"
     },
     {
       "rank": 51,
@@ -422,11 +617,16 @@
       "original_title": "Knives Out",
       "year": 2019,
       "director": "Rian Johnson",
-      "main_cast": ["Daniel Craig", "Ana de Armas", "Chris Evans"],
+      "main_cast": [
+        "Daniel Craig",
+        "Ana de Armas",
+        "Chris Evans"
+      ],
       "filmaffinity_score": 7.6,
       "description": "Misterio moderno.",
       "img": "src/images/films/knivesOut.jpg",
-      "url": "https://www.youtube.com/watch?v=H7S3E-Wb2nU"
+      "url": "https://www.youtube.com/watch?v=H7S3E-Wb2nU",
+      "id": "75ac"
     },
     {
       "rank": 52,
@@ -434,11 +634,16 @@
       "original_title": "Glass Onion: A Knives Out Mystery",
       "year": 2022,
       "director": "Rian Johnson",
-      "main_cast": ["Daniel Craig", "Edward Norton", "Janelle Monáe"],
+      "main_cast": [
+        "Daniel Craig",
+        "Edward Norton",
+        "Janelle Monáe"
+      ],
       "filmaffinity_score": 7.3,
       "description": "Isla griega.",
       "img": "src/images/films/glassOnion.jpg",
-      "url": "https://www.youtube.com/watch?v=u6CAnG8uSjA"
+      "url": "https://www.youtube.com/watch?v=u6CAnG8uSjA",
+      "id": "ebb5"
     }
   ],
   "terrorCriminal": [
@@ -447,44 +652,64 @@
       "title": "Perros de la calle",
       "year": 1992,
       "director": "Quentin Tarantino",
-      "main_cast": ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
+      "main_cast": [
+        "Harvey Keitel",
+        "Tim Roth",
+        "Michael Madsen"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Atraco fallido.",
       "img": "src/images/films/perrosDeLaCalle.jpg",
-      "url": "https://www.youtube.com/watch?v=vV_XpYvYp8E"
+      "url": "https://www.youtube.com/watch?v=vV_XpYvYp8E",
+      "id": "af51"
     },
     {
       "rank": 29,
       "title": "El Perfume: Historia de un Asesino",
       "year": 2006,
       "director": "Tom Tykwer",
-      "main_cast": ["Ben Whishaw", "Dustin Hoffman", "Alan Rickman"],
+      "main_cast": [
+        "Ben Whishaw",
+        "Dustin Hoffman",
+        "Alan Rickman"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Asesino por aromas.",
       "img": "src/images/films/elPerfume.jpg",
-      "url": "https://www.youtube.com/watch?v=3m_K9r52y4M"
+      "url": "https://www.youtube.com/watch?v=3m_K9r52y4M",
+      "id": "5acd"
     },
     {
       "rank": 38,
       "title": "Frenzy",
       "year": 1972,
       "director": "Alfred Hitchcock",
-      "main_cast": ["Jon Finch", "Alec McCowen", "Barry Foster"],
+      "main_cast": [
+        "Jon Finch",
+        "Alec McCowen",
+        "Barry Foster"
+      ],
       "filmaffinity_score": 7.7,
       "description": "Estrangulador.",
       "img": "src/images/films/frenzy.jpg",
-      "url": "https://www.youtube.com/watch?v=YyWvKz5Wn_0"
+      "url": "https://www.youtube.com/watch?v=YyWvKz5Wn_0",
+      "id": "e95f"
     },
     {
       "rank": 57,
       "title": "El cadáver de Anna Fritz",
       "year": 2015,
       "director": "Hèctor Hernández Vicens",
-      "main_cast": ["Alba Ribas", "Cristian Valencia", "Albert Carbó"],
-      "filmaffinity_score": 6.0,
+      "main_cast": [
+        "Alba Ribas",
+        "Cristian Valencia",
+        "Albert Carbó"
+      ],
+      "filmaffinity_score": 6,
       "description": "Morgue mortal.",
       "img": "src/images/films/cadaverAnnaFritz.jpg",
-      "url": "https://www.youtube.com/watch?v=0eI3G1m-R_c"
+      "url": "https://www.youtube.com/watch?v=0eI3G1m-R_c",
+      "id": "05e5"
     },
     {
       "rank": 62,
@@ -492,11 +717,16 @@
       "original_title": "Saw",
       "year": 2004,
       "director": "James Wan",
-      "main_cast": ["Cary Elwes", "Leigh Whannell", "Danny Glover"],
-      "filmaffinity_score": 7.0,
+      "main_cast": [
+        "Cary Elwes",
+        "Leigh Whannell",
+        "Danny Glover"
+      ],
+      "filmaffinity_score": 7,
       "description": "Jigsaw.",
       "img": "src/images/films/saw.jpg",
-      "url": "https://www.youtube.com/watch?v=S-1QgOMQ-ls"
+      "url": "https://www.youtube.com/watch?v=S-1QgOMQ-ls",
+      "id": "b5f7"
     },
     {
       "rank": 64,
@@ -504,11 +734,16 @@
       "original_title": "Gerald's Game",
       "year": 2017,
       "director": "Mike Flanagan",
-      "main_cast": ["Carla Gugino", "Bruce Greenwood", "Henry Thomas"],
+      "main_cast": [
+        "Carla Gugino",
+        "Bruce Greenwood",
+        "Henry Thomas"
+      ],
       "filmaffinity_score": 6.5,
       "description": "Supervivencia.",
       "img": "src/images/films/geraldsGame.jpg",
-      "url": "https://www.youtube.com/watch?v=twbGU2CqqQU"
+      "url": "https://www.youtube.com/watch?v=twbGU2CqqQU",
+      "id": "eaa0"
     }
   ],
   "thrillerModerno": [
@@ -518,11 +753,16 @@
       "original_title": "Crooked House",
       "year": 2017,
       "director": "Gilles Paquet-Brenner",
-      "main_cast": ["Glenn Close", "Max Irons", "Stefanie Martini"],
+      "main_cast": [
+        "Glenn Close",
+        "Max Irons",
+        "Stefanie Martini"
+      ],
       "filmaffinity_score": 6.4,
       "description": "Familia rica.",
       "img": "src/images/films/crookedHouse.jpg",
-      "url": "https://www.youtube.com/watch?v=OunN9vI-B0k"
+      "url": "https://www.youtube.com/watch?v=OunN9vI-B0k",
+      "id": "11e7"
     },
     {
       "rank": 55,
@@ -530,11 +770,16 @@
       "original_title": "Mystic River",
       "year": 2003,
       "director": "Clint Eastwood",
-      "main_cast": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
-      "filmaffinity_score": 8.0,
+      "main_cast": [
+        "Sean Penn",
+        "Tim Robbins",
+        "Kevin Bacon"
+      ],
+      "filmaffinity_score": 8,
       "description": "Trauma infantil.",
       "img": "src/images/films/mysticRiver.jpg",
-      "url": "https://www.youtube.com/watch?v=t_6_G9X5_Fw"
+      "url": "https://www.youtube.com/watch?v=t_6_G9X5_Fw",
+      "id": "cebc"
     },
     {
       "rank": 56,
@@ -542,22 +787,32 @@
       "original_title": "The Girl on the Train",
       "year": 2016,
       "director": "Tate Taylor",
-      "main_cast": ["Emily Blunt", "Haley Bennett", "Rebecca Ferguson"],
+      "main_cast": [
+        "Emily Blunt",
+        "Haley Bennett",
+        "Rebecca Ferguson"
+      ],
       "filmaffinity_score": 6.3,
       "description": "Testigo accidental.",
       "img": "src/images/films/chicaDelTren.jpg",
-      "url": "https://www.youtube.com/watch?v=y5y7S8S6Z54"
+      "url": "https://www.youtube.com/watch?v=y5y7S8S6Z54",
+      "id": "0110"
     },
     {
       "rank": 58,
       "title": "Incendies",
       "year": 2010,
       "director": "Denis Villeneuve",
-      "main_cast": ["Lubna Azabal", "Mélissa Désormeaux-Poulin", "Maxim Gaudette"],
+      "main_cast": [
+        "Lubna Azabal",
+        "Mélissa Désormeaux-Poulin",
+        "Maxim Gaudette"
+      ],
       "filmaffinity_score": 8.1,
       "description": "Pasado oscuro.",
       "img": "src/images/films/incendies.jpg",
-      "url": "https://www.youtube.com/watch?v=0nyqxBC64Sg"
+      "url": "https://www.youtube.com/watch?v=0nyqxBC64Sg",
+      "id": "4e6d"
     },
     {
       "rank": 59,
@@ -565,11 +820,16 @@
       "original_title": "Salinui chueok",
       "year": 2003,
       "director": "Bong Joon-ho",
-      "main_cast": ["Song Kang-ho", "Kim Sang-kyung", "Kim Roi-ha"],
+      "main_cast": [
+        "Song Kang-ho",
+        "Kim Sang-kyung",
+        "Kim Roi-ha"
+      ],
       "filmaffinity_score": 8.2,
       "description": "Corea rural.",
       "img": "src/images/films/memoriesMurder.jpg",
-      "url": "https://www.youtube.com/watch?v=dT7vMrM-2Ok"
+      "url": "https://www.youtube.com/watch?v=dT7vMrM-2Ok",
+      "id": "bf36"
     },
     {
       "rank": 61,
@@ -577,11 +837,16 @@
       "original_title": "Mother",
       "year": 2009,
       "director": "Bong Joon-ho",
-      "main_cast": ["Kim Hye-ja", "Won Bin", "Jin Goo"],
+      "main_cast": [
+        "Kim Hye-ja",
+        "Won Bin",
+        "Jin Goo"
+      ],
       "filmaffinity_score": 7.9,
       "description": "Madre justiciera.",
       "img": "src/images/films/mother.jpg",
-      "url": "https://www.youtube.com/watch?v=8V-9S_Yp390"
+      "url": "https://www.youtube.com/watch?v=8V-9S_Yp390",
+      "id": "82a7"
     },
     {
       "rank": 65,
@@ -589,22 +854,32 @@
       "original_title": "Den skyldige",
       "year": 2018,
       "director": "Gustav Möller",
-      "main_cast": ["Jakob Cedergren", "Jessica Dinnage", "Omar Shargawi"],
+      "main_cast": [
+        "Jakob Cedergren",
+        "Jessica Dinnage",
+        "Omar Shargawi"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Llamada de emergencia.",
       "img": "src/images/films/skyldige.jpg",
-      "url": "https://www.youtube.com/watch?v=pAnI5_t25pI"
+      "url": "https://www.youtube.com/watch?v=pAnI5_t25pI",
+      "id": "855f"
     },
     {
       "rank": 66,
       "title": "El bar",
       "year": 2017,
       "director": "Álex de la Iglesia",
-      "main_cast": ["Blanca Suárez", "Mario Casas", "Carmen Machi"],
+      "main_cast": [
+        "Blanca Suárez",
+        "Mario Casas",
+        "Carmen Machi"
+      ],
       "filmaffinity_score": 6.4,
       "description": "Encerrados.",
       "img": "src/images/films/elBar.jpg",
-      "url": "https://www.youtube.com/watch?v=Kz6EOf6j6E0"
+      "url": "https://www.youtube.com/watch?v=Kz6EOf6j6E0",
+      "id": "54a8"
     },
     {
       "rank": 67,
@@ -612,55 +887,80 @@
       "original_title": "Contratiempo",
       "year": 2016,
       "director": "Oriol Paulo",
-      "main_cast": ["Mario Casas", "Ana Wagener", "José Coronado"],
+      "main_cast": [
+        "Mario Casas",
+        "Ana Wagener",
+        "José Coronado"
+      ],
       "filmaffinity_score": 7.9,
       "description": "Mentiras.",
       "img": "src/images/films/contratiempo.jpg",
-      "url": "https://www.youtube.com/watch?v=epCg2RbyF-0"
+      "url": "https://www.youtube.com/watch?v=epCg2RbyF-0",
+      "id": "c961"
     },
     {
       "rank": 68,
       "title": "Durante la tormenta",
       "year": 2018,
       "director": "Oriol Paulo",
-      "main_cast": ["Adriana Ugarte", "Chino Darín", "Javier Gutiérrez"],
+      "main_cast": [
+        "Adriana Ugarte",
+        "Chino Darín",
+        "Javier Gutiérrez"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Saltos temporales.",
       "img": "src/images/films/duranteTormenta.jpg",
-      "url": "https://www.youtube.com/watch?v=eK2-4S4vF-8"
+      "url": "https://www.youtube.com/watch?v=eK2-4S4vF-8",
+      "id": "90ba"
     },
     {
       "rank": 69,
       "title": "Los ojos de Julia",
       "year": 2010,
       "director": "Guillem Morales",
-      "main_cast": ["Belén Rueda", "Lluís Homar", "Pablo Derqui"],
+      "main_cast": [
+        "Belén Rueda",
+        "Lluís Homar",
+        "Pablo Derqui"
+      ],
       "filmaffinity_score": 6.7,
       "description": "Ceguera.",
       "img": "src/images/films/losOjosJulia.jpg",
-      "url": "https://www.youtube.com/watch?v=9_fJz2v6QYo"
+      "url": "https://www.youtube.com/watch?v=9_fJz2v6QYo",
+      "id": "115b"
     },
     {
       "rank": 70,
       "title": "El orfanato",
       "year": 2007,
       "director": "J.A. Bayona",
-      "main_cast": ["Belén Rueda", "Fernando Cayo", "Roger Príncep"],
+      "main_cast": [
+        "Belén Rueda",
+        "Fernando Cayo",
+        "Roger Príncep"
+      ],
       "filmaffinity_score": 7.4,
       "description": "Orfanato.",
       "img": "src/images/films/elOrfanato.jpg",
-      "url": "https://www.youtube.com/watch?v=8V-9S_Yp390"
+      "url": "https://www.youtube.com/watch?v=8V-9S_Yp390",
+      "id": "1eae"
     },
     {
       "rank": 71,
       "title": "La piel que habito",
       "year": 2011,
       "director": "Pedro Almodóvar",
-      "main_cast": ["Antonio Banderas", "Elena Anaya", "Marisa Paredes"],
+      "main_cast": [
+        "Antonio Banderas",
+        "Elena Anaya",
+        "Marisa Paredes"
+      ],
       "filmaffinity_score": 7.2,
       "description": "Piel sintética.",
       "img": "src/images/films/pielHabito.jpg",
-      "url": "https://www.youtube.com/watch?v=n5hD-3Gv1S4"
+      "url": "https://www.youtube.com/watch?v=n5hD-3Gv1S4",
+      "id": "5779"
     }
   ]
 }

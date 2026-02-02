@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import "../style/AdminPanel.css";
+import "../style/adminPanel.css";
 
 const AdminPanel = () => {
     const [movies, setMovies] = useState([]);

@@ -1,206 +1,131 @@
 .admin-panel {
+    max-width: 1100px;
+    margin: 3rem auto;
     padding: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    min-height: 100vh;
+    color: #eaeaea;
 }
+
+/* TÍTULO */
 
 .admin-panel h1 {
-    color: #00e5ff;
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #f5c400;
+    text-transform: uppercase;
 }
 
-.btn-new {
-    background: #00e5ff;
-    color: #000;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 2rem;
-    transition: all 0.3s;
+/* LISTA DE PELÍCULAS */
+
+.admin-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.btn-new:hover {
-    background: #00b8cc;
-    transform: scale(1.05);
-}
+/* TARJETA DE PELÍCULA */
 
-/* FORMULARIO */
-.form-container {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2rem;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    border: 2px solid #00e5ff;
-}
-
-.form-container h2 {
-    color: #00e5ff;
-    margin-bottom: 1.5rem;
-}
-
-.form-grid {
+.admin-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.form-container input,
-.form-container select,
-.form-container textarea {
-    width: 100%;
-    padding: 0.75rem;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #00e5ff;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.form-container input::placeholder,
-.form-container textarea::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.form-container textarea {
-    grid-column: 1 / -1;
-    resize: vertical;
-}
-
-.form-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.btn-save,
-.btn-cancel {
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.btn-save {
-    background: #00ff41;
-    color: #000;
-}
-
-.btn-save:hover {
-    background: #00cc34;
-    transform: scale(1.05);
-}
-
-.btn-cancel {
-    background: #ff4444;
-    color: #fff;
-}
-
-.btn-cancel:hover {
-    background: #cc0000;
-    transform: scale(1.05);
-}
-
-/* TABLA */
-.movies-list {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2rem;
+    grid-template-columns: 90px 1fr auto;
+    gap: 1.5rem;
+    align-items: center;
+    background: #121212;
+    padding: 1.5rem;
     border-radius: 10px;
-    border: 2px solid #00e5ff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
-.movies-list h2 {
-    color: #00e5ff;
-    margin-bottom: 1.5rem;
+/* IMAGEN */
+
+.admin-card img {
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #333;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+/* INFO */
+
+.admin-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
     color: #fff;
 }
 
-thead {
-    background: rgba(0, 229, 255, 0.2);
+.admin-info p {
+    margin: 0.3rem 0;
+    font-size: 0.85rem;
+    opacity: 0.75;
 }
 
-th {
-    padding: 1rem;
-    text-align: left;
-    font-weight: bold;
-    color: #00e5ff;
-    border-bottom: 2px solid #00e5ff;
-}
+/* BOTONES */
 
-td {
-    padding: 1rem;
-    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
-}
-
-tbody tr:hover {
-    background: rgba(0, 229, 255, 0.1);
-}
-
-.actions {
+.admin-actions {
     display: flex;
+    flex-direction: column;
     gap: 0.5rem;
 }
 
-.btn-edit,
-.btn-delete {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    border: none;
+.admin-actions button {
+    padding: 8px 12px;
     border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
+/* EDITAR */
+
 .btn-edit {
-    background: #ffa500;
-    color: #000;
+    background: #2d8cf0;
+    color: #fff;
 }
 
 .btn-edit:hover {
-    background: #ff8c00;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(45, 140, 240, 0.4);
 }
 
+/* BORRAR */
+
 .btn-delete {
-    background: #ff4444;
+    background: #d9534f;
     color: #fff;
 }
 
 .btn-delete:hover {
-    background: #cc0000;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(217, 83, 79, 0.4);
+}
+
+/* MENSAJE VACÍO */
+
+.admin-empty {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 3rem;
 }
 
 /* RESPONSIVE */
+
 @media (max-width: 768px) {
-    .form-grid {
+    .admin-card {
         grid-template-columns: 1fr;
+        text-align: center;
     }
 
-    table {
-        font-size: 0.9rem;
+    .admin-card img {
+        margin: 0 auto;
     }
 
-    th,
-    td {
-        padding: 0.5rem;
-    }
-
-    .actions {
-        flex-direction: column;
+    .admin-actions {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
     }
 }

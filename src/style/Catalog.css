@@ -308,3 +308,5 @@
         font-size: 0.8rem;
     }
 }
+
+@import url('./admin.css');
