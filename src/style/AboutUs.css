@@ -13,14 +13,15 @@ body {
   line-height: 1.6;
 }
 
+
 /* Contenedor principal */
 .tittleAboutUs {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 40px;
   min-height: 100vh;
+background:url(../images/background/fondoHome1.png) ;
 }
-
 /* ========== HEADER ========== */
 
 .legalNotice {
@@ -147,14 +148,17 @@ body {
 }
 
 .teamMember {
-  background: #fff;
+  background: #1a3b3f;
   padding: 25px;
   border-radius: 10px;
   text-align: center;
-  border: 2px solid #f0f0f0;
+  border: #8B1A1A;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  
+  
 }
+
 
 .teamMember:hover {
   transform: translateY(-5px);
@@ -169,6 +173,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #132D30;
+  background-color: #e0e0e0;
 }
 
 .memberInitial img {
@@ -193,7 +198,7 @@ body {
 }
 
 .teamMember p {
-  color: #132D30;
+  color: whitesmoke;
   font-size: 0.9rem;
   text-align: center;
 }

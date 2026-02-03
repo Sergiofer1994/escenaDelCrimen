@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+/* ✅ UNA SOLA CLASE PARA TODO EL FONDO Y LAYOUT */
+.pageWrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('src/images/background/fondoHome.jpg') center/cover no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    box-sizing: border-box;
+}
+
+/* Secciones individuales */
+.ubicacion,
+.contacto {
+    
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ubicacion h1,
+.contacto h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #70B5B0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.imagenCentrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+.imagenCentrada h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #70B5B0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.imagenCentrada img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(112, 181, 176, 0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenCentrada img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(112, 181, 176, 0.4);
+}
+
+@media (max-width: 768px) {
+    .pageWrapper {
+        padding: 30px 15px;
+        gap: 40px;
+    }
+
+    .ubicacion h1,
+    .contacto h1,
+    .imagenCentrada h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .imagenCentrada {
+        gap: 20px;
+        padding: 15px 0;
+    }
+
+    .imagenCentrada img {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pageWrapper {
+        padding: 20px 10px;
+        gap: 30px;
+    }
+
+    .ubicacion h1,
+    .contacto h1,
+    .imagenCentrada h1 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .imagenCentrada {
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+    .imagenCentrada img {
+        max-width: 100%;
+        border-radius: 12px;
+    }
+}

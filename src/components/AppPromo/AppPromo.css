@@ -1,0 +1,302 @@
+/* components/AppPromo/AppPromo.css */
+.appPromo {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(../../images/background/fondoHome.jpg) center/cover no-repeat fixed;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promoContainer {
+    max-width: 1200px;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(139, 26, 26, 0.2), rgba(0, 229, 255, 0.1));
+    border: 2px solid rgba(139, 26, 26, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5),
+        0 0 30px rgba(139, 26, 26, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.promoContainer::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.1) 0%, transparent 70%);
+    animation: glow 8s ease-in-out infinite;
+}
+
+.promoContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.promoLeft {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.appIcon {
+    width: 100px;
+    height: 80px;
+    background-color: #132D30;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-shrink: 0;
+    box-shadow: 0 5px 20px rgba(139, 26, 26, 0.5);
+}
+
+.appIcon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.promoText {
+    flex: 1;
+}
+
+.promoTitle {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.promoSubtitle {
+    color: #00e5ff;
+    font-size: 1.2rem;
+    margin: 0 0 25px 0;
+    font-weight: 300;
+}
+
+.promoFeatures {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.promoFeatures li {
+    color: #ccc;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.promoRight {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.phoneMockup {
+    width: 180px;
+    height: 360px;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    border-radius: 30px;
+    padding: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7),
+        inset 0 0 20px rgba(255, 255, 255, 0.05);
+    position: relative;
+}
+
+.phoneNotch {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 25px;
+    background: #000;
+    border-radius: 0 0 15px 15px;
+    z-index: 2;
+}
+
+.phoneScreen {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+    border-radius: 22px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screenContent {
+    padding: 40px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniPoster {
+    width: 100%;
+    height: 140px;
+    background: #132D30;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.miniText {
+    width: 80%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.miniText.short {
+    width: 50%;
+}
+
+.miniButtons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.miniButtons span {
+    width: 50px;
+    height: 20px;
+    background: rgba(0, 229, 255, 0.4);
+    border-radius: 10px;
+}
+
+.downloadButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.btnDownload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.btnDownload:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 229, 255, 0.3);
+    border-color: #00e5ff;
+}
+
+.btnDownload.ios:hover {
+    box-shadow: 0 5px 20px rgba(139, 26, 26, 0.5);
+    border-color: #8B1A1A;
+}
+
+.storeIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.btnDownload div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+
+.btnDownload .small {
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
+.btnDownload .large {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+@media (max-width: 1024px) {
+    .promoContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .promoLeft {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promoFeatures li {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .appPromo {
+        padding: 40px 15px;
+    }
+
+    .promoContainer {
+        padding: 30px 20px;
+    }
+
+    .promoTitle {
+        font-size: 1.8rem;
+    }
+
+    .promoSubtitle {
+        font-size: 1rem;
+    }
+
+    .phoneMockup {
+        width: 150px;
+        height: 300px;
+    }
+
+    .miniPoster {
+        height: 110px;
+    }
+
+    .downloadButtons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btnDownload {
+        width: 100%;
+        justify-content: center;
+    }
+}

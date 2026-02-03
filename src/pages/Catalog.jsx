@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../style/Catalog.css";
 
-const Catalogo = () => {
+const Catalog = () => {
     const [films, setFilms] = useState([]);
     const [category, setCategory] = useState("mafiasYGangsters");
 
@@ -12,31 +12,74 @@ const Catalogo = () => {
             .catch(err => console.error("Error cargando catálogo:", err));
     }, [category]);
 
+    // ✅ FUNCIÓN para reservar película
+    const handleReservar = (film) => {
+        // Por ahora solo muestra alerta, después puedes conectar con backend
+        alert(`🎬 ¡RESERVADA! "${film.title}" para tu videoclub\n\nDirector: ${film.director}\nAño: ${film.year}\n\n✅ Te contactaremos para coordinar la entrega`);
+        
+        // Opcional: aquí puedes hacer POST a tu API de reservas
+        fetch('http://localhost:3000/reservas', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(film)
+        });
+    };
+
     return (
         <div className="pageCatalog">
             <div className="catalogContainer">
                 <h1 className="catalogTitle">
-                    Toda nuestra Filmografía
+                    Nuestro Catálogo
                 </h1>
 
                 <div className="catalogSelector">
-                    <select
-                        value={category}
-                        onChange={e => setCategory(e.target.value)}
+                    <button
+                        className={`categoryChip ${category === 'mafiasYGangsters' ? 'active' : ''}`}
+                        onClick={() => setCategory('mafiasYGangsters')}
                     >
-                        <option value="mafiasYGangsters">Mafias y Gángsters</option>
-                        <option value="cineNegroClasico">Cine Negro Clásico</option>
-                        <option value="thrillerPolicial">Thriller Policial</option>
-                        <option value="thrillerPsicologico">Thriller Psicológico</option>
-                        <option value="misterioDetectives">Misterio y Detectives</option>
-                        <option value="terrorCriminal">Terror Criminal</option>
-                        <option value="thrillerModerno">Thriller Moderno</option>
-                    </select>
+                        Mafias y Gánsters
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'cineNegroClasico' ? 'active' : ''}`}
+                        onClick={() => setCategory('cineNegroClasico')}
+                    >
+                        Cine Negro Clásico
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerPolicial' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerPolicial')}
+                    >
+                        Thriller Policial
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerPsicologico' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerPsicologico')}
+                    >
+                        Thriller Psicológico
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'misterioDetectives' ? 'active' : ''}`}
+                        onClick={() => setCategory('misterioDetectives')}
+                    >
+                        Misterio y Detectives
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'terrorCriminal' ? 'active' : ''}`}
+                        onClick={() => setCategory('terrorCriminal')}
+                    >
+                        Terror Criminal
+                    </button>
+                    <button
+                        className={`categoryChip ${category === 'thrillerModerno' ? 'active' : ''}`}
+                        onClick={() => setCategory('thrillerModerno')}
+                    >
+                        Thriller Moderno
+                    </button>
                 </div>
 
-                <ul className="catalogGrid">
+                <div className="catalogGrid">
                     {films.map(film => (
-                        <li key={film.rank} className="catalogCard">
+                        <div key={film.rank} className="catalogCard">
                             <img
                                 src={`/${film.img}`}
                                 alt={film.title}
@@ -63,20 +106,30 @@ const Catalogo = () => {
                                 ⭐ {film.filmaffinity_score}
                             </p>
 
-                            <a
-                                href={film.url}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="catalogLink"
-                            >
-                                Ver tráiler ▶
-                            </a>
-                        </li>
+                            <div className="catalogActions">
+                                <a
+                                    href={film.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="catalogLink"
+                                >
+                                    Ver tráiler ▶
+                                </a>
+
+                                {/* ✅ BOTÓN RESERVAR NUEVO */}
+                                <button
+                                    className="catalogReservarBtn"
+                                    onClick={() => handleReservar(film)}
+                                >
+                                    Reservar
+                                </button>
+                            </div>
+                        </div>
                     ))}
-                </ul>
+                </div>
             </div>
         </div>
     );
 };
 
-export default Catalogo;
+export default Catalog;

@@ -1,9 +1,13 @@
-import '../style/TerminosUso.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../style/TerminosUso.css';
 
 function TerminosUso() {
+    // ✅ SCROLL AL INICIO al cargar la página
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="ContainerTerms">
             <div className="useTerms">
@@ -54,7 +58,7 @@ function TerminosUso() {
                 <h2>4. Contenido Sensible</h2>
                 <p>
                     Nuestro catálogo incluye películas y series con violencia, crimen y
-    temáticas para adultos.
+                    temáticas para adultos.
                 </p>
                 <p className="warning">
                     ⚠️ Contenido recomendado para mayores de 16 años.

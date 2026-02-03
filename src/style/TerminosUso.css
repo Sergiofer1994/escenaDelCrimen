@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
     padding: 60px 40px;
     min-height: 100vh;
+    background: url(../images/background/fondoHome1.png);
 }
 
 /* ========== HEADER DE TÉRMINOS DE USO ========== */

@@ -1,9 +1,15 @@
 import '../style/AboutUs.css';
-import React from 'react';
+import React, { useEffect } from 'react';  // ✅ AGREGADO useEffect
 import { Link } from 'react-router-dom';
 
 function AboutUs() {
+    // ✅ SCROLL AL INICIO al cargar la página
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
+        
         <div className="tittleAboutUs">
             <div className="legalNotice">
                 <h1>Sobre Nosotros</h1>
@@ -11,8 +17,6 @@ function AboutUs() {
                     Tu plataforma de streaming de crimen, misterio y suspenso
                 </p>
             </div>
-
-
 
             <section className="aboutSection">
                 <h2>Quiénes Somos</h2>
@@ -40,7 +44,7 @@ function AboutUs() {
                         </p>
                     </div>
                     <div className="valueCard">
-                        <h3>🧠 Curaduría</h3>
+                        <h3>🧠 Organización</h3>
                         <p>
                             Organizamos el catálogo por géneros y recomendaciones
                             personalizadas.
@@ -56,7 +60,7 @@ function AboutUs() {
                     <div className="valueCard">
                         <h3>🔐 Seguridad</h3>
                         <p>
-                            Protegemos la información y privacidad de nuestros usuarios.
+                            Protegamos la información y privacidad de nuestros usuarios.
                         </p>
                     </div>
                 </div>
@@ -89,7 +93,7 @@ function AboutUs() {
                     </div>
 
                     <div className="teamMember">
-                        <div className="memberInitial"><img src="src/images/aboutUs/juanLu.png" alt="Juan Luís" />   </div>
+                        <div className="memberInitial"><img src="src/images/aboutUs/juanluRecorte.png" alt="Juan Luís" /></div>
                         <h3>Juan Luís</h3>
                         <p className="role">Dev</p>
                         <p>
@@ -144,8 +148,8 @@ function AboutUs() {
                 </p>
                 <ul>
                     <li>📧 Email: soporte@escenadelcrimen.com</li>
-                    <li>📱 Teléfono: +34 900 555 777</li>
-                    <li>📍 Dirección: Calle Streaming, 404, Madrid, España</li>
+                    <li>📱 Teléfono: +34 981 555 777</li>
+                    <li>📍 Dirección:Calle Real, 51, 15003 A Coruña, La Coruña</li>
                     <li>💬 Redes Sociales: Facebook, Instagram y TikTok</li>
                 </ul>
             </section>

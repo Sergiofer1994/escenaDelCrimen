@@ -1,7 +1,6 @@
 .featuredMovie {
-    max-width: 700px;
     width: 100%;
-    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .movieCard {
@@ -14,6 +13,8 @@
     border: 1px solid rgba(163, 38, 38, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
     max-height: 420px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .movieCard:hover {
@@ -134,6 +135,10 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .featuredMovie {
+        padding: 30px 15px;
+    }
+
     .movieCard {
         flex-direction: column;
         max-height: none;
@@ -159,6 +164,10 @@
 }
 
 @media (max-width: 480px) {
+    .featuredMovie {
+        padding: 20px 10px;
+    }
+
     .moviePoster {
         height: 280px;
     }

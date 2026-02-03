@@ -16,6 +16,10 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
+.featuredMovie{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
+}
 
 /* Sección del carrusel */
 .carouselSection {
@@ -23,6 +27,7 @@
               url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
   padding: 30px 20px;      /* antes 60px */
   min-height: auto;       /* antes 100vh */
+
 }
 
 .carouselTitle {

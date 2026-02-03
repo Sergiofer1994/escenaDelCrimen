@@ -1,0 +1,319 @@
+/* Reset básico igual que AvisosLegales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pageContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    min-height: 100vh;
+    background: url(../images/background/fondoHome1.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.privacyTitle {
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #8B1A1A;
+    text-align: center;
+}
+
+.privacyTitle h1 {
+    color: #8B1A1A;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.lastUpdate {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* ========== SECCIONES COMO CARDS BLANCAS ========== */
+.generalInfo,
+.dataController,
+.dataCollected,
+.legalBasis,
+.purposes,
+.cookiesSection,
+.userRights,
+.retention,
+.security,
+.thirdParties,
+.minors {
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #132D30;
+}
+
+.generalInfo:hover,
+.dataController:hover,
+.dataCollected:hover,
+.legalBasis:hover,
+.purposes:hover,
+.cookiesSection:hover,
+.userRights:hover,
+.retention:hover,
+.security:hover,
+.thirdParties:hover,
+.minors:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.generalInfo h2,
+.dataController h2,
+.dataCollected h2,
+.legalBasis h2,
+.purposes h2,
+.cookiesSection h2,
+.userRights h2,
+.retention h2,
+.security h2,
+.thirdParties h2,
+.minors h2 {
+    color: #8B1A1A;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Textos de párrafos */
+.generalInfo p,
+.dataController p,
+.dataCollected p,
+.legalBasis p,
+.purposes p,
+.cookiesSection p,
+.userRights p,
+.retention p,
+.security p,
+.thirdParties p,
+.minors p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #555;
+}
+
+/* Listas */
+.generalInfo ul,
+.dataController ul,
+.dataCollected ul,
+.legalBasis ul,
+.purposes ul,
+.retention ul,
+.security ul,
+.thirdParties ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.generalInfo li,
+.dataController li,
+.dataCollected li,
+.legalBasis li,
+.purposes li,
+.retention li,
+.security li,
+.thirdParties li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+}
+
+.generalInfo li::before,
+.dataController li::before,
+.dataCollected li::before,
+.legalBasis li::before,
+.purposes li::before,
+.retention li::before,
+.security li::before,
+.thirdParties li::before {
+    content: "▪";
+    color: #132D30;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+/* Cards específicas */
+.dataTypes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dataType {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 25px;
+    border-left: 4px solid #132D30;
+}
+
+.dataType h3 {
+    color: #132D30;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.rightsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.rightCard {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    border-left: 4px solid #8B1A1A;
+    transition: all 0.3s ease;
+}
+
+.rightCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rightCard h3 {
+    color: #8B1A1A;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Enlaces inline */
+.inlineLink {
+    color: #132D30;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid #132D30;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.inlineLink:hover {
+    color: #8B1A1A;
+    border-color: #8B1A1A;
+}
+
+/* ========== LINK DE RETORNO ========== */
+.backLink {
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-left: 4px solid #8B1A1A;
+}
+
+.backLink a {
+    color: #8B1A1A;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.backLink a:hover {
+    color: #132D30;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .pageContainer {
+        padding: 40px 20px;
+    }
+
+    .privacyHeader {
+        padding: 25px 20px;
+    }
+
+    .privacyHeader h1 {
+        font-size: 2rem;
+    }
+
+    .generalInfo,
+    .dataController,
+    .dataCollected,
+    .legalBasis,
+    .purposes,
+    .cookiesSection,
+    .userRights,
+    .retention,
+    .security,
+    .thirdParties,
+    .minors {
+        padding: 25px 20px;
+    }
+
+    .generalInfo h2,
+    .dataController h2,
+    .dataCollected h2,
+    .legalBasis h2,
+    .purposes h2,
+    .cookiesSection h2,
+    .userRights h2,
+    .retention h2,
+    .security h2,
+    .thirdParties h2,
+    .minors h2 {
+        font-size: 1.4rem;
+    }
+
+    .dataTypes,
+    .rightsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .pageContainer {
+        padding: 30px 15px;
+    }
+
+    .privacyHeader {
+        padding: 20px 15px;
+    }
+
+    .privacyHeader h1 {
+        font-size: 1.7rem;
+    }
+
+    .generalInfo h2,
+    .dataController h2,
+    .dataCollected h2,
+    .legalBasis h2,
+    .purposes h2,
+    .cookiesSection h2,
+    .userRights h2,
+    .retention h2,
+    .security h2,
+    .thirdParties h2,
+    .minors h2 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,312 @@
+/* FormMovies.css - ESTILO IDÉNTICO A TU HOMEPAGE */
+.form-movies-container {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('src/images/background/fondoHome.jpg') center/cover no-repeat fixed;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.form-movies-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.form-movies-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-movies-header h1 {
+    color: #8B1A1A;  /* ✅ MISMO ROJO que .carouselTitle */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.form-movies-divider {
+    width: 100px;
+    height: 4px;
+    margin: 0 auto 30px;
+    border-radius: 2px;
+}
+
+.form-section {
+    margin-bottom: 60px;
+}
+
+.movie-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('../images/background/fondoHome.jpg') center/cover no-repeat fixed;
+    backdrop-filter: blur(10px);
+    border: 2px solid#70B5B0(139, 26, 26, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 15px 20px;
+    background: #132D30;
+    border: 2px solid #70B5B0;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #70B5B0;
+    box-shadow: 0 0 15px rgba(139, 26, 26, 0.4);
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.form-input.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-textarea {
+    min-height: 150px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-cancel,
+.btn-edit,
+.btn-delete {
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-family: inherit;
+}
+
+.btn-primary {
+    background: #70B5B0;
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(139, 26, 26, 0.5);
+    min-width: 200px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(139, 26, 26, 0.7);
+}
+
+.btn-secondary {
+    background: rgba(139, 26, 26, 0.2);
+    color: #fff;
+    
+}
+
+.btn-secondary:hover {
+    background: rgba(139, 26, 26, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-cancel {
+    background: rgba(75, 85, 99, 0.8);
+    color: #fff;
+    ;
+}
+
+.btn-cancel:hover {
+    background: rgba(139, 26, 26, 0.3);
+    border-color: #8B1A1A;
+}
+
+.movies-grid-section h2 {
+    text-align: center;
+    color: #8B1A1A;  /* ✅ MISMO ROJO que tus títulos */
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+width: 70%;
+    background: #132D30;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(139, 26, 26, 0.6);
+    border-radius: 16px;
+    padding: 20px;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.movie-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    border-color: #70B5B0;
+    
+}
+
+.movie-poster {
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 2px solid #70B5B0;
+}
+
+.poster-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fixed;
+    transition: transform 0.4s ease;
+}
+
+.movie-card:hover .poster-img {
+    transform: scale(1.05);
+}
+
+.movie-info h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.movie-year,
+.movie-rating,
+.movie-rank {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+}
+
+.movie-director {
+    color: #ddd;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.movie-cast {
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+}
+
+.movie-actions {
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+}
+
+/* RESPONSIVE - IGUAL QUE TU HOMEPAGE */
+@media (max-width: 768px) {
+    .form-movies-container {
+        padding: 30px 15px;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .form-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-primary {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .movies-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .form-movies-header h1,
+    .movies-grid-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        letter-spacing: 1.5px;
+    }
+    
+    .movie-poster {
+        height: 140px;
+    }
+}
