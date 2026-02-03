@@ -1,4 +1,4 @@
-/* FormMovies.css - ESTILO IDÉNTICO A TU HOMEPAGE */
+
 .form-movies-container {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -24,7 +24,7 @@
 }
 
 .form-movies-header h1 {
-    color: #8B1A1A;  /* ✅ MISMO ROJO que .carouselTitle */
+    color: #8B1A1A;  
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -169,7 +169,7 @@
 
 .movies-grid-section h2 {
     text-align: center;
-    color: #8B1A1A;  /* ✅ MISMO ROJO que tus títulos */
+    color: #8B1A1A;  
     font-size: 2.5rem;
     margin-bottom: 40px;
     font-weight: bold;
@@ -273,7 +273,7 @@ width: 70%;
     font-size: 0.85rem;
 }
 
-/* RESPONSIVE - IGUAL QUE TU HOMEPAGE */
+
 @media (max-width: 768px) {
     .form-movies-container {
         padding: 30px 15px;

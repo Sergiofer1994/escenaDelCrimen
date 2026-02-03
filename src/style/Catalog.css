@@ -26,7 +26,7 @@
     letter-spacing: 2px;
 }
 
-/* ✅ NUEVO SELECTOR FUTURISTA DE CHIPS */
+
 .catalogSelector {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +163,7 @@
     text-decoration: underline;
 }
 
-/* ✅ CONTENEDOR de acciones (tráiler + reservar) */
+
 .catalogActions {
     display: flex;
     flex-direction: column;
@@ -172,7 +172,7 @@
     padding-top: 20px;
 }
 
-/* ✅ BOTÓN RESERVAR - Estilo épico como Home */
+
 .catalogReservarBtn {
     width: 100%;
     padding: 14px 20px;
@@ -200,7 +200,7 @@
     transform: translateY(-1px);
 }
 
-/* Ajustes responsive para acciones */
+
 @media (max-width: 768px) {
     .catalogActions {
         gap: 10px;

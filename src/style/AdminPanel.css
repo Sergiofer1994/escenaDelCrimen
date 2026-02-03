@@ -5,7 +5,7 @@
     color: #eaeaea;
 }
 
-/* TÍTULO */
+
 
 .admin-panel h1 {
     text-align: center;
@@ -16,7 +16,7 @@
     text-transform: uppercase;
 }
 
-/* LISTA DE PELÍCULAS */
+
 
 .admin-list {
     display: flex;
@@ -24,7 +24,7 @@
     gap: 1.5rem;
 }
 
-/* TARJETA DE PELÍCULA */
+
 
 .admin-card {
     display: grid;
@@ -37,7 +37,7 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
-/* IMAGEN */
+
 
 .admin-card img {
     width: 90px;
@@ -47,7 +47,7 @@
     border: 1px solid #333;
 }
 
-/* INFO */
+
 
 .admin-info h3 {
     margin: 0;
@@ -61,7 +61,7 @@
     opacity: 0.75;
 }
 
-/* BOTONES */
+
 
 .admin-actions {
     display: flex;
@@ -79,7 +79,7 @@
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* EDITAR */
+
 
 .btn-edit {
     background: #2d8cf0;
@@ -91,7 +91,7 @@
     box-shadow: 0 6px 15px rgba(45, 140, 240, 0.4);
 }
 
-/* BORRAR */
+
 
 .btn-delete {
     background: #d9534f;
@@ -103,7 +103,7 @@
     box-shadow: 0 6px 15px rgba(217, 83, 79, 0.4);
 }
 
-/* MENSAJE VACÍO */
+
 
 .admin-empty {
     text-align: center;
@@ -111,7 +111,7 @@
     margin-top: 3rem;
 }
 
-/* RESPONSIVE */
+
 
 @media (max-width: 768px) {
     .admin-card {

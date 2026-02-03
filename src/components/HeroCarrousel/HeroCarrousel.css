@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-/* VIDEO */
+
 .heroVideo {
     position: absolute;
     inset: 0;
@@ -22,7 +22,7 @@
     max-width: 100vw;
 }
 
-/* OVERLAY */
+
 .heroOverlay {
     position: absolute;
     inset: 0;
@@ -34,7 +34,7 @@
     );
 }
 
-/* 🔊 BOTÓN SONIDO */
+
 .heroSoundButton {
     pointer-events: auto;
     position: absolute;
@@ -60,7 +60,7 @@
     transform: scale(1.1);
 }
 
-/* ⏯ PLAY / PAUSE */
+
 .heroPlayButton {
     pointer-events: auto;
     position: absolute;
@@ -83,7 +83,7 @@
     transform: scale(1.1);
 }
 
-/* ✅ BARRA PROGRESO INTERACTIVA */
+
 .heroProgressBar {
     position: absolute;
     bottom: 0;
@@ -109,7 +109,7 @@
     pointer-events: none;
 }
 
-/* CONTENIDO */
+
 .heroContent {
     position: relative;
     z-index: 3;
@@ -117,7 +117,7 @@
     max-width: 100vw;
 }
 
-/* FLECHAS */
+
 .heroArrow {
     position: absolute;
     top: 50%;
@@ -147,7 +147,7 @@
     right: 20px;
 }
 
-/* ===== RESPONSIVE MÓVIL ===== */
+
 @media (max-width: 768px) {
     .heroCarousel {
         width: 100vw;

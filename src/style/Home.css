@@ -3,7 +3,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
               
             url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
-  padding: 40px 20px;       /* antes 60px */
+  padding: 40px 20px;       
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
 .loading {
   color: #00e5ff;
   text-align: center;
-  padding: 40px;           /* antes 50px */
+  padding: 40px;           
   font-size: 1.3rem;
   font-weight: 500;
 }
@@ -21,12 +21,12 @@
               url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
 }
 
-/* Sección del carrusel */
+
 .carouselSection {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
               url(../images/background/fondoHome.jpg) center/cover no-repeat fixed;
-  padding: 30px 20px;      /* antes 60px */
-  min-height: auto;       /* antes 100vh */
+  padding: 30px 20px;      
+  min-height: auto;       
 
 }
 
@@ -34,7 +34,7 @@
   text-align: center;
   color: #8B1A1A;
   font-size: 2.5rem;
-  margin-bottom: 20px;    /* antes 40px */
+  margin-bottom: 20px;    
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -42,15 +42,15 @@
 
 @media (max-width: 768px) {
   .pageHome {
-    padding: 30px 15px;   /* antes 40px 15px */
+    padding: 30px 15px;   
   }
 
   .carouselSection {
-    padding: 20px 15px;  /* antes 40px 15px */
+    padding: 20px 15px;  
   }
 
   .carouselTitle {
     font-size: 1.8rem;
-    margin-bottom: 15px; /* antes 30px */
+    margin-bottom: 15px; 
   }
 }

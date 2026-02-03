@@ -1,4 +1,4 @@
-/* MovieCRUD.css - Diseño actualizado con cards */
+
 
 .crud-container {
   max-width: 1400px;
@@ -6,7 +6,7 @@
   padding: 2rem;
 }
 
-/* ========== FORMULARIO ========== */
+
 .form-section {
   margin-bottom: 3rem;
 }
@@ -94,7 +94,7 @@
   background: #444;
 }
 
-/* ========== SECCIÓN DE PELÍCULAS ========== */
+
 .movies-section {
   margin-top: 2rem;
 }
@@ -140,7 +140,7 @@
   box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.1);
 }
 
-/* ========== GRID DE CARDS ========== */
+
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -156,7 +156,7 @@
   padding: 3rem;
 }
 
-/* ========== CARD INDIVIDUAL ========== */
+
 .movie-card-item {
   background: #1a1a1a;
   border: 1px solid #333;
@@ -173,7 +173,7 @@
   border-color: #cc0000;
 }
 
-/* Poster */
+
 .movie-poster {
   position: relative;
   width: 100%;
@@ -193,7 +193,7 @@
   transform: scale(1.05);
 }
 
-/* Overlay de acciones */
+
 .movie-actions-overlay {
   position: absolute;
   bottom: 0;
@@ -245,7 +245,7 @@
   transform: scale(1.05);
 }
 
-/* Información de la película */
+
 .movie-info {
   padding: 1.25rem;
   flex: 1;
@@ -298,7 +298,7 @@
   flex: 1;
 }
 
-/* ========== RESPONSIVE ========== */
+
 @media (max-width: 1200px) {
   .movies-grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

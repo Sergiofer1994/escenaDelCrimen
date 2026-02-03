@@ -27,7 +27,7 @@ export default function AddFilmPage() {
                     ...film,
                     year: Number(film.year),
                     filmaffinity_score: Number(film.filmaffinity_score),
-                    // Generamos un ID único y un rank basado en el tiempo para evitar errores
+                    
                     id: Date.now().toString(),
                     rank: Math.floor(Date.now() / 1000), 
                     main_cast: []

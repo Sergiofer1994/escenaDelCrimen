@@ -15,7 +15,7 @@ const HeroCarousel = ({ featuredMovies }) => {
 
     const currentMovie = featuredMovies[currentIndex];
 
-    // Autoplay carrusel
+    
     useEffect(() => {
         if (!isPlaying) return;
 
@@ -26,7 +26,7 @@ const HeroCarousel = ({ featuredMovies }) => {
         return () => clearTimeout(timeoutRef.current);
     }, [currentIndex, isPlaying]);
 
-    // Reset vídeo al cambiar slide
+    
     useEffect(() => {
         setIsMuted(true);
         setIsPlaying(true);
@@ -39,7 +39,7 @@ const HeroCarousel = ({ featuredMovies }) => {
         }
     }, [currentIndex]);
 
-    // Progreso del vídeo
+    
     useEffect(() => {
         const video = videoRef.current;
         if (!video) return;
@@ -69,23 +69,23 @@ const HeroCarousel = ({ featuredMovies }) => {
         setTimeout(() => setIsTransitioning(false), 500);
     };
 
-    // ✅ NUEVA FUNCIÓN: Hacer clic en la barra de progreso
+    
     const handleProgressBarClick = (e) => {
         const video = videoRef.current;
         const progressBar = progressBarRef.current;
         
         if (!video || !progressBar) return;
 
-        // Calcular la posición del clic
+        
         const rect = progressBar.getBoundingClientRect();
         const clickX = e.clientX - rect.left;
         const percentage = clickX / rect.width;
         
-        // Saltar a esa posición en el video
+        
         const newTime = percentage * video.duration;
         video.currentTime = newTime;
         
-        // Actualizar el progreso inmediatamente
+        
         setProgress(percentage * 100);
     };
 
@@ -108,7 +108,7 @@ const HeroCarousel = ({ featuredMovies }) => {
                 <div className="heroOverlay" />
             </div>
 
-            {/* 🔊 Botón Sonido */}
+            
             <button
                 className="heroSoundButton"
                 onClick={() => {
@@ -139,7 +139,7 @@ const HeroCarousel = ({ featuredMovies }) => {
                 {isPlaying ? "⏸" : "▶"}
             </button>
 
-            {/* ✅ Barra de progreso INTERACTIVA */}
+            
             <div 
                 ref={progressBarRef}
                 className="heroProgressBar"

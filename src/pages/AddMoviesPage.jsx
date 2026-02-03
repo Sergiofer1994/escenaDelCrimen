@@ -1,4 +1,4 @@
-// src/pages/PageAddMovie/PageAddMovie.jsx
+
 import React from 'react';
 import MovieCrud from '../components/MovieCrud/MovieCrud.jsx';
 

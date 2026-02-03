@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../style/AvisosLegales.css';
 
 function AvisosLegales() {
-    // ✅ SCROLL AL INICIO al cargar la página
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

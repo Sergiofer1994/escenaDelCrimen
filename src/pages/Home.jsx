@@ -18,7 +18,7 @@ function Home() {
   const [thrillerModerno, setThrillerModerno] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Función para convertir rutas relativas a rutas absolutas de Vite
+  
   const processMovieImages = (movies) => {
     return movies.map(movie => ({
       ...movie,
@@ -50,7 +50,7 @@ function Home() {
           axios.get(`${baseUrl}/thrillerModerno`),
         ]);
 
-        // Procesar las imágenes para cada categoría
+        
         setMafiasYGangsters(processMovieImages(resMafias.data));
         setCineNegroClasico(processMovieImages(resCine.data));
         setThrillerPolicial(processMovieImages(resPolicial.data));

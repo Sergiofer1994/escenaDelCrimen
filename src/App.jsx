@@ -29,7 +29,7 @@ function App() {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/addMoviesPage" element={<AddFilmPage />} />
           <Route path="/ubicacion" element={<UbicationPage />} />
-          <Route path="/admin" element={<Formulario />} />     {/* ✅ CAMBIADO: AdminPanel → Formulario */}
+          <Route path="/admin" element={<Formulario />} />     
         </Routes>
       </main>
       <Footer />

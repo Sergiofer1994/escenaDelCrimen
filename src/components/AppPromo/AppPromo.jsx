@@ -22,9 +22,9 @@ function AppPromo({
                                 src="/src/images/logos/logoEscenaCrimen.png"
                                 alt="Logo Escena del Crimen"
                                 onError={(e) => {
-                                    e.target.onerror = null; // ✅ Evita loop infinito
-                                    e.target.style.display = 'none'; // ✅ Oculta si falla
-                                    console.error('No se pudo cargar el logo'); // ✅ Debug
+                                    e.target.onerror = null; 
+                                    e.target.style.display = 'none'; 
+                                    console.error('No se pudo cargar el logo'); 
                                 }}
                             />
                         </div>

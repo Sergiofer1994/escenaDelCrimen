@@ -1,9 +1,9 @@
 import '../style/AboutUs.css';
-import React, { useEffect } from 'react';  // ✅ AGREGADO useEffect
+import React, { useEffect } from 'react';  
 import { Link } from 'react-router-dom';
 
 function AboutUs() {
-    // ✅ SCROLL AL INICIO al cargar la página
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

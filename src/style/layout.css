@@ -1,4 +1,4 @@
-/* layout.css - Estructura general del sitio */
+
 
 .siteWrapper {
     min-height: 100vh;
@@ -17,7 +17,7 @@
     padding: 60px 40px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .pageContainer {
         padding: 40px 20px;

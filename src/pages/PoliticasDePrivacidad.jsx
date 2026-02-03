@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../style/PoliticasPrivacidad.css';  // ✅ Nuevo CSS
+import '../style/PoliticasPrivacidad.css';  
 
 function PoliticasPrivacidad() {
-    // ✅ SCROLL AL INICIO al cargar la página
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

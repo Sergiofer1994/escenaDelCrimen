@@ -1,4 +1,4 @@
-/* AvisosLegales.css - Estilos para la página de Avisos Legales con Cards */
+
 
 * {
   margin: 0;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Contenedor principal de la página */
+
 .pageContainer {
   max-width: 1000px;
   margin: 0 auto;
@@ -22,7 +22,7 @@ body {
   background:url(../images/background/fondoHome1.png) ;
 }
 
-/* ========== HEADER DE AVISOS LEGALES ========== */
+
 
 .notices {
   background: #fff;
@@ -45,7 +45,7 @@ body {
   font-style: italic;
 }
 
-/* ========== SECCIONES COMO CARDS ========== */
+
 
 .generalInfo,
 .objectSection,
@@ -92,7 +92,7 @@ body {
   color: #555;
 }
 
-/* Lista de información general */
+
 .generalInfo ul {
   margin-left: 25px;
   margin-bottom: 15px;
@@ -119,7 +119,7 @@ body {
   font-weight: 600;
 }
 
-/* Enlaces inline */
+
 .inlineLink {
   color: #132D30;
   text-decoration: none;
@@ -133,7 +133,7 @@ body {
   border-color: #8B1A1A;
 }
 
-/* ========== LINK DE RETORNO ========== */
+
 
 .backLink {
   background: #fff;
@@ -157,7 +157,7 @@ body {
   color: #132D30;
 }
 
-/* ========== RESPONSIVE ========== */
+
 
 @media (max-width: 768px) {
   .pageContainer {

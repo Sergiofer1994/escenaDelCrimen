@@ -9,7 +9,7 @@
   overflow-x: hidden;
 }
 
-/* ===== CONTENEDOR PRINCIPAL ===== */
+
 .headerInner {
   max-width: 1280px;
   margin: 0 auto;
@@ -21,14 +21,14 @@
   box-sizing: border-box;
 }
 
-/* ===== LOGO IZQUIERDA CENTRADO ===== */
+
 .logoHeader {
   max-height: 100px;
   width: auto;
   flex-shrink: 0;
 }
 
-/* ===== BLOQUE CENTRAL ===== */
+
 .headerCenter {
   flex: 1;
   display: flex;
@@ -36,7 +36,7 @@
   align-items: center;
 }
 
-/* ===== TÍTULO ===== */
+
 .header-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -45,7 +45,7 @@
   margin-bottom: 0.5rem;
 }
 
-/* ===== NAVEGACIÓN ===== */
+
 .mainNav {
   display: flex;
   gap: 1rem;
@@ -74,19 +74,19 @@
   border-bottom: 2px solid #3FD0C9;
 }
 
-/* ===== ENLACES GENERALES (SOLO PARA CONTENIDO, NO NAVEGACIÓN) ===== */
+
 main a,
 article a,
 section a {
   color: #8B1A1A;
 }
 
-/* ===== HEADINGS ===== */
+
 h1, h2, h3, h4, h5 {
   color: #8B1A1A;
 }
 
-/* ===== RESPONSIVE MÓVIL ===== */
+
 @media (max-width: 768px) {
   .headerInner {
     flex-direction: row;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-/* ===== RESPONSIVE MÓVILES PEQUEÑOS ===== */
+
 @media (max-width: 480px) {
   .headerInner {
     gap: 0.5rem;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-/* ===== RESPONSIVE MÓVILES MUY PEQUEÑOS ===== */
+
 @media (max-width: 375px) {
   .logoHeader {
     max-height: 40px;

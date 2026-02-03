@@ -1,4 +1,4 @@
-/* AboutUs.css - Estilos para la página Sobre Nosotros con Cards */
+
 
 * {
   margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Contenedor principal */
+
 .tittleAboutUs {
   max-width: 1200px;
   margin: 0 auto;
@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
 background:url(../images/background/fondoHome1.png) ;
 }
-/* ========== HEADER ========== */
+
 
 .legalNotice {
   background: #fff;
@@ -46,7 +46,7 @@ background:url(../images/background/fondoHome1.png) ;
   font-style: italic;
 }
 
-/* ========== SECCIONES COMO CARDS ========== */
+
 
 .aboutSection {
   background: #fff;
@@ -103,7 +103,7 @@ background:url(../images/background/fondoHome1.png) ;
   font-weight: 600;
 }
 
-/* ========== GRID DE VALORES ========== */
+
 
 .valuesGrid {
   display: grid;
@@ -138,7 +138,7 @@ background:url(../images/background/fondoHome1.png) ;
   text-align: left;
 }
 
-/* ========== GRID DEL EQUIPO ========== */
+
 
 .teamGrid {
   display: grid;
@@ -203,7 +203,7 @@ background:url(../images/background/fondoHome1.png) ;
   text-align: center;
 }
 
-/* ========== SECCIÓN DE CONTACTO ========== */
+
 
 .contactSection {
   background: linear-gradient(135deg, #132D30 0%, #1a3b3f 100%);
@@ -242,7 +242,7 @@ background:url(../images/background/fondoHome1.png) ;
   top: -2px;
 }
 
-/* ========== LINK DE RETORNO ========== */
+
 
 .backLink {
   background: #fff;
@@ -266,7 +266,7 @@ background:url(../images/background/fondoHome1.png) ;
   color: #132D30;
 }
 
-/* ========== RESPONSIVE ========== */
+
 
 @media (max-width: 968px) {
   .valuesGrid {

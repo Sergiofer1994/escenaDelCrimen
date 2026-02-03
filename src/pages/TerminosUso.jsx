@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../style/TerminosUso.css';
 
 function TerminosUso() {
-    // ✅ SCROLL AL INICIO al cargar la página
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

@@ -19,7 +19,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // 📖 READ - Cargar películas al iniciar
+  
   useEffect(() => {
     fetchMovies();
   }, [category]);
@@ -37,7 +37,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     setMovie({ ...movie, [e.target.name]: e.target.value });
   };
 
-  // ✅ CREATE - Crear nueva película
+  
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
@@ -45,7 +45,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
 
       if (response.ok) {
         alert("✅ ¡Película guardada con éxito!");
-        fetchMovies(); // Recargar lista
+        fetchMovies(); 
         resetForm();
       }
     } catch (error) {
@@ -54,7 +54,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     }
   };
 
-  // ✏️ UPDATE - Actualizar película existente
+  
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
@@ -76,7 +76,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     }
   };
 
-  // 🗑️ DELETE - Eliminar película
+  
   const handleDelete = async (movieId) => {
     if (!window.confirm("¿Seguro que quieres eliminar esta película?")) return;
 
@@ -95,7 +95,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     }
   };
 
-  // Preparar formulario para editar
+  
   const handleEditClick = (movieToEdit) => {
     setMovie({
       title: movieToEdit.title,
@@ -112,11 +112,11 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     setEditingMovie(movieToEdit);
     setIsEditing(true);
     
-    // Scroll al formulario
+    
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Limpiar formulario
+  
   const resetForm = () => {
     setMovie({
       title: '', 
@@ -132,7 +132,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
     setIsEditing(false);
   };
 
-  // Filtrar películas por búsqueda
+  
   const filteredMovies = moviesList.filter(m => 
     m.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     m.director.toLowerCase().includes(searchTerm.toLowerCase())
@@ -140,7 +140,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
 
   return (
     <div className="crud-container">
-      {/* FORMULARIO CRUD */}
+      
       <div className="form-section">
         <div className="movie-card">
           <h2>
@@ -233,7 +233,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
         </div>
       </div>
 
-      {/* SECCIÓN DE PELÍCULAS */}
+      
       <div className="movies-section">
         <div className="movies-header">
           <h2>
@@ -241,7 +241,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
             <span className="movie-count">({filteredMovies.length})</span>
           </h2>
 
-          {/* Buscador */}
+          
           <input 
             type="text"
             placeholder="🔍 Buscar película..."
@@ -251,7 +251,7 @@ const MovieCRUD = ({ category = 'misPeliculas' }) => {
           />
         </div>
 
-        {/* Grid de Cards */}
+      
         <div className="movies-grid">
           {filteredMovies.length === 0 ? (
             <p className="no-movies">No hay películas para mostrar</p>

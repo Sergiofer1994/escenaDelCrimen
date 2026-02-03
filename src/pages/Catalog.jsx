@@ -12,12 +12,12 @@ const Catalog = () => {
             .catch(err => console.error("Error cargando catálogo:", err));
     }, [category]);
 
-    // ✅ FUNCIÓN para reservar película
+    
     const handleReservar = (film) => {
-        // Por ahora solo muestra alerta, después puedes conectar con backend
+        
         alert(`🎬 ¡RESERVADA! "${film.title}" para tu videoclub\n\nDirector: ${film.director}\nAño: ${film.year}\n\n✅ Te contactaremos para coordinar la entrega`);
         
-        // Opcional: aquí puedes hacer POST a tu API de reservas
+        
         fetch('http://localhost:3000/reservas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -116,7 +116,7 @@ const Catalog = () => {
                                     Ver tráiler ▶
                                 </a>
 
-                                {/* ✅ BOTÓN RESERVAR NUEVO */}
+                                
                                 <button
                                     className="catalogReservarBtn"
                                     onClick={() => handleReservar(film)}

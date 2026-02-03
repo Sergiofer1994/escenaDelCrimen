@@ -17,7 +17,7 @@
     text-transform: uppercase;
 }
 
-/* FORM */
+
 
 .add-film form {
     display: flex;
@@ -30,7 +30,7 @@
     opacity: 0.8;
 }
 
-/* INPUTS */
+
 
 .add-film input,
 .add-film textarea,
@@ -50,7 +50,7 @@
     min-height: 120px;
 }
 
-/* FOCUS */
+
 
 .add-film input:focus,
 .add-film textarea:focus,
@@ -60,13 +60,13 @@
     box-shadow: 0 0 0 2px rgba(245, 196, 0, 0.2);
 }
 
-/* SELECT */
+
 
 .add-film select {
     cursor: pointer;
 }
 
-/* BOTÓN */
+
 
 .add-film button {
     margin-top: 1.5rem;
@@ -87,7 +87,7 @@
     box-shadow: 0 8px 20px rgba(245, 196, 0, 0.35);
 }
 
-/* RESPONSIVE */
+
 
 @media (max-width: 768px) {
     .add-film {

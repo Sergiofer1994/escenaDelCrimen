@@ -10,7 +10,7 @@ function Footer() {
       <div className="footerGlowLine"></div>
 
       <div className="footerInner">
-        {/* ⬅️ VERSION DESKTOP (Grid completo) */}
+        
         <div className="footerGrid footerDesktop">
           <div>
             <h3 className="footerLogoText">
@@ -22,7 +22,6 @@ function Footer() {
             <Link to="/avisos-legales">Avisos Legales</Link>
             <Link to="/terminos-uso">Términos de uso</Link>
             <Link to="/sobre-nosotros">Sobre nosotros</Link>
-            {/* ✅ CORREGIDA LA RUTA */}
             <Link to="/politicas-de-privacidad">Política de Privacidad</Link>
           </div>
 
@@ -44,9 +43,9 @@ function Footer() {
           </div>
         </div>
 
-        {/* ⬅️ VERSION MÓVIL (CORREGIDA COMPLETA) */}
+        
         <div className="footerMobile">
-          {/* Redes sociales SOLO ICONOS */}
+          
           <div className="footerMobileSocial">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
               <img src={facebookLogo} alt="Facebook" />
@@ -59,7 +58,7 @@ function Footer() {
             </a>
           </div>
 
-          {/* ✅ LINKS LEGALES MÓVIL CON PRIVACIDAD */}
+          
           <div className="footerMobileLinks">
             <Link to="/avisos-legales" title="Avisos Legales">AvisosLegales</Link>
             <span className="separator">•</span>
@@ -70,13 +69,13 @@ function Footer() {
             <Link to="/politicas-de-privacidad" title="Política de Privacidad">Privacidad</Link>
           </div>
 
-          {/* Copyright minimalista */}
+          
           <div className="footerMobileCopyright">
             © 2026
           </div>
         </div>
 
-        {/* ⬅️ FOOTER BOTTOM (Solo desktop) */}
+        
         <div className="footerBottom footerDesktop">
           <p>© 2026 Escena del Crimen</p>
           <p>Hecho con precisión forense</p>

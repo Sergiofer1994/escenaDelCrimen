@@ -2,7 +2,7 @@ import React from 'react';
 import './Carrusel.css';
 
 const MovieCarrusel = ({ movies = [] }) => {
-  // Si no hay pelis, mostramos un mensaje amigable
+  
   if (movies.length === 0) {
     return <div className="carousel-empty">¡Aún no has capturado películas!</div>;
   }
@@ -13,11 +13,11 @@ const MovieCarrusel = ({ movies = [] }) => {
         {movies.map((movie, index) => (
           <div className="carousel-card" key={index}>
             <div className="img-wrapper">
-              {/* Esta es la LLAMADA DIRECTA a la web */}
+              
               <img 
                 src={movie.img} 
                 alt={movie.title} 
-                // Si el link falla, ponemos una imagen de error por defecto
+                
                 onError={(e) => { e.target.src = "https://via.placeholder.com/200x300?text=Error+de+Carga"; }}
               />
             </div>
