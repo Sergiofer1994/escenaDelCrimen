@@ -31,7 +31,7 @@ export default function CatalogPage() {
                 const requests = categories
                     .filter(cat => cat.value !== "all")
                     .map(cat =>
-                        axios.get(`http://localhost:3000/${cat.value}`)
+                        axios.get(`http://localhost:8080/movies/category/${cat.value}`)
                     );
 
                 const responses = await Promise.all(requests);
@@ -39,7 +39,7 @@ export default function CatalogPage() {
                 setFilms(allFilms);
             } else {
                 const res = await axios.get(
-                    `http://localhost:3000/${selectedCategory}`
+                    `http://localhost:8080/movies/category/${selectedCategory}`
                 );
                 setFilms(res.data);
             }

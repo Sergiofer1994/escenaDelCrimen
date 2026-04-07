@@ -15,7 +15,7 @@ function FeaturedMovie({ movie }) {
             <div className="movieCard">
                 <div className="moviePoster">
                     <img
-                        src={`/${movie.img}`}
+                        src={movie.img}
                         alt={movie.title}
                         onError={(e) => {
                             e.target.src =

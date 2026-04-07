@@ -1,8 +1,9 @@
 import './Footer.css';
-import facebookLogo from '../../images/logos/facebookLogo.png';
-import instagramIcon from '../../images/logos/instagramIcon.png';
-import logoTiktok from '../../images/logos/logoTiktok.png';
 import { Link } from 'react-router-dom';
+
+const facebookLogo = '/images/logos/facebookLogo.png';
+const instagramIcon = '/images/logos/instagramIcon.png';
+const logoTiktok = '/images/logos/logoTiktok.png';
 
 function Footer() {
   return (

@@ -26,7 +26,7 @@ const AdminPanel = () => {
     const loadAllMovies = useCallback(async () => {
         try {
             const requests = categories.map(cat => 
-                axios.get(`http://localhost:3000/${cat.id}`).catch(() => ({ data: [] }))
+                axios.get(`http://localhost:8080/movies/category/${cat.id}`).catch(() => ({ data: [] }))
             );
             const responses = await Promise.all(requests);
             const allMoviesData = responses.flatMap(r => r.data || []);
@@ -56,7 +56,7 @@ const AdminPanel = () => {
                 main_cast: formData.main_cast ? formData.main_cast.split(",").map(s => s.trim()) : []
             };
 
-            await axios.post(`http://localhost:3000/${formData.category}`, newMovie);
+            await axios.post(`http://localhost:8080/movies`, newMovie);
             await loadAllMovies(); 
             alert("✅ ¡Película CREADA!");
             resetForm();
@@ -76,7 +76,7 @@ const AdminPanel = () => {
                 main_cast: formData.main_cast ? formData.main_cast.split(",").map(s => s.trim()) : []
             };
 
-            await axios.put(`http://localhost:3000/${editingMovie.category}/${editingMovie.id}`, updatedMovie);
+            await axios.put(`http://localhost:8080/movies/${editingMovie.id}`, updatedMovie);
             await loadAllMovies();
             alert("✅ ¡Película EDITADA!");
             resetForm();
@@ -88,7 +88,7 @@ const AdminPanel = () => {
     const handleDelete = async (id, title) => {
         if (confirm(`¿BORRAR "${title}"?`)) {
             try {
-                await axios.delete(`http://localhost:3000/${selectedCategory}/${id}`);
+                await axios.delete(`http://localhost:8080/movies/${id}`);
                 await loadAllMovies();
                 alert("✅ ¡Película BORRADA!");
             } catch (err) {
@@ -116,6 +116,7 @@ const AdminPanel = () => {
     const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
     return (
+        <div className="admin-page-wrapper">
         <div className="admin-panel" style={{maxWidth: '1400px', margin: '0 auto', padding: '2rem'}}>
             <div style={{marginBottom: '2rem', padding: '1rem', background: '#333', color: 'white', borderRadius: '8px'}}>
                 <h1>🎬 Admin - {categories.find(c => c.id === selectedCategory)?.label}</h1>
@@ -161,6 +162,7 @@ const AdminPanel = () => {
                     </div>
                 ))}
             </div>
+        </div>
         </div>
     );
 };

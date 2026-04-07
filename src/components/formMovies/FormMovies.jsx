@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './FormMovies.css';
 
-const BASE_URL = 'http://localhost:3000/mafiasYGangsters';  // ✅ Tu categoría
+const BASE_URL = 'http://localhost:8080/movies';
 
 const initialFormData = {
     titulo: '',
@@ -276,8 +276,7 @@ const FormMovies = () => {
                                         <p className="movie-director">🎬 {pelicula.director}</p>
                                         {pelicula.main_cast && pelicula.main_cast.length > 0 && (
                                             <p className="movie-cast">
-                                                👥 {pelicula.main_cast.slice(0, 3).join(', ')}
-                                                {pelicula.main_cast.length > 3 && '...' }
+                                                👥 {(Array.isArray(pelicula.main_cast) ? pelicula.main_cast : pelicula.main_cast.split(',')).slice(0, 3).join(', ')}
                                             </p>
                                         )}
                                     </div>

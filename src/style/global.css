@@ -48,7 +48,7 @@ body {
 .mainContent {
     flex: 1;
     padding: 40px;
-    background: #ffffff;
+    background: transparent;
 }
 
 @media (max-width: 768px) {

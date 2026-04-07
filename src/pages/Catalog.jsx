@@ -6,7 +6,7 @@ const Catalog = () => {
     const [category, setCategory] = useState("mafiasYGangsters");
 
     useEffect(() => {
-        fetch(`http://localhost:3000/${category}`)
+        fetch(`http://localhost:8080/movies/category/${category}`)
             .then(res => res.json())
             .then(data => setFilms(data))
             .catch(err => console.error("Error cargando catálogo:", err));
@@ -18,7 +18,7 @@ const Catalog = () => {
         alert(`🎬 ¡RESERVADA! "${film.title}" para tu videoclub\n\nDirector: ${film.director}\nAño: ${film.year}\n\n✅ Te contactaremos para coordinar la entrega`);
         
         // Opcional: aquí puedes hacer POST a tu API de reservas
-        fetch('http://localhost:3000/reservas', {
+        fetch('http://localhost:8080/reservas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(film)
@@ -81,7 +81,7 @@ const Catalog = () => {
                     {films.map(film => (
                         <div key={film.rank} className="catalogCard">
                             <img
-                                src={`/${film.img}`}
+                                src={film.img}
                                 alt={film.title}
                                 className="catalogImg"
                                 onError={(e) => {

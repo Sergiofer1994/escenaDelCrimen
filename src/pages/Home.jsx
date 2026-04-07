@@ -30,7 +30,7 @@ function Home() {
   useEffect(() => {
     const fetchAllData = async () => {
       try {
-        const baseUrl = "http://localhost:3000";
+        const baseUrl = "http://localhost:8080";
 
         const [
           resMafias,
@@ -41,13 +41,13 @@ function Home() {
           resTerror,
           resModerno,
         ] = await Promise.all([
-          axios.get(`${baseUrl}/mafiasYGangsters`),
-          axios.get(`${baseUrl}/cineNegroClasico`),
-          axios.get(`${baseUrl}/thrillerPolicial`),
-          axios.get(`${baseUrl}/thrillerPsicologico`),
-          axios.get(`${baseUrl}/misterioDetectives`),
-          axios.get(`${baseUrl}/terrorCriminal`),
-          axios.get(`${baseUrl}/thrillerModerno`),
+          axios.get(`${baseUrl}/movies/category/mafiasYGangsters`),
+          axios.get(`${baseUrl}/movies/category/cineNegroClasico`),
+          axios.get(`${baseUrl}/movies/category/thrillerPolicial`),
+          axios.get(`${baseUrl}/movies/category/thrillerPsicologico`),
+          axios.get(`${baseUrl}/movies/category/misterioDetectives`),
+          axios.get(`${baseUrl}/movies/category/terrorCriminal`),
+          axios.get(`${baseUrl}/movies/category/thrillerModerno`),
         ]);
 
         // Procesar las imágenes para cada categoría
