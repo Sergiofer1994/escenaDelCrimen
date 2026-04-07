@@ -3,7 +3,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './FormMovies.css';
 
-const BASE_URL = 'http://localhost:3000/mafiasYGangsters';  
+const BASE_URL = 'http://localhost:8080/movies';
+
 const initialFormData = {
     titulo: '',
     anio: '',
@@ -41,7 +42,7 @@ const FormMovies = () => {
     };
 
     const handleCastChange = (e) => {
-        
+        // Para main_cast que es array, lo guardamos como string separado por comas
         const cast = e.target.value.split(',').map(item => item.trim());
         setFormData({ ...formData, main_cast: cast });
     };
@@ -127,10 +128,10 @@ const FormMovies = () => {
                 </header>
 
                 <main className="form-movies-main">
-                    
+                    {/* FORMULARIO COMPLETO */}
                     <section className="form-section">
                         <form className="movie-form" onSubmit={handleSubmit}>
-                            
+                            {/* Fila 1: Título + Año */}
                             <div className="form-row">
                                 <input
                                     type="text"
@@ -154,7 +155,7 @@ const FormMovies = () => {
                                 />
                             </div>
 
-                            
+                            {/* Fila 2: Rating + Rank */}
                             <div className="form-row">
                                 <input
                                     type="number"
@@ -179,7 +180,7 @@ const FormMovies = () => {
                                 />
                             </div>
 
-                            
+                            {/* Fila 3: Imagen + Trailer */}
                             <div className="form-row">
                                 <input
                                     type="text"
@@ -199,7 +200,7 @@ const FormMovies = () => {
                                 />
                             </div>
 
-                            
+                            {/* Director */}
                             <input
                                 type="text"
                                 name="director"
@@ -209,7 +210,7 @@ const FormMovies = () => {
                                 className="form-input full-width"
                             />
 
-                            
+                            {/* Elenco */}
                             <input
                                 type="text"
                                 name="main_cast"
@@ -219,7 +220,7 @@ const FormMovies = () => {
                                 className="form-input full-width"
                             />
 
-                            
+                            {/* Sinopsis */}
                             <textarea
                                 name="sinopsis"
                                 value={formData.sinopsis}
@@ -254,7 +255,7 @@ const FormMovies = () => {
                         </form>
                     </section>
 
-                    
+                    {/* GRID MEJORADO */}
                     <section className="movies-grid-section">
                         <h2> Películas Mafia y Gangsters</h2>
                         <div className="movies-grid">
@@ -275,8 +276,7 @@ const FormMovies = () => {
                                         <p className="movie-director">🎬 {pelicula.director}</p>
                                         {pelicula.main_cast && pelicula.main_cast.length > 0 && (
                                             <p className="movie-cast">
-                                                👥 {pelicula.main_cast.slice(0, 3).join(', ')}
-                                                {pelicula.main_cast.length > 3 && '...' }
+                                                👥 {(Array.isArray(pelicula.main_cast) ? pelicula.main_cast : pelicula.main_cast.split(',')).slice(0, 3).join(', ')}
                                             </p>
                                         )}
                                     </div>

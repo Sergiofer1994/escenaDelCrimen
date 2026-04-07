@@ -1,7 +1,7 @@
 .pageCatalog {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('src/images/background/fondoHome.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url('/images/background/fondoHome.jpg') center/cover no-repeat fixed;
     padding: 40px 20px;
     display: flex;
     align-items: center;

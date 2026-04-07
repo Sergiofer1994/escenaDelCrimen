@@ -22,7 +22,7 @@ export default function AddFilmPage() {
 
         try {
             await axios.post(
-                `http://localhost:3000/${film.category}`,
+                `http://localhost:8080/movies`,
                 {
                     ...film,
                     year: Number(film.year),

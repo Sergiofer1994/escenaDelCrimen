@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className="siteHeader">
             <div className="headerInner">
-                <img src="/src/images/logos/logoEscenaCrimen.png" className="logoHeader" alt="logo escena del crimen" />
+                <img src="/images/logos/logoEscenaCrimen.png" className="logoHeader" alt="logo escena del crimen" />
                 
                 <div className="headerCenter">
                     <h1 className="header-title">ESCENA DEL CRIMEN</h1>

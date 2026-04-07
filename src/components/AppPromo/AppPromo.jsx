@@ -19,7 +19,7 @@ function AppPromo({
                     <div className="promoLeft">
                         <div className="appIcon">
                             <img
-                                src="/src/images/logos/logoEscenaCrimen.png"
+                                src="/images/logos/logoEscenaCrimen.png"
                                 alt="Logo Escena del Crimen"
                                 onError={(e) => {
                                     e.target.onerror = null; 

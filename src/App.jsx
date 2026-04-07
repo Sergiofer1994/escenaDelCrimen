@@ -13,7 +13,6 @@ import AddFilmPage from "./pages/AddFilmPage.jsx";
 
 import './style/global.css';
 import './style/layout.css';
-import MovieCarrusel from './components/carrusel/Carrusel.jsx';
 import Header from './components/header/Header.jsx';
 function App() {
   return (
